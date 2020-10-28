@@ -1,0 +1,12 @@
+global msg
+
+probe begin {
+	msg = 0
+	dummy = 0
+	while (msg == 0) {
+		dummy = 1
+	}
+	exit ()
+}
+
+probe process("online_monitor")

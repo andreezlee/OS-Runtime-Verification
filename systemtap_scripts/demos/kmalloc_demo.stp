@@ -1,0 +1,25 @@
+# Using statistics to examine kernel memory allocations
+
+global kmalloc
+global kfree
+
+probe kernel.function("__kmalloc") { 
+	kmalloc <<< $size
+}
+
+probe kernel.function("kfree") {
+	kfree <<< $x
+}
+
+# Exit after 10 seconds
+probe timer.ms(1000) { exit () }
+
+probe end {
+	printf("Count:   %d allocations, %d deallocations\n", @count(kmalloc), @count(kfree))
+	printf("Sum:     %d Kbytes\n", @sum(kmalloc)/1000)
+	printf("Average: %d bytes\n", @avg(kmalloc))
+	printf("Min:     %d bytes\n", @min(kmalloc))
+	printf("Max:     %d bytes\n", @max(kmalloc))	
+	print("\nAllocations by size in bytes\n")
+	print(@hist_log(kmalloc))
+}
