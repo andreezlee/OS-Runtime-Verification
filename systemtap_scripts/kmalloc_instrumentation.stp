@@ -9,25 +9,24 @@
 	#include <asm/uaccess.h> 
 %}
 
-global trace = ""
+probe timer.ms(5000) { exit () }
 
 probe kernel.function("__kmalloc").return { 
 	if (execname()=="kmalloc_app"){
-		trace = trace."kmalloc @ ".bytes_to_string($return)."\n"
+		write("kmalloc ")
+		write(bytes_to_string($return))
+		write("\n")
 	}
+	print(execname())
+	print("\n")
 }
 
 probe kernel.function("kfree") {
 	if (execname()=="kmalloc_app"){
-		trace = trace."kfree @ ".bytes_to_string($x)."\n"
+		write("kfree ")
+		write(bytes_to_string($x))
+		write("\n")
 	}
-}
-
-# Exit after 10 seconds
-probe timer.ms(10000) { exit () }
-
-probe end {
-	write(trace)
 }
 
 function write:long (s:string) %{
