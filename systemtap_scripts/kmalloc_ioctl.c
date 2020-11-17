@@ -14,7 +14,7 @@
 #include "kmalloc_ioctl.h"
 
 
-int GLOBAL_DUMMY = 10;
+/*int GLOBAL_DUMMY = 10;
 EXPORT_SYMBOL(GLOBAL_DUMMY);
 void print_hello(int num)
 {
@@ -29,7 +29,7 @@ void print_goodbye(int num)
         printk(KERN_INFO "Dummy: Goodbye!!!\n");
     }
 }
-EXPORT_SYMBOL(print_goodbye);
+EXPORT_SYMBOL(print_goodbye);*/
 
 
 
@@ -69,6 +69,9 @@ static long my_ioctl(struct file *f, unsigned int cmd, unsigned long arg)
             }
             kfree(q.ptr);
             break;
+        case PERFORM_DUMMY:
+            printk(KERN_INFO "Dummy: Hello!!!\n");
+            return 0;
         default:
             return -EINVAL;
     }
