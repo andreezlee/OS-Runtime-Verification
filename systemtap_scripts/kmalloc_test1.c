@@ -7,6 +7,7 @@
 
 #include "kmalloc_ioctl.h"
 
+// Ioctl calls to perform kernel functions from user space
 void* do_kmalloc(int fd, int size)
 {
 	kmalloc_arg_t q;
@@ -24,6 +25,7 @@ void do_kfree(int fd, void *ptr)
 
 int main()
 {
+	// Connect to Kmalloc module device
 	char *file_name = "/dev/kmalloc";
 	int fd;
 	fd = open(file_name, O_RDWR);
@@ -33,6 +35,7 @@ int main()
 		return 2;
 	}
 
+	// Perform kmalloc and kfree in pairs
 	int i;
 	for (i = 0; i < 10; i++){
 		void *ptr = do_kmalloc(fd, 128);

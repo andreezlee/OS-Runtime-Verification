@@ -23,6 +23,9 @@ static struct class *cl;
 static int my_open(struct inode *i, struct file *f){return 0;}
 static int my_close(struct inode *i, struct file *f){return 0;}
 
+
+// Ioctl calls allow user space programs to call kernel functions,
+// like kmalloc and kfree.
 #if (LINUX_VERSION_CODE < KERNEL_VERSION(2,6,35))
 static int my_ioctl(struct inode *i, struct file *f, unsigned int cmd, unsigned long arg)
 #else
@@ -71,6 +74,8 @@ static struct file_operations kmalloc_fops =
 #endif
 };
 
+
+// Sets up device driver for the ioctl call
 static int __init kmalloc_ioctl_init(void)
 {
     int ret;
@@ -106,6 +111,7 @@ static int __init kmalloc_ioctl_init(void)
     return 0;
 }
 
+// Removes the device when removed from the system
 static void __exit kmalloc_ioctl_exit(void)
 {
     device_destroy(cl, dev);

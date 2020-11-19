@@ -8,6 +8,8 @@
 
 #include "kmalloc_ioctl.h"
 
+// Calls into the Kmalloc kernel module so SystemTap will
+// not ignore instrumenting the module.
 void do_dummy(int fd)
 {
 	kmalloc_arg_t q;

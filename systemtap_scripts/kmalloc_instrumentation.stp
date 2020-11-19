@@ -36,12 +36,14 @@ probe process("/home/andre/OS-Runtime-Verification/systemtap_scripts/kmalloc_app
 	exit()
 }
 
+# Produces trace file at the end of the instrumentation
 probe end {
 	for (i = 0; i <= index; i ++){
 		write(trace[i])
 	}
 }
 
+# Writes strings in the instrumentation to a file
 function write:long (s:string) %{
 	struct file *file;
 	loff_t pos = 0;

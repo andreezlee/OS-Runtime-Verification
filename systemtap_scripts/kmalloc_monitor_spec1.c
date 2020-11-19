@@ -19,7 +19,8 @@ int search_state(char *p, char *params[], int num_params){
 
 int main(void)
 {
-    // Initialize data structures for monitoring
+    // Initialize data structures for monitoring,
+    // not optimized for efficiency
     char *params[MAX_PARAMS];
     int states[MAX_PARAMS];
     int num_params = 0;
