@@ -13,26 +13,6 @@
 
 #include "kmalloc_ioctl.h"
 
-
-/*int GLOBAL_DUMMY = 10;
-EXPORT_SYMBOL(GLOBAL_DUMMY);
-void print_hello(int num)
-{
-    while (num--) {
-        printk(KERN_INFO "Dummy: Hello!!!\n");
-    }
-}
-EXPORT_SYMBOL(print_hello);
-void print_goodbye(int num)
-{
-    while (num--) {
-        printk(KERN_INFO "Dummy: Goodbye!!!\n");
-    }
-}
-EXPORT_SYMBOL(print_goodbye);*/
-
-
-
 #define FIRST_MINOR 0
 #define MINOR_CNT 1
 
@@ -71,7 +51,7 @@ static long my_ioctl(struct file *f, unsigned int cmd, unsigned long arg)
             break;
         case PERFORM_DUMMY:
             printk(KERN_INFO "Dummy: Hello!!!\n");
-            return 0;
+            break;
         default:
             return -EINVAL;
     }

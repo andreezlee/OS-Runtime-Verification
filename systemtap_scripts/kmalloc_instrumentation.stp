@@ -9,23 +9,36 @@
 	#include <asm/uaccess.h> 
 %}
 
-probe timer.ms(5000) { exit () }
+global trace[100]
+global index = 0
+global test_process = "kmalloc_app"
 
+# Instrument kmalloc for only the test process
 probe kernel.function("__kmalloc").return { 
-	if (execname()=="kmalloc_app"){
-		write("kmalloc ")
-		write(bytes_to_string($return))
-		write("\n")
+	if (execname()==test_process){
+		trace [index] = "kmalloc ".bytes_to_string($return)."\n"
+		index ++
 	}
-	print(execname())
-	print("\n")
 }
 
+# Instrument kfree for only the test process
 probe kernel.function("kfree") {
-	if (execname()=="kmalloc_app"){
-		write("kfree ")
-		write(bytes_to_string($x))
-		write("\n")
+	if (execname()==test_process){
+		trace[index] = "kfree ".bytes_to_string($x)."\n"
+		index ++
+	}
+}
+
+# Instrument for the ending of the test process
+# Please replace the process parameter with the path for your system
+probe process("/home/andre/OS-Runtime-Verification/systemtap_scripts/kmalloc_app").end{
+	trace[index] = "end"
+	exit()
+}
+
+probe end {
+	for (i = 0; i <= index; i ++){
+		write(trace[i])
 	}
 }
 
@@ -34,13 +47,11 @@ function write:long (s:string) %{
 	loff_t pos = 0;
 	mm_segment_t old_fs = get_fs();
 	set_fs(KERNEL_DS);
-	file = filp_open("kmalloc.txt", O_WRONLY|O_CREAT, 0644);
-	if (file >= 0) {
-		if (file) {
-			vfs_write(file, STAP_ARG_s, strlen(STAP_ARG_s), &pos);
-		}
-		filp_close(file,NULL);
- 	}
+	file = filp_open("kmalloc.txt", O_WRONLY|O_CREAT|O_SYNC|O_APPEND, 0644);
+	if (file) {
+		vfs_write(file, STAP_ARG_s, strlen(STAP_ARG_s), &pos);
+	}
+	filp_close(file,NULL);
 	set_fs(old_fs);
 	STAP_RETURN(0);
 %}

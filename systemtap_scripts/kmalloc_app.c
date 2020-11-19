@@ -33,11 +33,14 @@ int main()
 		return 2;
 	}
 
-	sleep(5);
-
 	int i;
 	for (i = 0; i < 10; i++){
 		void *ptr = do_kmalloc(fd, 128);
+		int j,k;
+		for (j = 0; j < 100; j++){
+			k = j + i;
+		}
+		printf("the pointer received: 0x%p\n", ptr);
 		do_kfree(fd, ptr);
 	}
 
