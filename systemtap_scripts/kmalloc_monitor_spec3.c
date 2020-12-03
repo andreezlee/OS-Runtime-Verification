@@ -2,23 +2,20 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define SPEC "Allocated memory must be freed before it can be reallocated, and memory cannot be freed without being allocated"
+#define SPEC "Relaxing symbolic memory location representation: Memory location cannot be reallocated immediately after being freed"
 
 // Maximum number of parameters this process is allowed to monitor
 #define MAX_PARAMS 50
 
+// Maximum stack size needed for the state machine
+#define MAX_STACK_SIZE 1
+
 // Print out violations
 void print_violation(int i, int event) {
-	printf("VIOLATION: ");
+    printf("VIOLATION: ");
     switch(i){
         case 1:
-            printf("Freeing memory without allocation: event %d\n", event);
-            break;
-        case 2:
-            printf("Memory allocated multiple times without being freed: event %d\n", event);
-            break;
-        case 3:
-            printf("Memory freed multiple times without being reallocated: event %d\n", event);
+            printf("Memory location reallocated immediately after free: event %d\n", event);
             break;
         default:break;
     }
@@ -35,16 +32,44 @@ int search_state(char *p, char *params[], int num_params){
     return -1;
 }
 
+// Push onto stack
+// Precondition: stack cannot be full;
+void push(char *stack[], int *stack_head, char *element){
+    if (!strcmp(stack[*stack_head], "empty")){
+        stack[*stack_head] = element;
+    }else{
+        *stack_head++;
+        stack[*stack_head] = element;
+    }
+}
+
+// Pop off of stack
+char* pop(char * stack[], int *stack_head){
+    if (!strcmp(stack[*stack_head], "empty")){
+        return "empty";
+    }else if (*stack_head == 0){
+        char * r = stack[*stack_head];
+        stack[*stack_head] = "empty";
+        return r;
+    }else{
+        *stack_head--;
+        return stack[*stack_head + 1];
+    }
+}
+
 int main(void)
 {
 	// Printing specification
-	printf("\nSTARTING MONITOR FOR SPECIFICATION:\n");
-	printf("%s\n\n", SPEC);
+    printf("\nSTARTING MONITOR FOR SPECIFICATION:\n");
+    printf("%s\n\n", SPEC);
     // Initialize data structures for monitoring,
     // not optimized for efficiency
     int i = 0;
-    int violations[4];
-    for (i = 0; i < 4; i++){violations[i] = 0;}
+    int violations[1];
+    for (i = 0; i < 1; i++){violations[i] = 0;}
+    char *stack[MAX_STACK_SIZE];
+    int stack_head = 0;
+    stack[stack_head] = "empty"; // string "empty" is treated as empty stack in these monitors
     char *params[MAX_PARAMS];
     int states[MAX_PARAMS];
     int num_params = 0;
@@ -89,15 +114,18 @@ int main(void)
             curr_state = states[curr_param];
         }
 
+        // Read the top of the stack
+        char * t = pop(stack, &stack_head);
+
         // State machine simulation
         switch(curr_state){
             case 0:
                 if (!strcmp(event, "kmalloc")){
                     states[curr_param] = 1;
+                    push(stack, &stack_head, t);
                 }else if (!strcmp(event, "kfree")){
-                    states[curr_param] = 3;
-                    print_violation(1,lineNum);
-                    violations[1]++;
+                    states[curr_param] = 2;
+                    push(stack, &stack_head, params[curr_param]);
                 }else{perror("illegal event");
 			        printf("%s\n", event);
                     goto finish_errors;}
@@ -105,10 +133,10 @@ int main(void)
             case 1:
                 if (!strcmp(event, "kmalloc")){
                     states[curr_param] = 1;
-                    print_violation(2, lineNum);
-                    violations[2]++;
+                    push(stack, &stack_head, t);
                 }else if (!strcmp(event, "kfree")){
                     states[curr_param] = 2;
+                    push(stack, &stack_head, params[curr_param]);
                 }else{perror("illegal event");
 			        printf("%s\n", event);
                     goto finish_errors;}
@@ -116,44 +144,27 @@ int main(void)
             case 2:
                 if (!strcmp(event, "kmalloc")){
                     states[curr_param] = 1;
+                    push(stack, &stack_head, t);
+                    if (!strcmp(p, t)){
+                        print_violation(1, lineNum);
+                        violations[0]++;
+                    }
                 }else if (!strcmp(event, "kfree")){
-                    states[curr_param] = 3;
-                    print_violation(3, lineNum);
-                    violations[3]++;
+                    states[curr_param] = 2;
+                    push(stack, &stack_head, params[curr_param]);
                 }else{perror("illegal event");
 			        printf("%s\n", event);
                     goto finish_errors;}
                 break;
-            case 3:
-                if (!strcmp(event, "kmalloc")){
-                    states[curr_param] = 1;
-                }else if (!strcmp(event, "kfree")){
-                    states[curr_param] = 3;
-                    print_violation(3, lineNum);
-                    violations[3]++;
-                }else{perror("illegal event");
-                    printf("%s\n", event);
-                    goto finish_errors;}
-                break;
             default:break;
         }
+
     }
 
 finish_errors:;
 
-    // Gather and print errors, very rudimentary
-    for (i = 0; i < num_params; i++){
-        switch(states[i]){
-            case 1: violations[0] ++; break;
-            default:break;
-        }
-    }
     printf("\nTOTAL VIOLATIONS:\n");
-    printf("Allocated memory but not freed: %d\n", violations[0]);
-    printf("Freeing memory without allocation: %d\n", violations[1]);
-    printf("Memory allocated twice without being freed: %d\n", violations[2]);
-    printf("Memory freed twice without being reallocated: %d\n", violations[3]);
-
+    printf("Memory location reallocated immediately after free: %d\n", violations[0]);
     // Memory cleanup for the program
     for (i = 0; i < num_params; i++){ free(params[i]);}
     fclose(fd);

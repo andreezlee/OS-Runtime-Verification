@@ -2,23 +2,17 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define SPEC "Allocated memory must be freed before it can be reallocated, and memory cannot be freed without being allocated"
+#define SPEC "Approximation of symbolic memory location representation: Memory location cannot be reallocated after being freed"
 
 // Maximum number of parameters this process is allowed to monitor
 #define MAX_PARAMS 50
 
 // Print out violations
 void print_violation(int i, int event) {
-	printf("VIOLATION: ");
+    printf("VIOLATION: ");
     switch(i){
         case 1:
-            printf("Freeing memory without allocation: event %d\n", event);
-            break;
-        case 2:
-            printf("Memory allocated multiple times without being freed: event %d\n", event);
-            break;
-        case 3:
-            printf("Memory freed multiple times without being reallocated: event %d\n", event);
+            printf("Memory location reallocated after free: event %d\n", event);
             break;
         default:break;
     }
@@ -38,13 +32,13 @@ int search_state(char *p, char *params[], int num_params){
 int main(void)
 {
 	// Printing specification
-	printf("\nSTARTING MONITOR FOR SPECIFICATION:\n");
-	printf("%s\n\n", SPEC);
+    printf("\nSTARTING MONITOR FOR SPECIFICATION:\n");
+    printf("%s\n\n", SPEC);
     // Initialize data structures for monitoring,
     // not optimized for efficiency
     int i = 0;
-    int violations[4];
-    for (i = 0; i < 4; i++){violations[i] = 0;}
+    int violations[1];
+    for (i = 0; i < 1; i++){violations[i] = 0;}
     char *params[MAX_PARAMS];
     int states[MAX_PARAMS];
     int num_params = 0;
@@ -96,17 +90,15 @@ int main(void)
                     states[curr_param] = 1;
                 }else if (!strcmp(event, "kfree")){
                     states[curr_param] = 3;
-                    print_violation(1,lineNum);
-                    violations[1]++;
                 }else{perror("illegal event");
 			        printf("%s\n", event);
                     goto finish_errors;}
                 break;
             case 1:
                 if (!strcmp(event, "kmalloc")){
-                    states[curr_param] = 1;
-                    print_violation(2, lineNum);
-                    violations[2]++;
+                    states[curr_param] = 3;
+                    print_violation(1, lineNum);
+                    violations[0]++;
                 }else if (!strcmp(event, "kfree")){
                     states[curr_param] = 2;
                 }else{perror("illegal event");
@@ -115,22 +107,22 @@ int main(void)
                 break;
             case 2:
                 if (!strcmp(event, "kmalloc")){
-                    states[curr_param] = 1;
-                }else if (!strcmp(event, "kfree")){
                     states[curr_param] = 3;
-                    print_violation(3, lineNum);
-                    violations[3]++;
+                    print_violation(1, lineNum);
+                    violations[0]++;
+                }else if (!strcmp(event, "kfree")){
+                    states[curr_param] = 2;
                 }else{perror("illegal event");
 			        printf("%s\n", event);
                     goto finish_errors;}
                 break;
             case 3:
                 if (!strcmp(event, "kmalloc")){
-                    states[curr_param] = 1;
-                }else if (!strcmp(event, "kfree")){
                     states[curr_param] = 3;
-                    print_violation(3, lineNum);
-                    violations[3]++;
+                    print_violation(1, lineNum);
+                    violations[0]++;
+                }else if (!strcmp(event, "kfree")){
+                    states[curr_param] = 2;
                 }else{perror("illegal event");
                     printf("%s\n", event);
                     goto finish_errors;}
@@ -141,19 +133,8 @@ int main(void)
 
 finish_errors:;
 
-    // Gather and print errors, very rudimentary
-    for (i = 0; i < num_params; i++){
-        switch(states[i]){
-            case 1: violations[0] ++; break;
-            default:break;
-        }
-    }
     printf("\nTOTAL VIOLATIONS:\n");
-    printf("Allocated memory but not freed: %d\n", violations[0]);
-    printf("Freeing memory without allocation: %d\n", violations[1]);
-    printf("Memory allocated twice without being freed: %d\n", violations[2]);
-    printf("Memory freed twice without being reallocated: %d\n", violations[3]);
-
+    printf("Memory location reallocated after free: %d\n", violations[0]);
     // Memory cleanup for the program
     for (i = 0; i < num_params; i++){ free(params[i]);}
     fclose(fd);
