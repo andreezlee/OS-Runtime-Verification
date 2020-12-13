@@ -1,0 +1,43 @@
+%{
+	#include <linux/kernel.h>
+	#include <linux/init.h>
+	#include <linux/module.h>
+	#include "monitor_module.h"
+	extern int send_to_monitor(struct monitor_arg_t);
+%}
+
+global index = 0
+
+# Instrument kmalloc for only the test process
+probe kernel.function("__kmalloc").return { 
+	if (execname()==@2){
+		index ++
+		monitor_event("km", $return)
+	}
+}
+
+# Instrument kfree for only the test process
+probe kernel.function("kfree") {
+	if (execname()==@2){
+		index ++
+		monitor_event("kf", $x)
+	}
+}
+
+# Instrument for the ending of the test process
+# Please replace the process parameter with the path for your system
+probe process(@1).end{
+	index ++
+	monitor_event("en", 0)
+	exit()
+}
+
+# Writes strings in the instrumentation to a file
+function monitor_event:long (e:string, a:long) %{
+	monitor_arg_t new_event;
+	new_event.event = STAP_ARG_e;
+	new_event.ptr = (void *) STAP_ARG_a;
+	new_event.index = STAP_GLOBAL_GET_index();
+	send_to_monitor(new_event);
+	STAP_RETURN(0);
+%}

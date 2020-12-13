@@ -18,7 +18,7 @@ else
 	echo "DEMO FILES CREATED AND LOADED"
 	# Set up instrumentation, give it some time
 	sudo ./dummy &
-	sudo stap -g kmalloc_instrumentation.stp &
+	sudo stap -g offline/kmalloc_instrumentation.stp &
 	sleep 6
 	echo "INSTRUMENTATION SETUP COMPLETED"
 	# Run test program
