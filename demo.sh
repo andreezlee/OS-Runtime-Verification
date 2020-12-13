@@ -16,24 +16,42 @@ else
 	make
 	sudo insmod kmalloc_ioctl.ko
 	echo "DEMO FILES CREATED AND LOADED"
-	# Set up instrumentation, give it some time
-	sudo ./dummy &
-	sudo stap -g offline/kmalloc_instrumentation.stp &
-	sleep 6
-	echo "INSTRUMENTATION SETUP COMPLETED"
-	# Run test program
-	sudo ./kmalloc_app
-	echo "RUNNING TEST FILE"
-	sleep 3
-	killall dummy
-	# Offline monitoring
-	echo "OFFLINE MONITORING STARTED"
-	sleep 2
-	sudo ./monitor1
-	sleep 2
-	sudo ./monitor2
-	sleep 2
-	sudo ./monitor3
-	sleep 2
-	echo "OFFLINE MONITORING COMPLETED"
+	if ["$1" = "offline"]
+	then
+		# Set up instrumentation, give it some time
+		sudo ./dummy &
+		sudo stap -g offline/kmalloc_instrumentation.stp &
+		sleep 6
+		echo "INSTRUMENTATION SETUP COMPLETED"
+		#Run test program
+		sudo ./kmalloc_app
+		echo "RUNNING TEST FILE"
+		sleep 3
+		killall dummy
+		# Offline monitoring
+		echo "OFFLINE MONITORING STARTED"
+		cd offline
+		sleep 2
+		sudo ./monitor1
+		sleep 2
+		sudo ./monitor2
+		sleep 2
+		sudo ./monitor3
+		sleep 2
+		echo "OFFLINE MONITORING COMPLETED"
+	else
+		# Set up instrumentation with online monitor, give it some time
+		sudo ./dummy &
+		sudo stap -g online/kmalloc_instrumentation.stp &
+		sudo offline/main_monitor
+		sleep 6
+		echo "INSTRUMENTATION SETUP COMPLETED"
+		echo "ONLINE MONITORING ENGAGED"
+		#Run test program
+		sudo ./kmalloc_app
+		echo "RUNNING TEST FILE"
+		sleep 3
+		killall dummy
+		echo "ONLINE MONITORING COMPLETED"
+	fi
 fi
