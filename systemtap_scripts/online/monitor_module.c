@@ -47,9 +47,11 @@ static long my_ioctl(struct file *f, unsigned int cmd, unsigned long arg)
     switch (cmd)
     {
         case READ_NEW_EVENT:
+            printk("requesting new event\n");
             copy_from_user(&q, (monitor_arg_t *)arg, sizeof(monitor_arg_t));
             new_index = q.index + 1;
             wait_event_interruptible(mon_wq, last_event_index == new_index);
+            printk("new event confirmed:%s,%p,%d", q.event, q.ptr, q.index);
             if (copy_to_user((monitor_arg_t *)arg, &last_event, sizeof(monitor_arg_t)))
             {
                 return -EACCES;
@@ -58,7 +60,7 @@ static long my_ioctl(struct file *f, unsigned int cmd, unsigned long arg)
         case CONFIRMATION:
             copy_from_user(&q, (monitor_arg_t *)arg, sizeof(monitor_arg_t));
             last_confirmed = new_index;
-            wake_up_interruptible(&sys_wq);
+            //wake_up_interruptible(&sys_wq);
         default:
             return -EINVAL;
     }
@@ -68,10 +70,11 @@ static long my_ioctl(struct file *f, unsigned int cmd, unsigned long arg)
 
 int send_to_monitor(monitor_arg_t event){
     int next_confirmed = last_confirmed + 1;
+    printk("New event confirmed\n");
     last_event = event;
     last_event_index = last_event.index;
-    wake_up_interruptible(&sys_wq);
-    wait_event_interruptible(sys_wq, last_confirmed == next_confirmed);
+    wake_up_interruptible(&mon_wq);
+    //wait_event_interruptible(sys_wq, last_confirmed == next_confirmed);
     return 0;
 }
 

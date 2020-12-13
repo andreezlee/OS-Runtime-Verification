@@ -2,11 +2,20 @@
 	#include <linux/kernel.h>
 	#include <linux/init.h>
 	#include <linux/module.h>
-	#include "monitor_module.h"
-	extern int send_to_monitor(struct monitor_arg_t);
+	#include <linux/string.h>
+	#include <linux/kallsyms.h>
+
+	typedef struct {
+		char event[2];
+		void *ptr;
+		int index;
+	} monitor_arg_t;
+
+	extern int send_to_monitor(monitor_arg_t);
 %}
 
 global index = 0
+
 
 # Instrument kmalloc for only the test process
 probe kernel.function("__kmalloc").return { 
@@ -34,8 +43,10 @@ probe process(@1).end{
 
 # Writes strings in the instrumentation to a file
 function monitor_event:long (e:string, a:long) %{
+	/* pragma:read:index */
 	monitor_arg_t new_event;
-	new_event.event = STAP_ARG_e;
+	char * ev = STAP_ARG_e;
+	memcpy(&(new_event.event), ev, 2);
 	new_event.ptr = (void *) STAP_ARG_a;
 	new_event.index = STAP_GLOBAL_GET_index();
 	send_to_monitor(new_event);

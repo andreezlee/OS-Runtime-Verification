@@ -7,6 +7,7 @@ if [ "$1" = "clean" ]
 then
 	# Remove compiled files, kmalloc module, and trace
 	sudo rmmod kmalloc_ioctl
+	sudo rmmod monitor_module
 	rm kmalloc.txt
 	make clean
 	sleep 2
@@ -27,7 +28,7 @@ else
 		sudo ./kmalloc_app
 		echo "RUNNING TEST FILE"
 		sleep 3
-		killall dummy
+		sudo killall dummy
 		# Offline monitoring
 		echo "OFFLINE MONITORING STARTED"
 		cd offline
@@ -41,17 +42,19 @@ else
 		echo "OFFLINE MONITORING COMPLETED"
 	else
 		# Set up instrumentation with online monitor, give it some time
-		sudo ./dummy &
-		sudo stap -g online/kmalloc_instrumentation.stp &
-		sudo offline/main_monitor
-		sleep 6
+		cd online
+		sudo insmod monitor_module.ko
+		sudo ../dummy &
+		sudo stap -g kmalloc_instrumentation.stp /home/andre/OS-Runtime-Verification/systemtap_scripts/kmalloc_app kmalloc_app &
+		sudo main_monitor &
+		sleep 10
 		echo "INSTRUMENTATION SETUP COMPLETED"
 		echo "ONLINE MONITORING ENGAGED"
 		#Run test program
-		sudo ./kmalloc_app
 		echo "RUNNING TEST FILE"
+		sudo time ../kmalloc_app
 		sleep 3
-		killall dummy
+		sudo killall dummy
 		echo "ONLINE MONITORING COMPLETED"
 	fi
 fi

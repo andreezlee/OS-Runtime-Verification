@@ -31,9 +31,15 @@ int main()
 			printf("received new event #%d\n", event_counter);
 		}
 
-		if (ioctl(fd, CONFIRMATION, &q) < 0){
-			perror("confirmation not accepted");
+		printf("received event %s\n", q.event);
+		if (q.event[0] == 'e' && q.event[1] == 'n'){
+			printf("received end event, exiting\n");
+			break;
 		}
+
+		/*if (ioctl(fd, CONFIRMATION, &q) < 0){
+			perror("confirmation not accepted");
+		}*/
 	}
 
 	
