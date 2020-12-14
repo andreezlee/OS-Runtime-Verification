@@ -50,8 +50,35 @@ make_new:
     return;
 }
 
+// Push onto stack
+// Precondition: stack cannot be full;
+void stack_push(uint64_t *stack, int *stack_head, uint64_t *element){
+    if (stack[*stack_head] == -1){
+        stack[*stack_head] = element;
+    }else{
+        *stack_head = *stack_head + 1;
+        stack[*stack_head] = element;
+    }
+}
+
+// Pop off of stack
+uint64_t stack_pop(uint64_t *stack, int *stack_head){
+    if (stack[*stack_head] == -1){
+        return -1;
+    }else if (*stack_head == 0){
+        uint64_t r = stack[*stack_head];
+        stack[*stack_head] = -1;
+        return r;
+    }else{
+        *stack_head = *stack_head - 1;
+        return stack[*stack_head + 1];
+    }
+}
+
 EXPORT_SYMBOL(search_tree);
 EXPORT_SYMBOL(insert_node);
+EXPORT_SYMBOL(stack_push);
+EXPORT_SYMBOL(stack_pop);
 
 // Sets up device driver for the ioctl call
 static int __init lib_init(void)

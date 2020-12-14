@@ -13,6 +13,8 @@
 	} monitor_arg_t;
 
 	extern void monitor_spec1(monitor_arg_t);
+	extern void monitor_spec2(monitor_arg_t);
+	extern void monitor_spec3(monitor_arg_t);
 %}
 
 # Instrument kmalloc for only the test process
@@ -55,5 +57,7 @@ function monitor_event:long (e:long, a:long) %{
 	memcpy(&(new_event.event), event_name, 10);
 	new_event.param = (uint64_t) STAP_ARG_a;
 	monitor_spec1(new_event);
+	monitor_spec2(new_event);
+	monitor_spec3(new_event);
 	STAP_RETURN(0);
 %}

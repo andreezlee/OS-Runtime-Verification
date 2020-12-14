@@ -1,4 +1,5 @@
 obj-m := kmalloc_ioctl.o online/monitor_lib.o online/monitor_spec1.o
+obj-m += online/monitor_spec2.o online/monitor_spec3.o
 
 
 all:

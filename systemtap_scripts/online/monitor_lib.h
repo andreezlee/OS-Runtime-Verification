@@ -22,3 +22,11 @@ int search_tree(uint64_t key, int next_empty, int curr_index, param_obj_t *arr);
 // Inserts a key into the array, key must not already be inside
 void insert_node(uint64_t key, int *next_empty,
     int curr_index, int prev_index, param_obj_t *arr);
+
+// Functions for a stack implemented by array
+
+// Add to stack
+void stack_push(uint64_t *stack, int *stack_head, uint64_t *element);
+
+// Remove from stack
+uint64_t stack_pop(uint64_t *stack, int *stack_head);
