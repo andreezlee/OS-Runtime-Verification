@@ -43,10 +43,9 @@ else
 	else
 		# Set up instrumentation with online monitor, give it some time
 		cd online
-		sudo insmod monitor_module.ko
+		sudo insmod monitor_spec1.ko
 		sudo ../dummy &
-		sudo stap -g kmalloc_instrumentation.stp /home/andre/OS-Runtime-Verification/systemtap_scripts/kmalloc_app kmalloc_app &
-		sudo main_monitor &
+		sudo stap -g kmalloc_instrumentation.stp /home/andre/OS-Runtime-Verification/systemtap_scripts/kmalloc_app kmalloc_app 123&
 		sleep 10
 		echo "INSTRUMENTATION SETUP COMPLETED"
 		echo "ONLINE MONITORING ENGAGED"
