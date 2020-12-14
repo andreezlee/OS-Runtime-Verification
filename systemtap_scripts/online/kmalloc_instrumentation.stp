@@ -3,6 +3,7 @@
 	#include <linux/init.h>
 	#include <linux/module.h>
 	#include <linux/types.h>
+	#include <linux/string.h>
 	#include <linux/kallsyms.h>
 
 	typedef struct
@@ -13,16 +14,6 @@
 
 	extern void monitor_spec1(monitor_arg_t);
 %}
-
-global spec1
-global spec2
-global spec3
-
-probe begin {
-	spec1 = ("1" in @3)
-	spec2 = ("2" in @3)
-	spec3 = ("3" in @3)
-}
 
 # Instrument kmalloc for only the test process
 probe kernel.function("__kmalloc").return { 
@@ -45,29 +36,24 @@ probe process(@1).end{
 	exit()
 }
 
-# Writes strings in the instrumentation to a file
+# Communicates event with online monitor
 function monitor_event:long (e:long, a:long) %{
-	/* pragma:read:spec1 */
-	/* pragma:read:spec2 */
-	/* pragma:read:spec3 */
 	monitor_arg_t new_event;
-
+	char *event_name;
 	switch(STAP_ARG_e){
 		case 0:
-			new_event.event = "kmalloc";
+			event_name = "kmalloc";
 			break;
 		case 1:
-			new_event.event = "kfree";
+			event_name = "kfree";
 			break;
 		case 2:
-			new_event.event = "end";
+			event_name = "end";
 			break;
 		default: break;
 	}
-
+	memcpy(&(new_event.event), event_name, 10);
 	new_event.param = (uint64_t) STAP_ARG_a;
-	if (STAP_GLOBAL_GET_spec1){
-		monitor_spec1(new_event);
-	}
+	monitor_spec1(new_event);
 	STAP_RETURN(0);
 %}

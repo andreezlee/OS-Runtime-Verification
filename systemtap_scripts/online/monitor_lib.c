@@ -6,7 +6,7 @@
 #include "monitor_lib.h"
 
 // Implementing functions from header
-int search_tree(uint64_t key, int next_empty, int curr_index, param_obj_t arr[]){
+int search_tree(uint64_t key, int next_empty, int curr_index, param_obj_t *arr){
     param_obj_t current_param;
     if (curr_index == -1 || next_empty == 0)
         return -1;
@@ -21,7 +21,7 @@ int search_tree(uint64_t key, int next_empty, int curr_index, param_obj_t arr[])
 }
 
 void insert_node(uint64_t key, int *next_empty,
-    int curr_index, int prev_index, param_obj_t arr[]){
+    int curr_index, int prev_index, param_obj_t *arr){
     param_obj_t current_param;
     if (*next_empty == 0)
         goto make_new;
@@ -45,7 +45,8 @@ make_new:
     arr[*next_empty].state = 0;
     arr[*next_empty].left = -1;
     arr[*next_empty].right = -1;
-    *next_empty++;
+    int i = *next_empty;
+    *next_empty = i + 1;
     return;
 }
 

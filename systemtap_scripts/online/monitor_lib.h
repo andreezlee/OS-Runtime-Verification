@@ -17,8 +17,8 @@ typedef struct
 // Functions for a binary search tree implemented with an array
 
 // Returns the index within the array of the target key, -1 if not found
-int search_tree(uint64_t key, int next_empty, int curr_index, param_obj_t arr[]);
+int search_tree(uint64_t key, int next_empty, int curr_index, param_obj_t *arr);
 
 // Inserts a key into the array, key must not already be inside
 void insert_node(uint64_t key, int *next_empty,
-    int curr_index, int prev_index, param_obj_t arr[]);
+    int curr_index, int prev_index, param_obj_t *arr);
