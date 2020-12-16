@@ -1,5 +1,7 @@
 #include <linux/types.h>
 
+#define MAX_NUM_PARAMS 10000000
+
 typedef struct
 {
     char event[10];
@@ -26,7 +28,7 @@ void insert_node(uint64_t key, int *next_empty,
 // Functions for a stack implemented by array
 
 // Add to stack
-void stack_push(uint64_t *stack, int *stack_head, uint64_t *element);
+void stack_push(uint64_t *stack, int *stack_head, uint64_t element);
 
 // Remove from stack
 uint64_t stack_pop(uint64_t *stack, int *stack_head);

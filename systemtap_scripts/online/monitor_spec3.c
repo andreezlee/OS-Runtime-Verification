@@ -14,65 +14,59 @@
 // Specification-specific info for users
 #define SPEC "Relaxing symbolic memory location representation: Memory location cannot be reallocated immediately after being freed"
 
-// Print out violations
-static void print_violation(int i) {
-    printf("SPEC3: VIOLATION: ");
-    switch(i){
-        case 1:
-            printf("SPEC3: Memory location reallocated immediately after free\n");
-            break;
-        default:break;
-    }
-}
-
-
 // Functions for a binary search tree implemented with an array
 extern int search_tree(uint64_t, int, int, param_obj_t*);
 extern void insert_node(uint64_t, int *, int, int, param_obj_t*);
-extern void stack_push(uint64_t *, int *, uint64_t *);
+extern void stack_push(uint64_t *, int *, uint64_t);
 extern uint64_t stack_pop(uint64_t *, int *);
 
 
 // Data structures for spec to track
-param_obj_t p_array[10000000];
+param_obj_t p_array[MAX_NUM_PARAMS];
 int next_empty;
 uint64_t stack[1];
 int stack_head;
+int violation_counts;
+
+// Print out violations
+static void print_violation(int i) {
+    printk("SPEC3: VIOLATION: ");
+    violation_counts++;
+    switch(i){
+        case 1:
+            printk("SPEC3: Memory location reallocated immediately after free\n");
+            break;
+        default:break;
+    }
+}
 
 void monitor_spec3(monitor_arg_t event){
 
     char *fun = &(event.event[0]);
     uint64_t key = event.param;
 
-    printk("SPEC3: Received event: %s 0x%p", fun, (void *)key);
-
     int curr_state;
     // Reached end of trace, resetting variables
     if (!strcmp(fun, "end")){
-        printk("SPEC3: Trace finished, resetting variables");
-        for (curr_state = 0; curr_state < next_empty; curr_state++){
-            printk("SPEC3: Checking node %d: key 0x%llu, state %d, left %d, right %d", curr_state,
-                p_array[curr_state].key, p_array[curr_state].state, p_array[curr_state].left, p_array[curr_state].right);
-        }
+        printk("SPEC3: Trace finished, reporting violations and resetting variables");
+        printk("SPEC3: Memory location reallocated immediately after free: %d", violation_counts);
         next_empty = 0;
+        violation_counts = 0;
         return;
     }
 
     int curr_param = search_tree(key, next_empty, 0, p_array);
     if (curr_param < 0) {
-        printk("SPEC3: 0x%p not found, adding into insert_node", (void *)key);
         curr_param = next_empty;
         insert_node(key, &next_empty, 0, 0, p_array);
         curr_state = 0;
     }else{
-        printk("SPEC3: 0x%p found, taking existing state", (void *)key);
         curr_state = p_array[curr_param].state;
     }
 
     // Read the top of the stack
     uint64_t t = stack_pop(stack, &stack_head);
 
-    printk("SPEC3: current state: %d\n", curr_state);
     // State machine simulation
     switch(curr_state){
         case 0:
@@ -106,7 +100,6 @@ void monitor_spec3(monitor_arg_t event){
             break;
         default:break;
     }
-    printk("SPEC3: new state is now %d", p_array[curr_param].state);
 }
 
 EXPORT_SYMBOL(monitor_spec3);
@@ -114,7 +107,7 @@ EXPORT_SYMBOL(monitor_spec3);
 // Sets up device driver for the ioctl call
 static int __init lib_init(void){
     printk("SPEC3: Initializing Monitor:"); printk("SPEC3: %s", SPEC);
-    next_empty = 0; return 0;
+    next_empty = 0; violation_counts = 0; return 0;
 }
 
 // Removes the device when removed from the system

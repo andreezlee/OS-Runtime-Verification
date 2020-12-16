@@ -14,9 +14,21 @@
 // Specification-specific info for users
 #define SPEC "Allocated memory must be freed before it can be reallocated, and memory cannot be freed without being allocated"
 
+// Functions for a binary search tree implemented with an array
+extern int search_tree(uint64_t, int, int, param_obj_t*);
+
+extern void insert_node(uint64_t, int *, int, int, param_obj_t*);
+
+
+// Data structures for spec to track
+param_obj_t p_array[MAX_NUM_PARAMS];
+int next_empty;
+int violation_counts[4];
+
 // Print out violations
 static void print_violation(int i) {
     printk("SPEC1: VIOLATION: ");
+    violation_counts[i]++;
     switch(i){
         case 0:
             printk("SPEC1: Memory allocated but not freed\n");
@@ -34,51 +46,38 @@ static void print_violation(int i) {
     }
 }
 
-
-// Functions for a binary search tree implemented with an array
-extern int search_tree(uint64_t, int, int, param_obj_t*);
-
-extern void insert_node(uint64_t, int *, int, int, param_obj_t*);
-
-
-// Data structures for spec to track
-param_obj_t p_array[10000000];
-int next_empty;
-
 void monitor_spec1(monitor_arg_t event){
 
     char *fun = &(event.event[0]);
     uint64_t key = event.param;
-
-    printk("SPEC1: Received event: %s 0x%p", fun, (void *)key);
 
     int curr_state;
     // Reached end of trace, resetting variables
     if (!strcmp(fun, "end")){
         printk("SPEC1: Trace finished. Resetting variables, finding more violations");
         for (curr_state = 0; curr_state < next_empty; curr_state++){
-            if (p_array[curr_state].state == 1) {
+            if (p_array[curr_state].state == 1)
                 print_violation(0);
-            }
-            printk("SPEC1: Checking node %d: key 0x%llu, state %d, left %d, right %d", curr_state,
-                p_array[curr_state].key, p_array[curr_state].state, p_array[curr_state].left, p_array[curr_state].right);
         }
+        printk("SPEC1: Memory allocated but not freed: ", violation_counts[0]);
+        printk("SPEC1: Freeing memory without allocation: %d", violation_counts[1]);
+        printk("SPEC1: Memory allocated multiple times without being freed: %d", violation_counts[2]);
+        printk("SPEC1: Memory freed multiple times without being reallocated: %d", violation_counts[3]);
+        for (curr_state = 0; curr_state < 4; curr_state++)
+            violation_counts[curr_state] = 0;
         next_empty = 0;
         return;
     }
 
     int curr_param = search_tree(key, next_empty, 0, p_array);
     if (curr_param < 0) {
-        printk("SPEC1: 0x%p not found, adding into insert_node", (void *)key);
         curr_param = next_empty;
         insert_node(key, &next_empty, 0, 0, p_array);
         curr_state = 0;
     }else{
-        printk("SPEC1: 0x%p found, taking existing state", (void *)key);
         curr_state = p_array[curr_param].state;
     }
 
-    printk("SPEC1: current state: %d\n", curr_state);
     // State machine simulation
     switch(curr_state){
         case 0:
@@ -115,7 +114,6 @@ void monitor_spec1(monitor_arg_t event){
             break;
         default:break;
     }
-    printk("SPEC1: new state is now %d", p_array[curr_param].state);
 }
 
 EXPORT_SYMBOL(monitor_spec1);
@@ -123,7 +121,10 @@ EXPORT_SYMBOL(monitor_spec1);
 // Sets up device driver for the ioctl call
 static int __init lib_init(void){
     printk("SPEC1: Initializing Monitor:"); printk("SPEC1: %s", SPEC);
-    next_empty = 0; return 0;
+    next_empty = 0; int i;
+    for (i = 0; i < 4; i++)
+        violation_counts[i] = 0;
+    return 0;
 }
 
 // Removes the device when removed from the system

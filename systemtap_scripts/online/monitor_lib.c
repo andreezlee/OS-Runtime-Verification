@@ -22,6 +22,10 @@ int search_tree(uint64_t key, int next_empty, int curr_index, param_obj_t *arr){
 
 void insert_node(uint64_t key, int *next_empty,
     int curr_index, int prev_index, param_obj_t *arr){
+    if (*next_empty >= MAX_NUM_PARAMS){
+        printk("SPEC1: SPEC2: SPEC3: Memory capacity exceeded, undefined behavior possible");
+        return;
+    }
     param_obj_t current_param;
     if (*next_empty == 0)
         goto make_new;
@@ -52,7 +56,7 @@ make_new:
 
 // Push onto stack
 // Precondition: stack cannot be full;
-void stack_push(uint64_t *stack, int *stack_head, uint64_t *element){
+void stack_push(uint64_t *stack, int *stack_head, uint64_t element){
     if (stack[*stack_head] == -1){
         stack[*stack_head] = element;
     }else{

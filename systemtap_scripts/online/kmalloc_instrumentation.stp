@@ -35,8 +35,15 @@ probe kernel.function("kfree") {
 # Please replace the process parameter with the path for your system
 probe process(@1).end{
 	monitor_event(2, 0)
+	exit_messages()
 	exit()
 }
+
+# Prints out exit messages for testing
+function exit_messages:long () %{
+	printk("Instrumentation completed");
+	printk("Exiting now");
+%}
 
 # Communicates event with online monitor
 function monitor_event:long (e:long, a:long) %{
