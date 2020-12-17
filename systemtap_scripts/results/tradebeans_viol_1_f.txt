@@ -1,0 +1,849 @@
+
+STARTING MONITOR FOR SPECIFICATION:
+Allocated memory must be freed before it can be reallocated, and memory cannot be freed without being allocated
+
+VIOLATION: Freeing memory without allocation: event 1
+VIOLATION: Freeing memory without allocation: event 22
+VIOLATION: Memory freed multiple times without being reallocated: event 65
+VIOLATION: Freeing memory without allocation: event 74
+VIOLATION: Memory freed multiple times without being reallocated: event 92
+VIOLATION: Memory freed multiple times without being reallocated: event 98
+VIOLATION: Memory freed multiple times without being reallocated: event 106
+VIOLATION: Memory freed multiple times without being reallocated: event 110
+VIOLATION: Memory freed multiple times without being reallocated: event 118
+VIOLATION: Memory freed multiple times without being reallocated: event 122
+VIOLATION: Memory freed multiple times without being reallocated: event 131
+VIOLATION: Memory freed multiple times without being reallocated: event 138
+VIOLATION: Memory freed multiple times without being reallocated: event 161
+VIOLATION: Memory freed multiple times without being reallocated: event 166
+VIOLATION: Memory freed multiple times without being reallocated: event 167
+VIOLATION: Memory freed multiple times without being reallocated: event 172
+VIOLATION: Memory freed multiple times without being reallocated: event 176
+VIOLATION: Memory freed multiple times without being reallocated: event 178
+VIOLATION: Memory freed multiple times without being reallocated: event 184
+VIOLATION: Memory freed multiple times without being reallocated: event 188
+VIOLATION: Memory freed multiple times without being reallocated: event 189
+VIOLATION: Memory freed multiple times without being reallocated: event 190
+VIOLATION: Memory freed multiple times without being reallocated: event 200
+VIOLATION: Memory freed multiple times without being reallocated: event 204
+VIOLATION: Memory freed multiple times without being reallocated: event 207
+VIOLATION: Freeing memory without allocation: event 217
+VIOLATION: Memory freed multiple times without being reallocated: event 218
+VIOLATION: Memory freed multiple times without being reallocated: event 227
+VIOLATION: Memory freed multiple times without being reallocated: event 228
+VIOLATION: Memory freed multiple times without being reallocated: event 232
+VIOLATION: Memory freed multiple times without being reallocated: event 233
+VIOLATION: Memory freed multiple times without being reallocated: event 242
+VIOLATION: Memory freed multiple times without being reallocated: event 243
+VIOLATION: Memory freed multiple times without being reallocated: event 249
+VIOLATION: Memory freed multiple times without being reallocated: event 250
+VIOLATION: Memory freed multiple times without being reallocated: event 256
+VIOLATION: Memory freed multiple times without being reallocated: event 257
+VIOLATION: Memory freed multiple times without being reallocated: event 263
+VIOLATION: Memory freed multiple times without being reallocated: event 264
+VIOLATION: Memory freed multiple times without being reallocated: event 268
+VIOLATION: Memory freed multiple times without being reallocated: event 269
+VIOLATION: Memory freed multiple times without being reallocated: event 281
+VIOLATION: Memory freed multiple times without being reallocated: event 282
+VIOLATION: Freeing memory without allocation: event 285
+VIOLATION: Memory freed multiple times without being reallocated: event 290
+VIOLATION: Freeing memory without allocation: event 294
+VIOLATION: Memory freed multiple times without being reallocated: event 296
+VIOLATION: Freeing memory without allocation: event 297
+VIOLATION: Memory freed multiple times without being reallocated: event 298
+VIOLATION: Freeing memory without allocation: event 299
+VIOLATION: Memory freed multiple times without being reallocated: event 300
+VIOLATION: Memory freed multiple times without being reallocated: event 301
+VIOLATION: Memory freed multiple times without being reallocated: event 302
+VIOLATION: Memory freed multiple times without being reallocated: event 303
+VIOLATION: Freeing memory without allocation: event 304
+VIOLATION: Freeing memory without allocation: event 305
+VIOLATION: Memory freed multiple times without being reallocated: event 306
+VIOLATION: Freeing memory without allocation: event 307
+VIOLATION: Memory freed multiple times without being reallocated: event 308
+VIOLATION: Memory freed multiple times without being reallocated: event 309
+VIOLATION: Memory freed multiple times without being reallocated: event 310
+VIOLATION: Memory freed multiple times without being reallocated: event 311
+VIOLATION: Memory freed multiple times without being reallocated: event 312
+VIOLATION: Memory freed multiple times without being reallocated: event 313
+VIOLATION: Memory freed multiple times without being reallocated: event 314
+VIOLATION: Memory freed multiple times without being reallocated: event 315
+VIOLATION: Memory freed multiple times without being reallocated: event 316
+VIOLATION: Memory freed multiple times without being reallocated: event 317
+VIOLATION: Memory freed multiple times without being reallocated: event 318
+VIOLATION: Memory freed multiple times without being reallocated: event 319
+VIOLATION: Memory freed multiple times without being reallocated: event 320
+VIOLATION: Memory freed multiple times without being reallocated: event 321
+VIOLATION: Memory freed multiple times without being reallocated: event 327
+VIOLATION: Memory freed multiple times without being reallocated: event 328
+VIOLATION: Freeing memory without allocation: event 330
+VIOLATION: Memory freed multiple times without being reallocated: event 332
+VIOLATION: Freeing memory without allocation: event 333
+VIOLATION: Memory freed multiple times without being reallocated: event 334
+VIOLATION: Memory freed multiple times without being reallocated: event 335
+VIOLATION: Memory freed multiple times without being reallocated: event 336
+VIOLATION: Memory freed multiple times without being reallocated: event 337
+VIOLATION: Memory freed multiple times without being reallocated: event 340
+VIOLATION: Memory freed multiple times without being reallocated: event 343
+VIOLATION: Memory freed multiple times without being reallocated: event 347
+VIOLATION: Memory freed multiple times without being reallocated: event 351
+VIOLATION: Memory freed multiple times without being reallocated: event 355
+VIOLATION: Memory freed multiple times without being reallocated: event 359
+VIOLATION: Memory freed multiple times without being reallocated: event 367
+VIOLATION: Memory freed multiple times without being reallocated: event 375
+VIOLATION: Memory freed multiple times without being reallocated: event 378
+VIOLATION: Memory freed multiple times without being reallocated: event 381
+VIOLATION: Memory freed multiple times without being reallocated: event 382
+VIOLATION: Memory freed multiple times without being reallocated: event 387
+VIOLATION: Memory freed multiple times without being reallocated: event 390
+VIOLATION: Memory freed multiple times without being reallocated: event 391
+VIOLATION: Memory freed multiple times without being reallocated: event 396
+VIOLATION: Memory freed multiple times without being reallocated: event 399
+VIOLATION: Memory freed multiple times without being reallocated: event 400
+VIOLATION: Memory freed multiple times without being reallocated: event 407
+VIOLATION: Memory freed multiple times without being reallocated: event 412
+VIOLATION: Memory freed multiple times without being reallocated: event 416
+VIOLATION: Memory freed multiple times without being reallocated: event 420
+VIOLATION: Memory freed multiple times without being reallocated: event 424
+VIOLATION: Memory freed multiple times without being reallocated: event 428
+VIOLATION: Memory freed multiple times without being reallocated: event 433
+VIOLATION: Memory freed multiple times without being reallocated: event 438
+VIOLATION: Memory freed multiple times without being reallocated: event 442
+VIOLATION: Memory freed multiple times without being reallocated: event 446
+VIOLATION: Memory freed multiple times without being reallocated: event 457
+VIOLATION: Memory freed multiple times without being reallocated: event 468
+VIOLATION: Memory freed multiple times without being reallocated: event 469
+VIOLATION: Memory freed multiple times without being reallocated: event 470
+VIOLATION: Memory freed multiple times without being reallocated: event 471
+VIOLATION: Memory freed multiple times without being reallocated: event 472
+VIOLATION: Memory freed multiple times without being reallocated: event 473
+VIOLATION: Memory freed multiple times without being reallocated: event 474
+VIOLATION: Memory freed multiple times without being reallocated: event 475
+VIOLATION: Memory freed multiple times without being reallocated: event 476
+VIOLATION: Memory freed multiple times without being reallocated: event 477
+VIOLATION: Memory freed multiple times without being reallocated: event 480
+VIOLATION: Memory freed multiple times without being reallocated: event 497
+VIOLATION: Memory freed multiple times without being reallocated: event 512
+VIOLATION: Memory freed multiple times without being reallocated: event 516
+VIOLATION: Memory freed multiple times without being reallocated: event 520
+VIOLATION: Memory freed multiple times without being reallocated: event 521
+VIOLATION: Memory freed multiple times without being reallocated: event 522
+VIOLATION: Memory freed multiple times without being reallocated: event 528
+VIOLATION: Memory freed multiple times without being reallocated: event 532
+VIOLATION: Memory freed multiple times without being reallocated: event 533
+VIOLATION: Memory freed multiple times without being reallocated: event 534
+VIOLATION: Memory freed multiple times without being reallocated: event 540
+VIOLATION: Memory freed multiple times without being reallocated: event 544
+VIOLATION: Memory freed multiple times without being reallocated: event 545
+VIOLATION: Memory freed multiple times without being reallocated: event 546
+VIOLATION: Memory freed multiple times without being reallocated: event 552
+VIOLATION: Memory freed multiple times without being reallocated: event 556
+VIOLATION: Memory freed multiple times without being reallocated: event 557
+VIOLATION: Memory freed multiple times without being reallocated: event 558
+VIOLATION: Memory freed multiple times without being reallocated: event 569
+VIOLATION: Memory freed multiple times without being reallocated: event 578
+VIOLATION: Memory freed multiple times without being reallocated: event 584
+VIOLATION: Memory freed multiple times without being reallocated: event 590
+VIOLATION: Memory freed multiple times without being reallocated: event 591
+VIOLATION: Memory freed multiple times without being reallocated: event 592
+VIOLATION: Memory freed multiple times without being reallocated: event 593
+VIOLATION: Memory freed multiple times without being reallocated: event 594
+VIOLATION: Memory freed multiple times without being reallocated: event 601
+VIOLATION: Memory freed multiple times without being reallocated: event 606
+VIOLATION: Memory freed multiple times without being reallocated: event 607
+VIOLATION: Memory freed multiple times without being reallocated: event 608
+VIOLATION: Memory freed multiple times without being reallocated: event 609
+VIOLATION: Memory freed multiple times without being reallocated: event 616
+VIOLATION: Memory freed multiple times without being reallocated: event 621
+VIOLATION: Memory freed multiple times without being reallocated: event 622
+VIOLATION: Memory freed multiple times without being reallocated: event 623
+VIOLATION: Memory freed multiple times without being reallocated: event 624
+VIOLATION: Memory freed multiple times without being reallocated: event 632
+VIOLATION: Memory freed multiple times without being reallocated: event 638
+VIOLATION: Memory freed multiple times without being reallocated: event 639
+VIOLATION: Memory freed multiple times without being reallocated: event 640
+VIOLATION: Memory freed multiple times without being reallocated: event 641
+VIOLATION: Memory freed multiple times without being reallocated: event 642
+VIOLATION: Memory freed multiple times without being reallocated: event 651
+VIOLATION: Memory freed multiple times without being reallocated: event 658
+VIOLATION: Memory freed multiple times without being reallocated: event 659
+VIOLATION: Memory freed multiple times without being reallocated: event 660
+VIOLATION: Memory freed multiple times without being reallocated: event 661
+VIOLATION: Memory freed multiple times without being reallocated: event 662
+VIOLATION: Memory freed multiple times without being reallocated: event 663
+VIOLATION: Memory freed multiple times without being reallocated: event 670
+VIOLATION: Memory freed multiple times without being reallocated: event 675
+VIOLATION: Memory freed multiple times without being reallocated: event 676
+VIOLATION: Memory freed multiple times without being reallocated: event 677
+VIOLATION: Memory freed multiple times without being reallocated: event 678
+VIOLATION: Memory freed multiple times without being reallocated: event 681
+VIOLATION: Memory freed multiple times without being reallocated: event 687
+VIOLATION: Memory freed multiple times without being reallocated: event 691
+VIOLATION: Memory freed multiple times without being reallocated: event 692
+VIOLATION: Memory freed multiple times without being reallocated: event 693
+VIOLATION: Memory freed multiple times without being reallocated: event 699
+VIOLATION: Memory freed multiple times without being reallocated: event 703
+VIOLATION: Memory freed multiple times without being reallocated: event 704
+VIOLATION: Memory freed multiple times without being reallocated: event 705
+VIOLATION: Memory freed multiple times without being reallocated: event 713
+VIOLATION: Memory freed multiple times without being reallocated: event 719
+VIOLATION: Memory freed multiple times without being reallocated: event 720
+VIOLATION: Memory freed multiple times without being reallocated: event 721
+VIOLATION: Memory freed multiple times without being reallocated: event 722
+VIOLATION: Memory freed multiple times without being reallocated: event 723
+VIOLATION: Memory freed multiple times without being reallocated: event 729
+VIOLATION: Memory freed multiple times without being reallocated: event 733
+VIOLATION: Memory freed multiple times without being reallocated: event 734
+VIOLATION: Memory freed multiple times without being reallocated: event 735
+VIOLATION: Memory freed multiple times without being reallocated: event 741
+VIOLATION: Memory freed multiple times without being reallocated: event 745
+VIOLATION: Memory freed multiple times without being reallocated: event 746
+VIOLATION: Memory freed multiple times without being reallocated: event 747
+VIOLATION: Memory freed multiple times without being reallocated: event 753
+VIOLATION: Memory freed multiple times without being reallocated: event 757
+VIOLATION: Memory freed multiple times without being reallocated: event 758
+VIOLATION: Memory freed multiple times without being reallocated: event 759
+VIOLATION: Memory freed multiple times without being reallocated: event 765
+VIOLATION: Memory freed multiple times without being reallocated: event 769
+VIOLATION: Memory freed multiple times without being reallocated: event 770
+VIOLATION: Memory freed multiple times without being reallocated: event 771
+VIOLATION: Memory freed multiple times without being reallocated: event 774
+VIOLATION: Memory freed multiple times without being reallocated: event 777
+VIOLATION: Memory freed multiple times without being reallocated: event 780
+VIOLATION: Memory freed multiple times without being reallocated: event 783
+VIOLATION: Memory freed multiple times without being reallocated: event 786
+VIOLATION: Memory freed multiple times without being reallocated: event 787
+VIOLATION: Memory freed multiple times without being reallocated: event 792
+VIOLATION: Memory freed multiple times without being reallocated: event 795
+VIOLATION: Memory freed multiple times without being reallocated: event 796
+VIOLATION: Memory freed multiple times without being reallocated: event 799
+VIOLATION: Memory freed multiple times without being reallocated: event 802
+VIOLATION: Memory freed multiple times without being reallocated: event 805
+VIOLATIONillegal event: Success
+: Memory freed multiple times without being reallocated: event 809
+VIOLATION: Memory freed multiple times without being reallocated: event 811
+VIOLATION: Memory freed multiple times without being reallocated: event 812
+VIOLATION: Memory freed multiple times without being reallocated: event 814
+VIOLATION: Memory freed multiple times without being reallocated: event 816
+VIOLATION: Freeing memory without allocation: event 817
+VIOLATION: Memory freed multiple times without being reallocated: event 818
+VIOLATION: Memory freed multiple times without being reallocated: event 819
+VIOLATION: Memory freed multiple times without being reallocated: event 820
+VIOLATION: Memory freed multiple times without being reallocated: event 821
+VIOLATION: Memory freed multiple times without being reallocated: event 822
+VIOLATION: Memory allocated multiple times without being freed: event 824
+VIOLATION: Memory freed multiple times without being reallocated: event 825
+VIOLATION: Memory allocated multiple times without being freed: event 826
+VIOLATION: Memory freed multiple times without being reallocated: event 827
+VIOLATION: Memory freed multiple times without being reallocated: event 828
+VIOLATION: Memory freed multiple times without being reallocated: event 829
+VIOLATION: Memory freed multiple times without being reallocated: event 830
+VIOLATION: Memory freed multiple times without being reallocated: event 831
+VIOLATION: Memory freed multiple times without being reallocated: event 832
+VIOLATION: Memory freed multiple times without being reallocated: event 833
+VIOLATION: Freeing memory without allocation: event 834
+VIOLATION: Memory freed multiple times without being reallocated: event 835
+VIOLATION: Memory freed multiple times without being reallocated: event 837
+VIOLATION: Memory freed multiple times without being reallocated: event 838
+VIOLATION: Memory allocated multiple times without being freed: event 839
+VIOLATION: Memory freed multiple times without being reallocated: event 844
+VIOLATION: Memory freed multiple times without being reallocated: event 845
+endkfree
+
+TOTAL VIOLATIONS:
+Allocated memory but not freed: 18
+Freeing memory without allocation: 15
+Memory allocated twice without being freed: 3
+Memory freed twice without being reallocated: 227
+
+STARTING MONITOR FOR SPECIFICATION:
+Allocated memory must be freed before it can be reallocated, and memory cannot be freed without being allocated
+
+VIOLATION: Freeing memory without allocation: event 6
+VIOLATION: Memory freed multiple times without being reallocated: event 7
+VIOLATION: Freeing memory without allocation: event 8
+VIOLATION: Memory freed multiple times without being reallocated: event 9
+VIOLATION: Memory freed multiple times without being reallocated: event 17
+VIOLATION: Freeing memory without allocation: event 25
+VIOLATION: Memory freed multiple times without being reallocated: event 33
+VIOLATION: Memory freed multiple times without being reallocated: event 41
+VIOLATION: Memory freed multiple times without being reallocated: event 42
+VIOLATION: Memory freed multiple times without being reallocated: event 45
+VIOLATION: Memory freed multiple times without being reallocated: event 46
+VIOLATION: Memory freed multiple times without being reallocated: event 50
+VIOLATION: Memory freed multiple times without being reallocated: event 52
+VIOLATION: Memory freed multiple times without being reallocated: event 53
+VIOLATION: Memory freed multiple times without being reallocated: event 54
+VIOLATION: Memory freed multiple times without being reallocated: event 58
+VIOLATION: Memory freed multiple times without being reallocated: event 60
+VIOLATION: Memory freed multiple times without being reallocated: event 61
+VIOLATION: Memory freed multiple times without being reallocated: event 62
+VIOLATION: Memory freed multiple times without being reallocated: event 66
+VIOLATION: Memory freed multiple times without being reallocated: event 68
+VIOLATION: Memory freed multiple times without being reallocated: event 81
+VIOLATION: Memory freed multiple times without being reallocated: event 94
+VIOLATION: Memory freed multiple times without being reallocated: event 95
+VIOLATION: Memory freed multiple times without being reallocated: event 96
+VIOLATION: Memory freed multiple times without being reallocated: event 106
+VIOLATION: Memory freed multiple times without being reallocated: event 110
+VIOLATION: Memory freed multiple times without being reallocated: event 127
+VIOLATION: Memory freed multiple times without being reallocated: event 135
+VIOLATION: Memory freed multiple times without being reallocated: event 137
+VIOLATION: Memory freed multiple times without being reallocated: event 138
+VIOLATION: Memory freed multiple times without being reallocated: event 139
+VIOLATION: Memory freed multiple times without being reallocated: event 143
+VIOLATION: Memory freed multiple times without being reallocated: event 145
+VIOLATION: Memory freed multiple times without being reallocated: event 146
+VIOLATION: Memory freed multiple times without being reallocated: event 147
+VIOLATION: Memory freed multiple times without being reallocated: event 148
+VIOLATION: Memory freed multiple times without being reallocated: event 151
+VIOLATION: Memory freed multiple times without being reallocated: event 154
+VIOLATION: Memory freed multiple times without being reallocated: event 158
+VIOLATION: Memory freed multiple times without being reallocated: event 160
+VIOLATION: Memory freed multiple times without being reallocated: event 166
+VIOLATION: Memory freed multiple times without being reallocated: event 170
+VIOLATION: Memory freed multiple times without being reallocated: event 171
+VIOLATION: Memory freed multiple times without being reallocated: event 172
+VIOLATION: Memory freed multiple times without being reallocated: event 173
+VIOLATION: Memory freed multiple times without being reallocated: event 183
+VIOLATION: Memory freed multiple times without being reallocated: event 187
+VIOLATION: Memory freed multiple times without being reallocated: event 190
+VIOLATION: Memory freed multiple times without being reallocated: event 195
+VIOLATION: Memory freed multiple times without being reallocated: event 198
+VIOLATION: Memory freed multiple times without being reallocated: event 202
+VIOLATION: Memory freed multiple times without being reallocated: event 204
+VIOLATION: Memory freed multiple times without being reallocated: event 205
+VIOLATION: Memory freed multiple times without being reallocated: event 206
+VIOLATION: Memory freed multiple times without being reallocated: event 216
+VIOLATION: Memory freed multiple times without being reallocated: event 220
+VIOLATION: Memory freed multiple times without being reallocated: event 223
+VIOLATION: Memory freed multiple times without being reallocated: event 228
+VIOLATION: Memory freed multiple times without being reallocated: event 231
+VIOLATION: Memory freed multiple times without being reallocated: event 235
+VIOLATION: Memory freed multiple times without being reallocated: event 237
+VIOLATION: Memory freed multiple times without being reallocated: event 244
+VIOLATION: Memory freed multiple times without being reallocated: event 249
+VIOLATION: Memory freed multiple times without being reallocated: event 272
+VIOLATION: Memory freed multiple times without being reallocated: event 277
+VIOLATION: Memory freed multiple times without being reallocated: event 290
+VIOLATION: Memory freed multiple times without being reallocated: event 315
+VIOLATION: Memory freed multiple times without being reallocated: event 358
+VIOLATION: Memory freed multiple times without being reallocated: event 367
+VIOLATION: Memory freed multiple times without being reallocated: event 385
+VIOLATION: Memory freed multiple times without being reallocated: event 391
+VIOLATION: Memory freed multiple times without being reallocated: event 399
+VIOLATION: Memory freed multiple times without being reallocated: event 403
+VIOLATION: Memory freed multiple times without being reallocated: event 411
+VIOLATION: Memory freed multiple times without being reallocated: event 415
+VIOLATION: Memory freed multiple times without being reallocated: event 424
+VIOLATION: Memory freed multiple times without being reallocated: event 431
+VIOLATION: Memory freed multiple times without being reallocated: event 454
+VIOLATION: Memory freed multiple times without being reallocated: event 459
+VIOLATION: Memory freed multiple times without being reallocated: event 460
+VIOLATION: Memory freed multiple times without being reallocated: event 465
+VIOLATION: Memory freed multiple times without being reallocated: event 469
+VIOLATION: Memory freed multiple times without being reallocated: event 471
+VIOLATION: Memory freed multiple times without being reallocated: event 477
+VIOLATION: Memory freed multiple times without being reallocated: event 481
+VIOLATION: Memory freed multiple times without being reallocated: event 482
+VIOLATION: Memory freed multiple times without being reallocated: event 483
+VIOLATION: Memory freed multiple times without being reallocated: event 493
+VIOLATION: Memory freed multiple times without being reallocated: event 497
+VIOLATION: Memory freed multiple times without being reallocated: event 500
+VIOLATION: Memory freed multiple times without being reallocated: event 510
+VIOLATION: Memory freed multiple times without being reallocated: event 511
+VIOLATION: Memory freed multiple times without being reallocated: event 520
+VIOLATION: Memory freed multiple times without being reallocated: event 521
+VIOLATION: Memory freed multiple times without being reallocated: event 525
+VIOLATION: Memory freed multiple times without being reallocated: event 526
+VIOLATION: Memory freed multiple times without being reallocated: event 535
+VIOLATION: Memory freed multiple times without being reallocated: event 536
+VIOLATION: Memory freed multiple times without being reallocated: event 542
+VIOLATION: Memory freed multiple times without being reallocated: event 543
+VIOLATION: Memory freed multiple times without being reallocated: event 549
+VIOLATION: Memory freed multiple times without being reallocated: event 550
+VIOLATION: Memory freed multiple times without being reallocated: event 556
+VIOLATION: Memory freed multiple times without being reallocated: event 557
+VIOLATION: Memory freed multiple times without being reallocated: event 561
+VIOLATION: Memory freed multiple times without being reallocated: event 562
+VIOLATION: Memory freed multiple times without being reallocated: event 574
+VIOLATION: Memory freed multiple times without being reallocated: event 575
+VIOLATION: Freeing memory without allocation: event 578
+VIOLATION: Memory freed multiple times without being reallocated: event 583
+VIOLATION: Freeing memory without allocation: event 587
+VIOLATION: Memory freed multiple times without being reallocated: event 589
+VIOLATION: Freeing memory without allocation: event 590
+VIOLATION: Memory freed multiple times without being reallocated: event 591
+VIOLATION: Freeing memory without allocation: event 592
+VIOLATION: Memory freed multiple times without being reallocated: event 593
+VIOLATION: Memory freed multiple times without being reallocated: event 594
+VIOLATION: Memory freed multiple times without being reallocated: event 595
+VIOLATION: Memory freed multiple times without being reallocated: event 596
+VIOLATION: Memory freed multiple times without being reallocated: event 597
+VIOLATION: Freeing memory without allocation: event 598
+VIOLATION: Memory freed multiple times without being reallocated: event 599
+VIOLATION: Freeing memory without allocation: event 600
+VIOLATION: Memory freed multiple times without being reallocated: event 601
+VIOLATION: Memory freed multiple times without being reallocated: event 602
+VIOLATION: Memory freed multiple times without being reallocated: event 603
+VIOLATION: Memory freed multiple times without being reallocated: event 604
+VIOLATION: Memory freed multiple times without being reallocated: event 605
+VIOLATION: Memory freed multiple times without being reallocated: event 606
+VIOLATION: Memory freed multiple times without being reallocated: event 607
+VIOLATION: Memory freed multiple times without being reallocated: event 608
+VIOLATION: Memory freed multiple times without being reallocated: event 609
+VIOLATION: Memory freed multiple times without being reallocated: event 610
+VIOLATION: Memory freed multiple times without being reallocated: event 611
+VIOLATION: Memory freed multiple times without being reallocated: event 612
+VIOLATION: Memory freed multiple times without being reallocated: event 613
+VIOLATION: Memory freed multiple times without being reallocated: event 614
+VIOLATION: Memory freed multiple times without being reallocated: event 620
+VIOLATION: Memory freed multiple times without being reallocated: event 621
+VIOLATION: Freeing memory without allocation: event 623
+VIOLATION: Memory freed multiple times without being reallocated: event 625
+VIOLATION: Freeing memory without allocation: event 626
+VIOLATION: Memory freed multiple times without being reallocated: event 627
+VIOLATION: Memory freed multiple times without being reallocated: event 628
+VIOLATION: Memory freed multiple times without being reallocated: event 629
+VIOLATION: Freeing memory without allocation: event 630
+VIOLATION: Freeing memory without allocation: event 631
+VIOLATION: Memory freed multiple times without being reallocated: event 632
+VIOLATION: Memory freed multiple times without being reallocated: event 635
+VIOLATION: Memory freed multiple times without being reallocated: event 638
+VIOLATION: Memory freed multiple times without being reallocated: event 642
+VIOLATION: Memory freed multiple times without being reallocated: event 646
+VIOLATION: Memory freed multiple times without being reallocated: event 650
+VIOLATION: Memory freed multiple times without being reallocated: event 654
+VIOLATION: Memory freed multiple times without being reallocated: event 662
+VIOLATION: Memory freed multiple times without being reallocated: event 670
+VIOLATION: Memory freed multiple times without being reallocated: event 673
+VIOLATION: Memory freed multiple times without being reallocated: event 676
+VIOLATION: Memory freed multiple times without being reallocated: event 677
+VIOLATION: Memory freed multiple times without being reallocated: event 682
+VIOLATION: Memory freed multiple times without being reallocated: event 685
+VIOLATION: Memory freed multiple times without being reallocated: event 686
+VIOLATION: Memory freed multiple times without being reallocated: event 691
+VIOLATION: Memory freed multiple times without being reallocated: event 694
+VIOLATION: Memory freed multiple times without being reallocated: event 695
+VIOLATION: Memory freed multiple times without being reallocated: event 702
+VIOLATION: Memory freed multiple times without being reallocated: event 707
+VIOLATION: Memory freed multiple times without being reallocated: event 711
+VIOLATION: Memory freed multiple times without being reallocated: event 715
+VIOLATION: Memory freed multiple times without being reallocated: event 719
+VIOLATION: Memory freed multiple times without being reallocated: event 723
+VIOLATION: Memory freed multiple times without being reallocated: event 728
+VIOLATION: Memory freed multiple times without being reallocated: event 733
+VIOLATION: Memory freed multiple times without being reallocated: event 737
+VIOLATION: Memory freed multiple times without being reallocated: event 741
+VIOLATION: Memory freed multiple times without being reallocated: event 752
+VIOLATION: Memory freed multiple times without being reallocated: event 763
+VIOLATION: Memory freed multiple times without being reallocated: event 764
+VIOLATION: Memory freed multiple times without being reallocated: event 765
+VIOLATION: Memory freed multiple times without being reallocated: event 766
+VIOLATION: Memory freed multiple times without being reallocated: event 767
+VIOLATION: Memory freed multiple times without being reallocated: event 768
+VIOLATION: Memory freed multiple times without being reallocated: event 769
+VIOLATION: Memory freed multiple times without being reallocated: event 770
+VIOLATION: Memory freed multiple times without being reallocated: event 771
+VIOLATION: Memory freed multiple times without being reallocated: event 772
+VIOLATION: Memory freed multiple times without being reallocated: event 775
+VIOLATION: Memory freed multiple times without being reallocated: event 792
+VIOLATION: Memory freed multiple times without being reallocated: event 807
+VIOLATION: Memory freed multiple times without being reallocated: event 811
+VIOLATION: Memory freed multiple times without being reallocated: event 815
+VIOLATION: Memory freed multiple times without being reallocated: event 816
+VIOLATION: Memory freed multiple times without being reallocated: event 817
+VIOLATION: Memory freed multiple times without being reallocated: event 823
+VIOLATION: Memory freed multiple times without being reallocated: event 827
+VIOLATION: Memory freed multiple times without being reallocated: event 828
+VIOLATION: Memory freed multiple times without being reallocated: event 829
+VIOLATION: Memory freed multiple times without being reallocated: event 835
+VIOLATION: Memory freed multiple times without being reallocated: event 839
+VIOLATION: Memory freed multiple times without being reallocated: event 840
+VIOLATION: Memory freed multiple times without being reallocated: event 841
+VIOLATION: Memory freed multiple times without being reallocated: event 847
+VIOLATION: Memory freed multiple times without being reallocated: event 851
+VIOLATION: Memory freed multiple times without being reallocated: event 852
+VIOLATION: Memory freed multiple times without being reallocated: event 853
+VIOLATION: Memory freed multiple times without being reallocated: event 864
+VIOLATION: Memory freed multiple times without being reallocated: event 873
+VIOLATION: Memory freed multiple times without being reallocated: event 879
+VIOLATION: Memory freed multiple times without being reallocated: event 885
+VIOLATION: Memory freed multiple times without being reallocated: event 886
+VIOLATION: Memory freed multiple times without being reallocated: event 887
+VIOLATION: Memory freed multiple times without being reallocated: event 888
+VIOLATION: Memory freed multiple times without being reallocated: event 889
+VIOLATION: Memory freed multiple times without being reallocated: event 896
+VIOLATION: Memory freed multiple times without being reallocated: event 901
+VIOLATION: Memory freed multiple times without being reallocated: event 902
+VIOLATION: Memory freed multiple times without being reallocated: event 903
+VIOLATION: Memory freed multiple times without being reallocated: event 904
+VIOLATION: Memory freed multiple times without being reallocated: event 908
+VIOLATION: Memory freed multiple times without being reallocated: event 913
+VIOLATION: Memory freed multiple times without being reallocated: event 918
+VIOLATION: Memory freed multiple times without being reallocated: event 919
+VIOLATION: Memory freed multiple times without being reallocated: event 920
+VIOLATION: Memory freed multiple times without being reallocated: event 921
+VIOLATION: Memory freed multiple times without being reallocated: event 929
+VIOLATION: Memory freed multiple times without being reallocated: event 935
+VIOLATION: Memory freed multiple times without being reallocated: event 936
+VIOLATION: Memory freed multiple times without being reallocated: event 937
+VIOLATION: Memory freed multiple times without being reallocated: event 938
+VIOLATION: Memory freed multiple times without being reallocated: event 939
+VIOLATION: Memory freed multiple times without being reallocated: event 948
+VIOLATION: Memory freed multiple times without being reallocated: event 955
+VIOLATION: Memory freed multiple times without being reallocated: event 956
+VIOLATION: Memory freed multiple times without being reallocated: event 957
+VIOLATION: Memory freed multiple times without being reallocated: event 958
+VIOLATION: Memory freed multiple times without being reallocated: event 959
+VIOLATION: Memory freed multiple times without being reallocated: event 960
+VIOLATION: Memory freed multiple times without being reallocated: event 967
+VIOLATION: Memory freed multiple times without being reallocated: event 972
+VIOLATION: Memory freed multiple times without being reallocated: event 973
+VIOLATION: Memory freed multiple times without being reallocated: event 974
+VIOLATION: Memory freed multiple times without being reallocated: event 975
+VIOLATION: Memory freed multiple times without being reallocated: event 978
+VIOLATION: Memory freed multiple times without being reallocated: event 984
+VIOLATION: Memory freed multiple times without being reallocated: event 988
+VIOLATION: Memory freed multiple times without being reallocated: event 989
+VIOLATION: Memory freed multiple times without being reallocated: event 990
+VIOLATION: Memory freed multiple times without being reallocated: event 996
+VIOLATION: Memory freed multiple times without being reallocated: event 1000
+VIOLATION: Memory freed multiple times without being reallocated: event 1001
+VIOLATION: Memory freed multiple times without being reallocated: event 1002
+VIOLATION: Memory freed multiple times without being reallocated: event 1010
+VIOLATION: Memory freed multiple times without being reallocated: event 1016
+VIOLATION: Memory freed multiple times without being reallocated: event 1017
+VIOLATION: Memory freed multiple times without being reallocated: event 1018
+VIOLATION: Memory freed multiple times without being reallocated: event 1019
+VIOLATION: Memory freed multiple times without being reallocated: event 1020
+VIOLATION: Memory freed multiple times without being reallocated: event 1026
+VIOLATION: Memory freed multiple times without being reallocated: event 1030
+VIOLATION: Memory freed multiple times without being reallocated: event 1031
+VIOLATION: Memory freed multiple times without being reallocated: event 1032
+VIOLATION: Memory freed multiple times without being reallocated: event 1038
+VIOLATION: Memory freed multiple times without being reallocated: event 1042
+VIOLATION: Memory freed multiple times without being reallocated: event 1043
+VIOLATION: Memory freed multiple times without being reallocated: event 1044
+VIOLATION: Memory freed multiple times without being reallocated: event 1050
+VIOLATION: Memory freed multiple times without being reallocated: event 1054
+VIOLATION: Memory freed multiple times without being reallocated: event 1055
+VIOLATION: Memory freed multiple times without being reallocated: event 1056
+VIOLATION: Memory freed multiple times without being reallocated: event 1062
+Villegal event: Success
+IOLATION: Memory freed multiple times without being reallocated: event 1066
+VIOLATION: Memory freed multiple times without being reallocated: event 1067
+VIOLATION: Memory freed multiple times without being reallocated: event 1068
+VIOLATION: Memory freed multiple times without being reallocated: event 1071
+VIOLATION: Memory freed multiple times without being reallocated: event 1074
+VIOLATION: Memory freed multiple times without being reallocated: event 1077
+VIOLATION: Memory freed multiple times without being reallocated: event 1080
+VIOLATION: Memory freed multiple times without being reallocated: event 1083
+VIOLATION: Memory freed multiple times without being reallocated: event 1084
+VIOLATION: Memory freed multiple times without being reallocated: event 1089
+VIOLATION: Memory freed multiple times without being reallocated: event 1092
+VIOLATION: Memory freed multiple times without being reallocated: event 1093
+VIOLATION: Memory freed multiple times without being reallocated: event 1096
+VIOLATION: Memory freed multiple times without being reallocated: event 1099
+VIOLATION: Memory freed multiple times without being reallocated: event 1102
+VIOLATION: Memory freed multiple times without being reallocated: event 1106
+VIOLATION: Memory freed multiple times without being reallocated: event 1108
+VIOLATION: Memory freed multiple times without being reallocated: event 1109
+VIOLATION: Memory freed multiple times without being reallocated: event 1111
+VIOLATION: Memory freed multiple times without being reallocated: event 1113
+VIOLATION: Freeing memory without allocation: event 1114
+VIOLATION: Memory freed multiple times without being reallocated: event 1115
+VIOLATION: Memory freed multiple times without being reallocated: event 1116
+VIOLATION: Memory freed multiple times without being reallocated: event 1117
+VIOLATION: Memory freed multiple times without being reallocated: event 1118
+VIOLATION: Memory freed multiple times without being reallocated: event 1119
+VIOLATION: Memory allocated multiple times without being freed: event 1121
+VIOLATION: Memory freed multiple times without being reallocated: event 1122
+VIOLATION: Memory allocated multiple times without being freed: event 1123
+VIOLATION: Memory freed multiple times without being reallocated: event 1124
+VIOLATION: Memory freed multiple times without being reallocated: event 1125
+VIOLATION: Memory freed multiple times without being reallocated: event 1126
+VIOLATION: Memory freed multiple times without being reallocated: event 1127
+VIOLATION: Memory freed multiple times without being reallocated: event 1128
+VIOLATION: Memory freed multiple times without being reallocated: event 1129
+VIOLATION: Memory freed multiple times without being reallocated: event 1130
+VIOLATION: Freeing memory without allocation: event 1131
+VIOLATION: Memory freed multiple times without being reallocated: event 1132
+VIOLATION: Memory freed multiple times without being reallocated: event 1134
+VIOLATION: Memory freed multiple times without being reallocated: event 1135
+VIOLATION: Memory allocated multiple times without being freed: event 1136
+VIOLATION: Memory freed multiple times without being reallocated: event 1141
+VIOLATION: Memory freed multiple times without being reallocated: event 1142
+endkfree
+
+TOTAL VIOLATIONS:
+Allocated memory but not freed: 18
+Freeing memory without allocation: 15
+Memory allocated twice without being freed: 3
+Memory freed twice without being reallocated: 296
+
+STARTING MONITOR FOR SPECIFICATION:
+Allocated memory must be freed before it can be reallocated, and memory cannot be freed without being allocated
+
+VIOLATION: Freeing memory without allocation: event 21
+VIOLATION: Freeing memory without allocation: event 26
+VIOLATION: Memory freed multiple times without being reallocated: event 39
+VIOLATION: Memory freed multiple times without being reallocated: event 64
+VIOLATION: Memory freed multiple times without being reallocated: event 107
+VIOLATION: Memory freed multiple times without being reallocated: event 116
+VIOLATION: Memory freed multiple times without being reallocated: event 134
+VIOLATION: Memory freed multiple times without being reallocated: event 140
+VIOLATION: Memory freed multiple times without being reallocated: event 148
+VIOLATION: Memory freed multiple times without being reallocated: event 152
+VIOLATION: Memory freed multiple times without being reallocated: event 160
+VIOLATION: Memory freed multiple times without being reallocated: event 164
+VIOLATION: Memory freed multiple times without being reallocated: event 173
+VIOLATION: Memory freed multiple times without being reallocated: event 180
+VIOLATION: Memory freed multiple times without being reallocated: event 203
+VIOLATION: Memory freed multiple times without being reallocated: event 208
+VIOLATION: Memory freed multiple times without being reallocated: event 209
+VIOLATION: Memory freed multiple times without being reallocated: event 214
+VIOLATION: Memory freed multiple times without being reallocated: event 218
+VIOLATION: Memory freed multiple times without being reallocated: event 220
+VIOLATION: Memory freed multiple times without being reallocated: event 226
+VIOLATION: Memory freed multiple times without being reallocated: event 230
+VIOLATION: Memory freed multiple times without being reallocated: event 231
+VIOLATION: Memory freed multiple times without being reallocated: event 232
+VIOLATION: Memory freed multiple times without being reallocated: event 242
+VIOLATION: Memory freed multiple times without being reallocated: event 246
+VIOLATION: Memory freed multiple times without being reallocated: event 249
+VIOLATION: Freeing memory without allocation: event 259
+VIOLATION: Memory freed multiple times without being reallocated: event 260
+VIOLATION: Memory freed multiple times without being reallocated: event 269
+VIOLATION: Memory freed multiple times without being reallocated: event 270
+VIOLATION: Memory freed multiple times without being reallocated: event 274
+VIOLATION: Memory freed multiple times without being reallocated: event 275
+VIOLATION: Freeing memory without allocation: event 276
+VIOLATION: Memory freed multiple times without being reallocated: event 285
+VIOLATION: Memory freed multiple times without being reallocated: event 286
+VIOLATION: Memory freed multiple times without being reallocated: event 292
+VIOLATION: Memory freed multiple times without being reallocated: event 293
+VIOLATION: Memory freed multiple times without being reallocated: event 299
+VIOLATION: Memory freed multiple times without being reallocated: event 300
+VIOLATION: Memory freed multiple times without being reallocated: event 306
+VIOLATION: Memory freed multiple times without being reallocated: event 307
+VIOLATION: Memory freed multiple times without being reallocated: event 311
+VIOLATION: Memory freed multiple times without being reallocated: event 312
+VIOLATION: Freeing memory without allocation: event 326
+VIOLATION: Memory freed multiple times without being reallocated: event 331
+VIOLATION: Freeing memory without allocation: event 335
+VIOLATION: Memory freed multiple times without being reallocated: event 337
+VIOLATION: Freeing memory without allocation: event 338
+VIOLATION: Memory freed multiple times without being reallocated: event 339
+VIOLATION: Memory freed multiple times without being reallocated: event 340
+VIOLATION: Memory freed multiple times without being reallocated: event 341
+VIOLATION: Freeing memory without allocation: event 342
+VIOLATION: Memory freed multiple times without being reallocated: event 343
+VIOLATION: Freeing memory without allocation: event 344
+VIOLATION: Memory freed multiple times without being reallocated: event 345
+VIOLATION: Memory freed multiple times without being reallocated: event 346
+VIOLATION: Memory freed multiple times without being reallocated: event 347
+VIOLATION: Memory freed multiple times without being reallocated: event 348
+VIOLATION: Freeing memory without allocation: event 349
+VIOLATION: Freeing memory without allocation: event 350
+VIOLATION: Memory freed multiple times without being reallocated: event 351
+VIOLATION: Memory freed multiple times without being reallocated: event 352
+VIOLATION: Memory freed multiple times without being reallocated: event 353
+VIOLATION: Memory freed multiple times without being reallocated: event 354
+VIOLATION: Memory freed multiple times without being reallocated: event 355
+VIOLATION: Memory freed multiple times without being reallocated: event 356
+VIOLATION: Memory freed multiple times without being reallocated: event 357
+VIOLATION: Memory freed multiple times without being reallocated: event 358
+VIOLATION: Memory freed multiple times without being reallocated: event 359
+VIOLATION: Memory freed multiple times without being reallocated: event 360
+VIOLATION: Memory freed multiple times without being reallocated: event 361
+VIOLATION: Memory freed multiple times without being reallocated: event 362
+VIOLATION: Memory freed multiple times without being reallocated: event 363
+VIOLATION: Memory freed multiple times without being reallocated: event 364
+VIOLATION: Memory freed multiple times without being reallocated: event 365
+VIOLATION: Memory freed multiple times without being reallocated: event 366
+VIOLATION: Memory freed multiple times without being reallocated: event 372
+VIOLATION: Memory freed multiple times without being reallocated: event 373
+VIOLATION: Freeing memory without allocation: event 375
+VIOLATION: Memory freed multiple times without being reallocated: event 377
+VIOLATION: Freeing memory without allocation: event 378
+VIOLATION: Memory freed multiple times without being reallocated: event 379
+VIOLATION: Freeing memory without allocation: event 380
+VIOLATION: Memory freed multiple times without being reallocated: event 381
+VIOLATION: Memory freed multiple times without being reallocated: event 383
+VIOLATION: Memory freed multiple times without being reallocated: event 384
+VIOLATION: Memory freed multiple times without being reallocated: event 387
+VIOLATION: Memory freed multiple times without being reallocated: event 390
+VIOLATION: Memory freed multiple times without being reallocated: event 394
+VIOLATION: Memory freed multiple times without being reallocated: event 398
+VIOLATION: Memory freed multiple times without being reallocated: event 402
+VIOLATION: Memory freed multiple times without being reallocated: event 406
+VIOLATION: Memory freed multiple times without being reallocated: event 414
+VIOLATION: Memory freed multiple times without being reallocated: event 422
+VIOLATION: Memory freed multiple times without being reallocated: event 425
+VIOLATION: Memory freed multiple times without being reallocated: event 428
+VIOLATION: Memory freed multiple times without being reallocated: event 429
+VIOLATION: Memory freed multiple times without being reallocated: event 434
+VIOLATION: Memory freed multiple times without being reallocated: event 437
+VIOLATION: Memory freed multiple times without being reallocated: event 438
+VIOLATION: Memory freed multiple times without being reallocated: event 443
+VIOLATION: Memory freed multiple times without being reallocated: event 446
+VIOLATION: Memory freed multiple times without being reallocated: event 447
+VIOLATION: Memory freed multiple times without being reallocated: event 454
+VIOLATION: Memory freed multiple times without being reallocated: event 459
+VIOLATION: Memory freed multiple times without being reallocated: event 463
+VIOLATION: Memory freed multiple times without being reallocated: event 467
+VIOLATION: Memory freed multiple times without being reallocated: event 471
+VIOLATION: Memory freed multiple times without being reallocated: event 475
+VIOLATION: Memory freed multiple times without being reallocated: event 480
+VIOLATION: Memory freed multiple times without being reallocated: event 485
+VIOLATION: Memory freed multiple times without being reallocated: event 489
+VIOLATION: Memory freed multiple times without being reallocated: event 493
+VIOLATION: Memory freed multiple times without being reallocated: event 504
+VIOLATION: Memory freed multiple times without being reallocated: event 515
+VIOLATION: Memory freed multiple times without being reallocated: event 516
+VIOLATION: Memory freed multiple times without being reallocated: event 517
+VIOLATION: Memory freed multiple times without being reallocated: event 518
+VIOLATION: Memory freed multiple times without being reallocated: event 519
+VIOLATION: Memory freed multiple times without being reallocated: event 520
+VIOLATION: Memory freed multiple times without being reallocated: event 521
+VIOLATION: Memory freed multiple times without being reallocated: event 522
+VIOLATION: Memory freed multiple times without being reallocated: event 523
+VIOLATION: Memory freed multiple times without being reallocated: event 524
+VIOLATION: Memory freed multiple times without being reallocated: event 527
+VIOLATION: Memory freed multiple times without being reallocated: event 544
+VIOLATION: Memory freed multiple times without being reallocated: event 559
+VIOLATION: Memory freed multiple times without being reallocated: event 563
+VIOLATION: Memory freed multiple times without being reallocated: event 567
+VIOLATION: Memory freed multiple times without being reallocated: event 568
+VIOLATION: Memory freed multiple times without being reallocated: event 569
+VIOLATION: Memory freed multiple times without being reallocated: event 575
+VIOLATION: Memory freed multiple times without being reallocated: event 579
+VIOLATION: Memory freed multiple times without being reallocated: event 580
+VIOLATION: Memory freed multiple times without being reallocated: event 581
+VIOLATION: Memory freed multiple times without being reallocated: event 587
+VIOLATION: Memory freed multiple times without being reallocated: event 591
+VIOLATION: Memory freed multiple times without being reallocated: event 592
+VIOLATION: Memory freed multiple times without being reallocated: event 593
+VIOLATION: Memory freed multiple times without being reallocated: event 599
+VIOLATION: Memory freed multiple times without being reallocated: event 603
+VIOLATION: Memory freed multiple times without being reallocated: event 604
+VIOLATION: Memory freed multiple times without being reallocated: event 605
+VIOLATION: Memory freed multiple times without being reallocated: event 616
+VIOLATION: Memory freed multiple times without being reallocated: event 625
+VIOLATION: Memory freed multiple times without being reallocated: event 631
+VIOLATION: Memory freed multiple times without being reallocated: event 637
+VIOLATION: Memory freed multiple times without being reallocated: event 638
+VIOLATION: Memory freed multiple times without being reallocated: event 639
+VIOLATION: Memory freed multiple times without being reallocated: event 640
+VIOLATION: Memory freed multiple times without being reallocated: event 641
+VIOLATION: Memory freed multiple times without being reallocated: event 648
+VIOLATION: Memory freed multiple times without being reallocated: event 653
+VIOLATION: Memory freed multiple times without being reallocated: event 654
+VIOLATION: Memory freed multiple times without being reallocated: event 655
+VIOLATION: Memory freed multiple times without being reallocated: event 656
+VIOLATION: Memory freed multiple times without being reallocated: event 663
+VIOLATION: Memory freed multiple times without being reallocated: event 668
+VIOLATION: Memory freed multiple times without being reallocated: event 669
+VIOLATION: Memory freed multiple times without being reallocated: event 670
+VIOLATION: Memory freed multiple times without being reallocated: event 671
+VIOLATION: Memory freed multiple times without being reallocated: event 679
+VIOLATION: Memory freed multiple times without being reallocated: event 685
+VIOLATION: Memory freed multiple times without being reallocated: event 686
+VIOLATION: Memory freed multiple times without being reallocated: event 687
+VIOLATION: Memory freed multiple times without being reallocated: event 688
+VIOLATION: Memory freed multiple times without being reallocated: event 689
+VIOLATION: Memory freed multiple times without being reallocated: event 698
+VIOLATION: Memory freed multiple times without being reallocated: event 705
+VIOLATION: Memory freed multiple times without being reallocated: event 706
+VIOLATION: Memory freed multiple times without being reallocated: event 707
+VIOLATION: Memory freed multiple times without being reallocated: event 708
+VIOLATION: Memory freed multiple times without being reallocated: event 709
+VIOLATION: Memory freed multiple times without being reallocated: event 710
+VIOLATION: Memory freed multiple times without being reallocated: event 717
+VIOLATION: Memory freed multiple times without being reallocated: event 722
+VIOLATION: Memory freed multiple times without being reallocated: event 723
+VIOLATION: Memory freed multiple times without being reallocated: event 724
+VIOLATION: Memory freed multiple times without being reallocated: event 725
+VIOLATION: Memory freed multiple times without being reallocated: event 728
+VIOLATION: Memory freed multiple times without being reallocated: event 734
+VIOLATION: Memory freed multiple times without being reallocated: event 738
+VIOLATION: Memory freed multiple times without being reallocated: event 739
+VIOLATION: Memory freed multiple times without being reallocated: event 740
+VIOLATION: Memory freed multiple times without being reallocated: event 746
+VIOLATION: Memory freed multiple times without being reallocated: event 750
+VIOLATION: Memory freed multiple times without being reallocated: event 751
+VIOLATION: Memory freed multiple times without being reallocated: event 752
+VIOLATION: Memory freed multiple times without being reallocated: event 760
+VIOLATION: Memory freed multiple times without being reallocated: event 766
+VIOLATION: Memory freed multiple times without being reallocated: event 767
+VIOLATION: Memory freed multiple times without being reallocated: event 768
+VIOLATION: Memory freed multiple times without being reallocated: event 769
+VIOLATION: Memory freed multiple times without being reallocated: event 770
+VIOLATION: Memory freed multiple times without being reallocated: event 776
+VIOLATION: Memory freed multiple times without being reallocated: event 780
+VIOLATION: Memory freed multiple times without being reallocated: event 781
+VIOLATION: Memory freed multiple times without being reallocated: event 782
+VIOLATION: Memory freed multiple times without being reallocated: event 788
+VIOLATION: Memory freed multiple times without being reallocated: event 792
+VIOLATION: Memory freed multiple times without being reallocated: event 793
+VIOLATION: Memory freed multiple times without being reallocated: event 794
+VIOLATION: Memory freed multiple times without being reallocated: event 800
+VIOLATION: Memory freed multiple times without being reallocated: event 804
+VIOLATION: Memory freed multiple times without being reallocated: event 805
+VIOLATION: Memory freed multiple times without being reallocated: event 806
+VIOLATION: Memory freed multiple times without being reallocated: event 812
+VIOLATION: Memory freed multiple times without being reallocated: event 816
+VIOLATION: Memory freed multiple times without being reallocated: event 817
+VIOLATION: Memory freed multiple times without being reallocated: event 818
+VIOLATION: Memory freed multiple times without being reallocated: event 821
+VIOLATION: Memory freed multiple times without being reallocated: event 824
+VIOLATION: Memory freed multiple times without being reallocated: event 827
+VIOLATION: Memory freed multiple times without being reallocated: event 830
+VIOLATION: Memory freed multiple times without being reallocated: event 833
+VIOLATION: Memory freed multiple times without being reallocated: event 834
+VIOLATION: Memory freed muillegal event: Success
+ltiple times without being reallocated: event 839
+VIOLATION: Memory freed multiple times without being reallocated: event 842
+VIOLATION: Memory freed multiple times without being reallocated: event 843
+VIOLATION: Memory freed multiple times without being reallocated: event 846
+VIOLATION: Memory freed multiple times without being reallocated: event 849
+VIOLATION: Memory freed multiple times without being reallocated: event 852
+VIOLATION: Memory freed multiple times without being reallocated: event 856
+VIOLATION: Memory freed multiple times without being reallocated: event 858
+VIOLATION: Memory freed multiple times without being reallocated: event 859
+VIOLATION: Memory freed multiple times without being reallocated: event 861
+VIOLATION: Memory freed multiple times without being reallocated: event 863
+VIOLATION: Freeing memory without allocation: event 864
+VIOLATION: Memory freed multiple times without being reallocated: event 865
+VIOLATION: Memory freed multiple times without being reallocated: event 866
+VIOLATION: Memory freed multiple times without being reallocated: event 867
+VIOLATION: Memory freed multiple times without being reallocated: event 868
+VIOLATION: Memory freed multiple times without being reallocated: event 869
+VIOLATION: Memory allocated multiple times without being freed: event 871
+VIOLATION: Memory freed multiple times without being reallocated: event 872
+VIOLATION: Memory allocated multiple times without being freed: event 873
+VIOLATION: Memory freed multiple times without being reallocated: event 874
+VIOLATION: Memory freed multiple times without being reallocated: event 875
+VIOLATION: Memory freed multiple times without being reallocated: event 876
+VIOLATION: Memory freed multiple times without being reallocated: event 877
+VIOLATION: Memory freed multiple times without being reallocated: event 878
+VIOLATION: Memory freed multiple times without being reallocated: event 879
+VIOLATION: Memory freed multiple times without being reallocated: event 880
+VIOLATION: Freeing memory without allocation: event 881
+VIOLATION: Memory freed multiple times without being reallocated: event 882
+VIOLATION: Memory freed multiple times without being reallocated: event 884
+VIOLATION: Freeing memory without allocation: event 885
+VIOLATION: Freeing memory without allocation: event 886
+VIOLATION: Freeing memory without allocation: event 887
+VIOLATION: Memory freed multiple times without being reallocated: event 888
+VIOLATION: Memory allocated multiple times without being freed: event 889
+VIOLATION: Memory freed multiple times without being reallocated: event 894
+VIOLATION: Memory freed multiple times without being reallocated: event 895
+endkfree
+
+TOTAL VIOLATIONS:
+Allocated memory but not freed: 17
+Freeing memory without allocation: 19
+Memory allocated twice without being freed: 3
+Memory freed twice without being reallocated: 232

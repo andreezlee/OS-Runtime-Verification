@@ -1,0 +1,2235 @@
+[47299.685778] SPEC1: VIOLATION: 
+[47299.685781] SPEC1: Freeing memory without allocation
+[47299.685789] SPEC1: VIOLATION: 
+[47299.685790] SPEC1: Freeing memory without allocation
+[47299.685793] SPEC1: VIOLATION: 
+[47299.685795] SPEC1: Freeing memory without allocation
+[47299.685820] SPEC1: VIOLATION: 
+[47299.685821] SPEC1: Freeing memory without allocation
+[47299.685839] SPEC1: VIOLATION: 
+[47299.685840] SPEC1: Freeing memory without allocation
+[47299.685844] SPEC1: VIOLATION: 
+[47299.685845] SPEC1: Freeing memory without allocation
+[47299.685992] SPEC1: VIOLATION: 
+[47299.685993] SPEC1: Freeing memory without allocation
+[47299.687918] SPEC1: VIOLATION: 
+[47299.687920] SPEC1: Memory freed multiple times without being reallocated
+[47299.692098] SPEC1: VIOLATION: 
+[47299.692100] SPEC1: Freeing memory without allocation
+[47299.692151] SPEC1: VIOLATION: 
+[47299.692152] SPEC1: Memory freed multiple times without being reallocated
+[47299.702556] SPEC1: VIOLATION: 
+[47299.702558] SPEC1: Memory freed multiple times without being reallocated
+[47299.703261] SPEC1: VIOLATION: 
+[47299.703263] SPEC1: Memory freed multiple times without being reallocated
+[47299.703319] SPEC1: VIOLATION: 
+[47299.703320] SPEC1: Memory freed multiple times without being reallocated
+[47299.703331] SPEC1: VIOLATION: 
+[47299.703332] SPEC1: Memory freed multiple times without being reallocated
+[47299.703340] SPEC1: VIOLATION: 
+[47299.703341] SPEC1: Memory freed multiple times without being reallocated
+[47299.703351] SPEC1: VIOLATION: 
+[47299.703352] SPEC1: Memory freed multiple times without being reallocated
+[47299.703361] SPEC1: VIOLATION: 
+[47299.703362] SPEC1: Memory freed multiple times without being reallocated
+[47299.703370] SPEC1: VIOLATION: 
+[47299.703371] SPEC1: Memory freed multiple times without being reallocated
+[47299.703380] SPEC1: VIOLATION: 
+[47299.703381] SPEC1: Memory freed multiple times without being reallocated
+[47299.703390] SPEC1: VIOLATION: 
+[47299.703391] SPEC1: Memory freed multiple times without being reallocated
+[47299.703400] SPEC1: VIOLATION: 
+[47299.703401] SPEC1: Memory freed multiple times without being reallocated
+[47299.703451] SPEC1: VIOLATION: 
+[47299.703452] SPEC1: Memory freed multiple times without being reallocated
+[47299.703460] SPEC1: VIOLATION: 
+[47299.703461] SPEC1: Memory freed multiple times without being reallocated
+[47299.703569] SPEC1: VIOLATION: 
+[47299.703570] SPEC1: Memory freed multiple times without being reallocated
+[47299.703574] SPEC1: VIOLATION: 
+[47299.703575] SPEC1: Freeing memory without allocation
+[47299.703598] SPEC1: VIOLATION: 
+[47299.703599] SPEC1: Memory freed multiple times without being reallocated
+[47299.703649] SPEC1: VIOLATION: 
+[47299.703651] SPEC1: Memory freed multiple times without being reallocated
+[47299.703674] SPEC1: VIOLATION: 
+[47299.703675] SPEC1: Memory freed multiple times without being reallocated
+[47299.703678] SPEC1: VIOLATION: 
+[47299.703679] SPEC1: Memory freed multiple times without being reallocated
+[47299.703683] SPEC1: VIOLATION: 
+[47299.703684] SPEC1: Freeing memory without allocation
+[47299.703720] SPEC1: VIOLATION: 
+[47299.703722] SPEC1: Memory freed multiple times without being reallocated
+[47299.703748] SPEC1: VIOLATION: 
+[47299.703750] SPEC1: Memory freed multiple times without being reallocated
+[47299.703761] SPEC1: VIOLATION: 
+[47299.703763] SPEC1: Memory freed multiple times without being reallocated
+[47299.703767] SPEC1: VIOLATION: 
+[47299.703769] SPEC1: Memory freed multiple times without being reallocated
+[47299.703772] SPEC1: VIOLATION: 
+[47299.703773] SPEC1: Memory freed multiple times without being reallocated
+[47299.703777] SPEC1: VIOLATION: 
+[47299.703779] SPEC1: Freeing memory without allocation
+[47299.703860] SPEC1: VIOLATION: 
+[47299.703861] SPEC1: Freeing memory without allocation
+[47299.703883] SPEC1: VIOLATION: 
+[47299.703884] SPEC1: Memory freed multiple times without being reallocated
+[47299.703911] SPEC1: VIOLATION: 
+[47299.703912] SPEC1: Memory freed multiple times without being reallocated
+[47299.703915] SPEC1: VIOLATION: 
+[47299.703916] SPEC1: Memory freed multiple times without being reallocated
+[47299.703918] SPEC1: VIOLATION: 
+[47299.703919] SPEC1: Memory freed multiple times without being reallocated
+[47299.703922] SPEC1: VIOLATION: 
+[47299.703923] SPEC1: Memory freed multiple times without being reallocated
+[47299.703926] SPEC1: VIOLATION: 
+[47299.703927] SPEC1: Memory freed multiple times without being reallocated
+[47299.703943] SPEC1: VIOLATION: 
+[47299.703944] SPEC1: Memory freed multiple times without being reallocated
+[47299.703961] SPEC1: VIOLATION: 
+[47299.703962] SPEC1: Memory freed multiple times without being reallocated
+[47299.703965] SPEC1: VIOLATION: 
+[47299.703966] SPEC1: Memory freed multiple times without being reallocated
+[47299.703968] SPEC1: VIOLATION: 
+[47299.703969] SPEC1: Memory freed multiple times without being reallocated
+[47299.703972] SPEC1: VIOLATION: 
+[47299.703973] SPEC1: Memory freed multiple times without being reallocated
+[47299.703975] SPEC1: VIOLATION: 
+[47299.703976] SPEC1: Memory freed multiple times without being reallocated
+[47299.703990] SPEC1: VIOLATION: 
+[47299.703991] SPEC1: Memory freed multiple times without being reallocated
+[47299.704005] SPEC1: VIOLATION: 
+[47299.704006] SPEC1: Memory freed multiple times without being reallocated
+[47299.704009] SPEC1: VIOLATION: 
+[47299.704010] SPEC1: Memory freed multiple times without being reallocated
+[47299.704013] SPEC1: VIOLATION: 
+[47299.704014] SPEC1: Memory freed multiple times without being reallocated
+[47299.704016] SPEC1: VIOLATION: 
+[47299.704017] SPEC1: Memory freed multiple times without being reallocated
+[47299.704020] SPEC1: VIOLATION: 
+[47299.704021] SPEC1: Memory freed multiple times without being reallocated
+[47299.704029] SPEC1: VIOLATION: 
+[47299.704030] SPEC1: Memory freed multiple times without being reallocated
+[47299.704042] SPEC1: VIOLATION: 
+[47299.704043] SPEC1: Memory freed multiple times without being reallocated
+[47299.704058] SPEC1: VIOLATION: 
+[47299.704059] SPEC1: Memory freed multiple times without being reallocated
+[47299.704061] SPEC1: VIOLATION: 
+[47299.704063] SPEC1: Memory freed multiple times without being reallocated
+[47299.704065] SPEC1: VIOLATION: 
+[47299.704066] SPEC1: Memory freed multiple times without being reallocated
+[47299.704069] SPEC1: VIOLATION: 
+[47299.704070] SPEC1: Memory freed multiple times without being reallocated
+[47299.704072] SPEC1: VIOLATION: 
+[47299.704073] SPEC1: Memory freed multiple times without being reallocated
+[47299.704085] SPEC1: VIOLATION: 
+[47299.704086] SPEC1: Memory freed multiple times without being reallocated
+[47299.704100] SPEC1: VIOLATION: 
+[47299.704102] SPEC1: Memory freed multiple times without being reallocated
+[47299.704104] SPEC1: VIOLATION: 
+[47299.704105] SPEC1: Memory freed multiple times without being reallocated
+[47299.704108] SPEC1: VIOLATION: 
+[47299.704109] SPEC1: Memory freed multiple times without being reallocated
+[47299.704111] SPEC1: VIOLATION: 
+[47299.704112] SPEC1: Memory freed multiple times without being reallocated
+[47299.704115] SPEC1: VIOLATION: 
+[47299.704116] SPEC1: Memory freed multiple times without being reallocated
+[47299.704128] SPEC1: VIOLATION: 
+[47299.704129] SPEC1: Memory freed multiple times without being reallocated
+[47299.704143] SPEC1: VIOLATION: 
+[47299.704144] SPEC1: Memory freed multiple times without being reallocated
+[47299.704146] SPEC1: VIOLATION: 
+[47299.704147] SPEC1: Memory freed multiple times without being reallocated
+[47299.704150] SPEC1: VIOLATION: 
+[47299.704151] SPEC1: Memory freed multiple times without being reallocated
+[47299.704153] SPEC1: VIOLATION: 
+[47299.704154] SPEC1: Memory freed multiple times without being reallocated
+[47299.704157] SPEC1: VIOLATION: 
+[47299.704158] SPEC1: Memory freed multiple times without being reallocated
+[47299.704185] SPEC1: VIOLATION: 
+[47299.704186] SPEC1: Memory freed multiple times without being reallocated
+[47299.704204] SPEC1: VIOLATION: 
+[47299.704205] SPEC1: Memory freed multiple times without being reallocated
+[47299.704207] SPEC1: VIOLATION: 
+[47299.704208] SPEC1: Memory freed multiple times without being reallocated
+[47299.704211] SPEC1: VIOLATION: 
+[47299.704212] SPEC1: Memory freed multiple times without being reallocated
+[47299.704215] SPEC1: VIOLATION: 
+[47299.704216] SPEC1: Memory freed multiple times without being reallocated
+[47299.704218] SPEC1: VIOLATION: 
+[47299.704219] SPEC1: Memory freed multiple times without being reallocated
+[47299.704342] SPEC1: VIOLATION: 
+[47299.704343] SPEC1: Memory freed multiple times without being reallocated
+[47299.705026] SPEC1: VIOLATION: 
+[47299.705027] SPEC1: Memory freed multiple times without being reallocated
+[47299.705032] SPEC1: VIOLATION: 
+[47299.705033] SPEC1: Memory freed multiple times without being reallocated
+[47299.705036] SPEC1: VIOLATION: 
+[47299.705037] SPEC1: Memory freed multiple times without being reallocated
+[47299.705169] SPEC1: VIOLATION: 
+[47299.705170] SPEC1: Memory freed multiple times without being reallocated
+[47299.705226] SPEC1: VIOLATION: 
+[47299.705227] SPEC1: Memory freed multiple times without being reallocated
+[47299.706403] SPEC1: VIOLATION: 
+[47299.706404] SPEC1: Memory freed multiple times without being reallocated
+[47299.706445] SPEC1: VIOLATION: 
+[47299.706446] SPEC1: Freeing memory without allocation
+[47299.706500] SPEC1: VIOLATION: 
+[47299.706501] SPEC1: Memory freed multiple times without being reallocated
+[47299.706529] SPEC1: VIOLATION: 
+[47299.706530] SPEC1: Memory freed multiple times without being reallocated
+[47299.706825] SPEC1: VIOLATION: 
+[47299.706826] SPEC1: Memory freed multiple times without being reallocated
+[47299.706836] SPEC1: VIOLATION: 
+[47299.706838] SPEC1: Memory freed multiple times without being reallocated
+[47299.728263] SPEC1: VIOLATION: 
+[47299.728264] SPEC1: Memory freed multiple times without being reallocated
+[47299.728289] SPEC1: VIOLATION: 
+[47299.728289] SPEC1: Memory freed multiple times without being reallocated
+[47299.728312] SPEC1: VIOLATION: 
+[47299.728313] SPEC1: Freeing memory without allocation
+[47299.728314] SPEC1: VIOLATION: 
+[47299.728315] SPEC1: Memory freed multiple times without being reallocated
+[47299.728316] SPEC1: VIOLATION: 
+[47299.728316] SPEC1: Memory freed multiple times without being reallocated
+[47299.728317] SPEC1: VIOLATION: 
+[47299.728318] SPEC1: Memory freed multiple times without being reallocated
+[47299.728319] SPEC1: VIOLATION: 
+[47299.728319] SPEC1: Memory freed multiple times without being reallocated
+[47299.728331] SPEC1: VIOLATION: 
+[47299.728331] SPEC1: Memory freed multiple times without being reallocated
+[47299.728340] SPEC1: VIOLATION: 
+[47299.728341] SPEC1: Memory freed multiple times without being reallocated
+[47299.728342] SPEC1: VIOLATION: 
+[47299.728343] SPEC1: Memory freed multiple times without being reallocated
+[47299.728344] SPEC1: VIOLATION: 
+[47299.728344] SPEC1: Memory freed multiple times without being reallocated
+[47299.728346] SPEC1: VIOLATION: 
+[47299.728346] SPEC1: Memory freed multiple times without being reallocated
+[47299.728347] SPEC1: VIOLATION: 
+[47299.728347] SPEC1: Memory freed multiple times without being reallocated
+[47299.728356] SPEC1: VIOLATION: 
+[47299.728357] SPEC1: Memory freed multiple times without being reallocated
+[47299.728365] SPEC1: VIOLATION: 
+[47299.728366] SPEC1: Memory freed multiple times without being reallocated
+[47299.728367] SPEC1: VIOLATION: 
+[47299.728367] SPEC1: Memory freed multiple times without being reallocated
+[47299.728369] SPEC1: VIOLATION: 
+[47299.728369] SPEC1: Memory freed multiple times without being reallocated
+[47299.728370] SPEC1: VIOLATION: 
+[47299.728371] SPEC1: Memory freed multiple times without being reallocated
+[47299.728372] SPEC1: VIOLATION: 
+[47299.728372] SPEC1: Memory freed multiple times without being reallocated
+[47299.736198] SPEC1: VIOLATION: 
+[47299.736199] SPEC1: Memory freed multiple times without being reallocated
+[47299.736201] SPEC1: VIOLATION: 
+[47299.736202] SPEC1: Memory freed multiple times without being reallocated
+[47299.742995] SPEC1: VIOLATION: 
+[47299.742995] SPEC1: Memory freed multiple times without being reallocated
+[47299.742999] SPEC1: VIOLATION: 
+[47299.743000] SPEC1: Memory freed multiple times without being reallocated
+[47299.746983] SPEC1: VIOLATION: 
+[47299.746983] SPEC1: Memory freed multiple times without being reallocated
+[47299.747034] SPEC1: VIOLATION: 
+[47299.747034] SPEC1: Freeing memory without allocation
+[47299.748633] SPEC1: VIOLATION: 
+[47299.748633] SPEC1: Memory freed multiple times without being reallocated
+[47299.748648] SPEC1: VIOLATION: 
+[47299.748649] SPEC1: Memory freed multiple times without being reallocated
+[47299.748661] SPEC1: VIOLATION: 
+[47299.748661] SPEC1: Memory freed multiple times without being reallocated
+[47299.748662] SPEC1: VIOLATION: 
+[47299.748662] SPEC1: Memory freed multiple times without being reallocated
+[47299.748663] SPEC1: VIOLATION: 
+[47299.748664] SPEC1: Freeing memory without allocation
+[47299.748665] SPEC1: VIOLATION: 
+[47299.748665] SPEC1: Memory freed multiple times without being reallocated
+[47299.748666] SPEC1: VIOLATION: 
+[47299.748666] SPEC1: Memory freed multiple times without being reallocated
+[47299.748672] SPEC1: VIOLATION: 
+[47299.748672] SPEC1: Memory freed multiple times without being reallocated
+[47299.748677] SPEC1: VIOLATION: 
+[47299.748677] SPEC1: Memory freed multiple times without being reallocated
+[47299.748678] SPEC1: VIOLATION: 
+[47299.748679] SPEC1: Memory freed multiple times without being reallocated
+[47299.748679] SPEC1: VIOLATION: 
+[47299.748680] SPEC1: Memory freed multiple times without being reallocated
+[47299.748680] SPEC1: VIOLATION: 
+[47299.748681] SPEC1: Memory freed multiple times without being reallocated
+[47299.748681] SPEC1: VIOLATION: 
+[47299.748682] SPEC1: Memory freed multiple times without being reallocated
+[47299.748686] SPEC1: VIOLATION: 
+[47299.748686] SPEC1: Memory freed multiple times without being reallocated
+[47299.748690] SPEC1: VIOLATION: 
+[47299.748691] SPEC1: Memory freed multiple times without being reallocated
+[47299.748691] SPEC1: VIOLATION: 
+[47299.748692] SPEC1: Memory freed multiple times without being reallocated
+[47299.748692] SPEC1: VIOLATION: 
+[47299.748693] SPEC1: Memory freed multiple times without being reallocated
+[47299.748693] SPEC1: VIOLATION: 
+[47299.748694] SPEC1: Memory freed multiple times without being reallocated
+[47299.748694] SPEC1: VIOLATION: 
+[47299.748695] SPEC1: Memory freed multiple times without being reallocated
+[47299.752108] SPEC1: VIOLATION: 
+[47299.752108] SPEC1: Memory freed multiple times without being reallocated
+[47299.752342] SPEC1: VIOLATION: 
+[47299.752342] SPEC1: Memory freed multiple times without being reallocated
+[47299.752344] SPEC1: VIOLATION: 
+[47299.752345] SPEC1: Memory freed multiple times without being reallocated
+[47299.752458] SPEC1: VIOLATION: 
+[47299.752459] SPEC1: Memory freed multiple times without being reallocated
+[47299.752461] SPEC1: VIOLATION: 
+[47299.752461] SPEC1: Memory freed multiple times without being reallocated
+[47299.757738] SPEC1: VIOLATION: 
+[47299.757739] SPEC1: Memory freed multiple times without being reallocated
+[47299.757741] SPEC1: VIOLATION: 
+[47299.757741] SPEC1: Memory freed multiple times without being reallocated
+[47299.758646] SPEC1: VIOLATION: 
+[47299.758646] SPEC1: Memory freed multiple times without being reallocated
+[47299.758649] SPEC1: VIOLATION: 
+[47299.758649] SPEC1: Memory freed multiple times without being reallocated
+[47299.771611] SPEC1: VIOLATION: 
+[47299.771612] SPEC1: Memory freed multiple times without being reallocated
+[47299.771631] SPEC1: VIOLATION: 
+[47299.771631] SPEC1: Memory freed multiple times without being reallocated
+[47299.771633] SPEC1: VIOLATION: 
+[47299.771633] SPEC1: Freeing memory without allocation
+[47299.771634] SPEC1: VIOLATION: 
+[47299.771635] SPEC1: Freeing memory without allocation
+[47299.771636] SPEC1: VIOLATION: 
+[47299.771636] SPEC1: Memory freed multiple times without being reallocated
+[47299.771637] SPEC1: VIOLATION: 
+[47299.771637] SPEC1: Memory freed multiple times without being reallocated
+[47299.771643] SPEC1: VIOLATION: 
+[47299.771643] SPEC1: Memory freed multiple times without being reallocated
+[47299.771645] SPEC1: VIOLATION: 
+[47299.771646] SPEC1: Memory freed multiple times without being reallocated
+[47299.822616] SPEC1: VIOLATION: 
+[47299.822617] SPEC1: Memory freed multiple times without being reallocated
+[47299.822681] SPEC1: VIOLATION: 
+[47299.822681] SPEC1: Memory freed multiple times without being reallocated
+[47299.823766] SPEC1: VIOLATION: 
+[47299.823767] SPEC1: Memory freed multiple times without being reallocated
+[47299.823770] SPEC1: VIOLATION: 
+[47299.823770] SPEC1: Memory freed multiple times without being reallocated
+[47299.823771] SPEC1: VIOLATION: 
+[47299.823772] SPEC1: Memory freed multiple times without being reallocated
+[47299.823773] SPEC1: VIOLATION: 
+[47299.823773] SPEC1: Memory freed multiple times without being reallocated
+[47299.823777] SPEC1: VIOLATION: 
+[47299.823777] SPEC1: Memory freed multiple times without being reallocated
+[47299.823781] SPEC1: VIOLATION: 
+[47299.823781] SPEC1: Memory freed multiple times without being reallocated
+[47299.823782] SPEC1: VIOLATION: 
+[47299.823783] SPEC1: Memory freed multiple times without being reallocated
+[47299.823784] SPEC1: VIOLATION: 
+[47299.823784] SPEC1: Memory freed multiple times without being reallocated
+[47299.823785] SPEC1: VIOLATION: 
+[47299.823785] SPEC1: Memory freed multiple times without being reallocated
+[47299.823786] SPEC1: VIOLATION: 
+[47299.823787] SPEC1: Memory freed multiple times without being reallocated
+[47299.823788] SPEC1: VIOLATION: 
+[47299.823788] SPEC1: Memory freed multiple times without being reallocated
+[47299.823790] SPEC1: VIOLATION: 
+[47299.823790] SPEC1: Memory freed multiple times without being reallocated
+[47299.823791] SPEC1: VIOLATION: 
+[47299.823791] SPEC1: Memory freed multiple times without being reallocated
+[47299.823792] SPEC1: VIOLATION: 
+[47299.823793] SPEC1: Memory freed multiple times without being reallocated
+[47299.823794] SPEC1: VIOLATION: 
+[47299.823794] SPEC1: Memory freed multiple times without being reallocated
+[47299.823795] SPEC1: VIOLATION: 
+[47299.823795] SPEC1: Memory freed multiple times without being reallocated
+[47299.823796] SPEC1: VIOLATION: 
+[47299.823796] SPEC1: Memory freed multiple times without being reallocated
+[47299.823798] SPEC1: VIOLATION: 
+[47299.823798] SPEC1: Memory freed multiple times without being reallocated
+[47299.823799] SPEC1: VIOLATION: 
+[47299.823799] SPEC1: Memory freed multiple times without being reallocated
+[47299.823800] SPEC1: VIOLATION: 
+[47299.823801] SPEC1: Memory freed multiple times without being reallocated
+[47299.823826] SPEC1: VIOLATION: 
+[47299.823827] SPEC1: Memory freed multiple times without being reallocated
+[47299.823877] SPEC1: VIOLATION: 
+[47299.823878] SPEC1: Memory freed multiple times without being reallocated
+[47299.823890] SPEC1: VIOLATION: 
+[47299.823890] SPEC1: Memory freed multiple times without being reallocated
+[47299.823941] SPEC1: VIOLATION: 
+[47299.823942] SPEC1: Memory freed multiple times without being reallocated
+[47299.823987] SPEC1: VIOLATION: 
+[47299.823987] SPEC1: Memory freed multiple times without being reallocated
+[47299.851635] SPEC1: VIOLATION: 
+[47299.851636] SPEC1: Memory freed multiple times without being reallocated
+[47299.851658] SPEC1: VIOLATION: 
+[47299.851658] SPEC1: Memory freed multiple times without being reallocated
+[47299.851677] SPEC1: VIOLATION: 
+[47299.851678] SPEC1: Memory freed multiple times without being reallocated
+[47299.851679] SPEC1: VIOLATION: 
+[47299.851679] SPEC1: Memory freed multiple times without being reallocated
+[47299.851680] SPEC1: VIOLATION: 
+[47299.851680] SPEC1: Memory freed multiple times without being reallocated
+[47299.851681] SPEC1: VIOLATION: 
+[47299.851682] SPEC1: Memory freed multiple times without being reallocated
+[47299.851682] SPEC1: VIOLATION: 
+[47299.851682] SPEC1: Memory freed multiple times without being reallocated
+[47299.851690] SPEC1: VIOLATION: 
+[47299.851690] SPEC1: Memory freed multiple times without being reallocated
+[47299.851695] SPEC1: VIOLATION: 
+[47299.851695] SPEC1: Memory freed multiple times without being reallocated
+[47299.851696] SPEC1: VIOLATION: 
+[47299.851696] SPEC1: Memory freed multiple times without being reallocated
+[47299.851697] SPEC1: VIOLATION: 
+[47299.851697] SPEC1: Memory freed multiple times without being reallocated
+[47299.851698] SPEC1: VIOLATION: 
+[47299.851698] SPEC1: Memory freed multiple times without being reallocated
+[47299.851699] SPEC1: VIOLATION: 
+[47299.851699] SPEC1: Memory freed multiple times without being reallocated
+[47299.851703] SPEC1: VIOLATION: 
+[47299.851704] SPEC1: Memory freed multiple times without being reallocated
+[47299.851708] SPEC1: VIOLATION: 
+[47299.851708] SPEC1: Memory freed multiple times without being reallocated
+[47299.851709] SPEC1: VIOLATION: 
+[47299.851709] SPEC1: Memory freed multiple times without being reallocated
+[47299.851710] SPEC1: VIOLATION: 
+[47299.851710] SPEC1: Memory freed multiple times without being reallocated
+[47299.851711] SPEC1: VIOLATION: 
+[47299.851711] SPEC1: Memory freed multiple times without being reallocated
+[47299.851712] SPEC1: VIOLATION: 
+[47299.851712] SPEC1: Memory freed multiple times without being reallocated
+[47299.851735] SPEC1: VIOLATION: 
+[47299.851736] SPEC1: Memory freed multiple times without being reallocated
+[47299.851740] SPEC1: VIOLATION: 
+[47299.851741] SPEC1: Memory freed multiple times without being reallocated
+[47299.851746] SPEC1: VIOLATION: 
+[47299.851746] SPEC1: Memory freed multiple times without being reallocated
+[47299.851747] SPEC1: VIOLATION: 
+[47299.851747] SPEC1: Memory freed multiple times without being reallocated
+[47299.851748] SPEC1: VIOLATION: 
+[47299.851748] SPEC1: Memory freed multiple times without being reallocated
+[47299.851749] SPEC1: VIOLATION: 
+[47299.851749] SPEC1: Memory freed multiple times without being reallocated
+[47299.851750] SPEC1: VIOLATION: 
+[47299.851750] SPEC1: Memory freed multiple times without being reallocated
+[47299.851754] SPEC1: VIOLATION: 
+[47299.851754] SPEC1: Memory freed multiple times without being reallocated
+[47299.851758] SPEC1: VIOLATION: 
+[47299.851758] SPEC1: Memory freed multiple times without being reallocated
+[47299.851759] SPEC1: VIOLATION: 
+[47299.851759] SPEC1: Memory freed multiple times without being reallocated
+[47299.851760] SPEC1: VIOLATION: 
+[47299.851760] SPEC1: Memory freed multiple times without being reallocated
+[47299.851761] SPEC1: VIOLATION: 
+[47299.851761] SPEC1: Memory freed multiple times without being reallocated
+[47299.851762] SPEC1: VIOLATION: 
+[47299.851762] SPEC1: Memory freed multiple times without being reallocated
+[47299.851765] SPEC1: VIOLATION: 
+[47299.851765] SPEC1: Memory freed multiple times without being reallocated
+[47299.851769] SPEC1: VIOLATION: 
+[47299.851770] SPEC1: Memory freed multiple times without being reallocated
+[47299.851770] SPEC1: VIOLATION: 
+[47299.851771] SPEC1: Memory freed multiple times without being reallocated
+[47299.851771] SPEC1: VIOLATION: 
+[47299.851772] SPEC1: Memory freed multiple times without being reallocated
+[47299.851772] SPEC1: VIOLATION: 
+[47299.851772] SPEC1: Memory freed multiple times without being reallocated
+[47299.851773] SPEC1: VIOLATION: 
+[47299.851773] SPEC1: Memory freed multiple times without being reallocated
+[47299.851800] SPEC1: VIOLATION: 
+[47299.851801] SPEC1: Memory freed multiple times without being reallocated
+[47299.851805] SPEC1: VIOLATION: 
+[47299.851806] SPEC1: Memory freed multiple times without being reallocated
+[47299.851811] SPEC1: VIOLATION: 
+[47299.851811] SPEC1: Memory freed multiple times without being reallocated
+[47299.851812] SPEC1: VIOLATION: 
+[47299.851812] SPEC1: Memory freed multiple times without being reallocated
+[47299.851813] SPEC1: VIOLATION: 
+[47299.851813] SPEC1: Memory freed multiple times without being reallocated
+[47299.851814] SPEC1: VIOLATION: 
+[47299.851814] SPEC1: Memory freed multiple times without being reallocated
+[47299.851815] SPEC1: VIOLATION: 
+[47299.851815] SPEC1: Memory freed multiple times without being reallocated
+[47299.851818] SPEC1: VIOLATION: 
+[47299.851819] SPEC1: Memory freed multiple times without being reallocated
+[47299.851822] SPEC1: VIOLATION: 
+[47299.851823] SPEC1: Memory freed multiple times without being reallocated
+[47299.851824] SPEC1: VIOLATION: 
+[47299.851824] SPEC1: Memory freed multiple times without being reallocated
+[47299.851824] SPEC1: VIOLATION: 
+[47299.851825] SPEC1: Memory freed multiple times without being reallocated
+[47299.851825] SPEC1: VIOLATION: 
+[47299.851826] SPEC1: Memory freed multiple times without being reallocated
+[47299.851826] SPEC1: VIOLATION: 
+[47299.851827] SPEC1: Memory freed multiple times without being reallocated
+[47299.851830] SPEC1: VIOLATION: 
+[47299.851830] SPEC1: Memory freed multiple times without being reallocated
+[47299.851834] SPEC1: VIOLATION: 
+[47299.851834] SPEC1: Memory freed multiple times without being reallocated
+[47299.851835] SPEC1: VIOLATION: 
+[47299.851835] SPEC1: Memory freed multiple times without being reallocated
+[47299.851836] SPEC1: VIOLATION: 
+[47299.851836] SPEC1: Memory freed multiple times without being reallocated
+[47299.851837] SPEC1: VIOLATION: 
+[47299.851837] SPEC1: Memory freed multiple times without being reallocated
+[47299.851838] SPEC1: VIOLATION: 
+[47299.851838] SPEC1: Memory freed multiple times without being reallocated
+[47299.851873] SPEC1: VIOLATION: 
+[47299.851874] SPEC1: Memory freed multiple times without being reallocated
+[47299.851882] SPEC1: VIOLATION: 
+[47299.851883] SPEC1: Memory freed multiple times without being reallocated
+[47299.851892] SPEC1: VIOLATION: 
+[47299.851892] SPEC1: Memory freed multiple times without being reallocated
+[47299.851893] SPEC1: VIOLATION: 
+[47299.851894] SPEC1: Memory freed multiple times without being reallocated
+[47299.851894] SPEC1: VIOLATION: 
+[47299.851895] SPEC1: Memory freed multiple times without being reallocated
+[47299.851896] SPEC1: VIOLATION: 
+[47299.851896] SPEC1: Memory freed multiple times without being reallocated
+[47299.851897] SPEC1: VIOLATION: 
+[47299.851897] SPEC1: Memory freed multiple times without being reallocated
+[47299.851904] SPEC1: VIOLATION: 
+[47299.851904] SPEC1: Memory freed multiple times without being reallocated
+[47299.851910] SPEC1: VIOLATION: 
+[47299.851910] SPEC1: Memory freed multiple times without being reallocated
+[47299.851911] SPEC1: VIOLATION: 
+[47299.851912] SPEC1: Memory freed multiple times without being reallocated
+[47299.851913] SPEC1: VIOLATION: 
+[47299.851913] SPEC1: Memory freed multiple times without being reallocated
+[47299.851914] SPEC1: VIOLATION: 
+[47299.851914] SPEC1: Memory freed multiple times without being reallocated
+[47299.851915] SPEC1: VIOLATION: 
+[47299.851915] SPEC1: Memory freed multiple times without being reallocated
+[47299.851920] SPEC1: VIOLATION: 
+[47299.851921] SPEC1: Memory freed multiple times without being reallocated
+[47299.851926] SPEC1: VIOLATION: 
+[47299.851926] SPEC1: Memory freed multiple times without being reallocated
+[47299.851927] SPEC1: VIOLATION: 
+[47299.851928] SPEC1: Memory freed multiple times without being reallocated
+[47299.851929] SPEC1: VIOLATION: 
+[47299.851929] SPEC1: Memory freed multiple times without being reallocated
+[47299.851930] SPEC1: VIOLATION: 
+[47299.851930] SPEC1: Memory freed multiple times without being reallocated
+[47299.851931] SPEC1: VIOLATION: 
+[47299.851931] SPEC1: Memory freed multiple times without being reallocated
+[47299.855818] SPEC1: VIOLATION: 
+[47299.855819] SPEC1: Memory freed multiple times without being reallocated
+[47299.855889] SPEC1: VIOLATION: 
+[47299.855889] SPEC1: Memory freed multiple times without being reallocated
+[47299.855962] SPEC1: VIOLATION: 
+[47299.855962] SPEC1: Memory freed multiple times without being reallocated
+[47299.855967] SPEC1: VIOLATION: 
+[47299.855968] SPEC1: Memory freed multiple times without being reallocated
+[47299.856260] SPEC1: VIOLATION: 
+[47299.856261] SPEC1: Memory freed multiple times without being reallocated
+[47299.856263] SPEC1: VIOLATION: 
+[47299.856263] SPEC1: Memory freed multiple times without being reallocated
+[47299.856269] SPEC1: VIOLATION: 
+[47299.856269] SPEC1: Memory freed multiple times without being reallocated
+[47299.857031] SPEC1: VIOLATION: 
+[47299.857031] SPEC1: Memory freed multiple times without being reallocated
+[47299.857039] SPEC1: VIOLATION: 
+[47299.857040] SPEC1: Memory freed multiple times without being reallocated
+[47299.883408] SPEC1: VIOLATION: 
+[47299.883408] SPEC1: Memory freed multiple times without being reallocated
+[47299.883422] SPEC1: VIOLATION: 
+[47299.883423] SPEC1: Memory freed multiple times without being reallocated
+[47299.892541] SPEC1: VIOLATION: 
+[47299.892542] SPEC1: Memory freed multiple times without being reallocated
+[47299.892555] SPEC1: VIOLATION: 
+[47299.892555] SPEC1: Memory freed multiple times without being reallocated
+[47299.894219] SPEC1: VIOLATION: 
+[47299.894219] SPEC1: Memory freed multiple times without being reallocated
+[47299.894227] SPEC1: VIOLATION: 
+[47299.894228] SPEC1: Memory freed multiple times without being reallocated
+[47299.896907] SPEC1: VIOLATION: 
+[47299.896907] SPEC1: Memory freed multiple times without being reallocated
+[47299.896916] SPEC1: VIOLATION: 
+[47299.896917] SPEC1: Memory freed multiple times without being reallocated
+[47299.896963] SPEC1: VIOLATION: 
+[47299.896964] SPEC1: Memory freed multiple times without being reallocated
+[47299.896966] SPEC1: VIOLATION: 
+[47299.896966] SPEC1: Memory freed multiple times without being reallocated
+[47299.896970] SPEC1: VIOLATION: 
+[47299.896970] SPEC1: Memory freed multiple times without being reallocated
+[47299.897126] SPEC1: VIOLATION: 
+[47299.897126] SPEC1: Memory freed multiple times without being reallocated
+[47299.897131] SPEC1: VIOLATION: 
+[47299.897132] SPEC1: Memory freed multiple times without being reallocated
+[47299.897328] SPEC1: VIOLATION: 
+[47299.897328] SPEC1: Memory freed multiple times without being reallocated
+[47299.897336] SPEC1: VIOLATION: 
+[47299.897336] SPEC1: Memory freed multiple times without being reallocated
+[47299.897525] SPEC1: VIOLATION: 
+[47299.897526] SPEC1: Memory freed multiple times without being reallocated
+[47299.897530] SPEC1: VIOLATION: 
+[47299.897530] SPEC1: Memory freed multiple times without being reallocated
+[47299.897826] SPEC1: VIOLATION: 
+[47299.897826] SPEC1: Memory freed multiple times without being reallocated
+[47299.897831] SPEC1: VIOLATION: 
+[47299.897832] SPEC1: Memory freed multiple times without being reallocated
+[47299.898200] SPEC1: VIOLATION: 
+[47299.898200] SPEC1: Memory freed multiple times without being reallocated
+[47299.898205] SPEC1: VIOLATION: 
+[47299.898205] SPEC1: Memory freed multiple times without being reallocated
+[47299.898596] SPEC1: VIOLATION: 
+[47299.898597] SPEC1: Memory freed multiple times without being reallocated
+[47299.898603] SPEC1: VIOLATION: 
+[47299.898603] SPEC1: Memory freed multiple times without being reallocated
+[47299.898840] SPEC1: VIOLATION: 
+[47299.898840] SPEC1: Memory freed multiple times without being reallocated
+[47299.898846] SPEC1: VIOLATION: 
+[47299.898846] SPEC1: Memory freed multiple times without being reallocated
+[47299.899018] SPEC1: VIOLATION: 
+[47299.899019] SPEC1: Memory freed multiple times without being reallocated
+[47299.899023] SPEC1: VIOLATION: 
+[47299.899023] SPEC1: Memory freed multiple times without being reallocated
+[47299.899125] SPEC1: VIOLATION: 
+[47299.899125] SPEC1: Memory freed multiple times without being reallocated
+[47299.899129] SPEC1: VIOLATION: 
+[47299.899130] SPEC1: Memory freed multiple times without being reallocated
+[47299.899282] SPEC1: VIOLATION: 
+[47299.899283] SPEC1: Memory freed multiple times without being reallocated
+[47299.899287] SPEC1: VIOLATION: 
+[47299.899287] SPEC1: Memory freed multiple times without being reallocated
+[47299.899337] SPEC1: VIOLATION: 
+[47299.899338] SPEC1: Memory freed multiple times without being reallocated
+[47299.899342] SPEC1: VIOLATION: 
+[47299.899342] SPEC1: Memory freed multiple times without being reallocated
+[47299.899470] SPEC1: VIOLATION: 
+[47299.899470] SPEC1: Memory freed multiple times without being reallocated
+[47299.899475] SPEC1: VIOLATION: 
+[47299.899475] SPEC1: Memory freed multiple times without being reallocated
+[47299.899771] SPEC1: VIOLATION: 
+[47299.899771] SPEC1: Memory freed multiple times without being reallocated
+[47299.899776] SPEC1: VIOLATION: 
+[47299.899776] SPEC1: Memory freed multiple times without being reallocated
+[47299.899867] SPEC1: VIOLATION: 
+[47299.899867] SPEC1: Memory freed multiple times without being reallocated
+[47299.899871] SPEC1: VIOLATION: 
+[47299.899872] SPEC1: Memory freed multiple times without being reallocated
+[47299.900143] SPEC1: VIOLATION: 
+[47299.900143] SPEC1: Memory freed multiple times without being reallocated
+[47299.900149] SPEC1: VIOLATION: 
+[47299.900149] SPEC1: Memory freed multiple times without being reallocated
+[47299.900201] SPEC1: VIOLATION: 
+[47299.900202] SPEC1: Memory freed multiple times without being reallocated
+[47299.900210] SPEC1: VIOLATION: 
+[47299.900211] SPEC1: Memory freed multiple times without being reallocated
+[47299.900327] SPEC1: VIOLATION: 
+[47299.900327] SPEC1: Memory freed multiple times without being reallocated
+[47299.900332] SPEC1: VIOLATION: 
+[47299.900332] SPEC1: Memory freed multiple times without being reallocated
+[47299.900674] SPEC1: VIOLATION: 
+[47299.900674] SPEC1: Memory freed multiple times without being reallocated
+[47299.900680] SPEC1: VIOLATION: 
+[47299.900680] SPEC1: Memory freed multiple times without being reallocated
+[47300.280950] SPEC1: VIOLATION: 
+[47300.280951] SPEC1: Memory freed multiple times without being reallocated
+[47300.280975] SPEC1: VIOLATION: 
+[47300.280975] SPEC1: Memory freed multiple times without being reallocated
+[47300.280995] SPEC1: VIOLATION: 
+[47300.280995] SPEC1: Freeing memory without allocation
+[47300.280997] SPEC1: VIOLATION: 
+[47300.280997] SPEC1: Memory freed multiple times without being reallocated
+[47300.280998] SPEC1: VIOLATION: 
+[47300.280998] SPEC1: Freeing memory without allocation
+[47300.280999] SPEC1: VIOLATION: 
+[47300.281000] SPEC1: Memory freed multiple times without being reallocated
+[47300.281000] SPEC1: VIOLATION: 
+[47300.281001] SPEC1: Memory freed multiple times without being reallocated
+[47300.281007] SPEC1: VIOLATION: 
+[47300.281007] SPEC1: Memory freed multiple times without being reallocated
+[47300.281012] SPEC1: VIOLATION: 
+[47300.281013] SPEC1: Memory freed multiple times without being reallocated
+[47300.281013] SPEC1: VIOLATION: 
+[47300.281014] SPEC1: Memory freed multiple times without being reallocated
+[47300.281014] SPEC1: VIOLATION: 
+[47300.281015] SPEC1: Memory freed multiple times without being reallocated
+[47300.281015] SPEC1: VIOLATION: 
+[47300.281016] SPEC1: Memory freed multiple times without being reallocated
+[47300.281016] SPEC1: VIOLATION: 
+[47300.281017] SPEC1: Memory freed multiple times without being reallocated
+[47300.281021] SPEC1: VIOLATION: 
+[47300.281021] SPEC1: Memory freed multiple times without being reallocated
+[47300.281025] SPEC1: VIOLATION: 
+[47300.281025] SPEC1: Memory freed multiple times without being reallocated
+[47300.281026] SPEC1: VIOLATION: 
+[47300.281026] SPEC1: Memory freed multiple times without being reallocated
+[47300.281027] SPEC1: VIOLATION: 
+[47300.281027] SPEC1: Memory freed multiple times without being reallocated
+[47300.281028] SPEC1: VIOLATION: 
+[47300.281028] SPEC1: Memory freed multiple times without being reallocated
+[47300.281029] SPEC1: VIOLATION: 
+[47300.281029] SPEC1: Memory freed multiple times without being reallocated
+[47300.287824] SPEC1: VIOLATION: 
+[47300.287825] SPEC1: Memory freed multiple times without being reallocated
+[47300.287828] SPEC1: VIOLATION: 
+[47300.287828] SPEC1: Memory freed multiple times without being reallocated
+[47306.722863] SPEC1: VIOLATION: 
+[47306.722864] SPEC1: Memory freed multiple times without being reallocated
+[47306.723001] SPEC1: VIOLATION: 
+[47306.723002] SPEC1: Freeing memory without allocation
+[47306.731871] SPEC1: VIOLATION: 
+[47306.731872] SPEC1: Memory freed multiple times without being reallocated
+[47306.731908] SPEC1: VIOLATION: 
+[47306.731909] SPEC1: Memory freed multiple times without being reallocated
+[47306.731977] SPEC1: VIOLATION: 
+[47306.731977] SPEC1: Memory freed multiple times without being reallocated
+[47306.733527] SPEC1: VIOLATION: 
+[47306.733528] SPEC1: Freeing memory without allocation
+[47306.733569] SPEC1: VIOLATION: 
+[47306.733569] SPEC1: Memory freed multiple times without being reallocated
+[47306.733598] SPEC1: VIOLATION: 
+[47306.733598] SPEC1: Memory freed multiple times without being reallocated
+[47306.733613] SPEC1: VIOLATION: 
+[47306.733613] SPEC1: Memory freed multiple times without being reallocated
+[47306.733633] SPEC1: VIOLATION: 
+[47306.733634] SPEC1: Memory freed multiple times without being reallocated
+[47306.733650] SPEC1: VIOLATION: 
+[47306.733650] SPEC1: Memory freed multiple times without being reallocated
+[47306.733666] SPEC1: VIOLATION: 
+[47306.733666] SPEC1: Memory freed multiple times without being reallocated
+[47306.733677] SPEC1: VIOLATION: 
+[47306.733678] SPEC1: Memory freed multiple times without being reallocated
+[47306.733689] SPEC1: VIOLATION: 
+[47306.733690] SPEC1: Memory freed multiple times without being reallocated
+[47306.733702] SPEC1: VIOLATION: 
+[47306.733702] SPEC1: Memory freed multiple times without being reallocated
+[47306.733716] SPEC1: VIOLATION: 
+[47306.733716] SPEC1: Memory freed multiple times without being reallocated
+[47306.733728] SPEC1: VIOLATION: 
+[47306.733728] SPEC1: Memory freed multiple times without being reallocated
+[47306.733740] SPEC1: VIOLATION: 
+[47306.733740] SPEC1: Memory freed multiple times without being reallocated
+[47306.733751] SPEC1: VIOLATION: 
+[47306.733752] SPEC1: Memory freed multiple times without being reallocated
+[47306.733764] SPEC1: VIOLATION: 
+[47306.733764] SPEC1: Memory freed multiple times without being reallocated
+[47306.733775] SPEC1: VIOLATION: 
+[47306.733775] SPEC1: Memory freed multiple times without being reallocated
+[47306.733786] SPEC1: VIOLATION: 
+[47306.733787] SPEC1: Memory freed multiple times without being reallocated
+[47306.733797] SPEC1: VIOLATION: 
+[47306.733798] SPEC1: Memory freed multiple times without being reallocated
+[47306.733809] SPEC1: VIOLATION: 
+[47306.733809] SPEC1: Memory freed multiple times without being reallocated
+[47306.733830] SPEC1: VIOLATION: 
+[47306.733831] SPEC1: Memory freed multiple times without being reallocated
+[47306.733849] SPEC1: VIOLATION: 
+[47306.733849] SPEC1: Memory freed multiple times without being reallocated
+[47306.748781] SPEC1: Trace finished. Resetting variables, finding more violations
+[47306.748782] SPEC1: VIOLATION: 
+[47306.748783] SPEC1: Memory allocated but not freed
+[47306.748784] SPEC1: VIOLATION: 
+[47306.748784] SPEC1: Memory allocated but not freed
+[47306.748784] SPEC1: VIOLATION: 
+[47306.748785] SPEC1: Memory allocated but not freed
+[47306.748785] SPEC1: VIOLATION: 
+[47306.748785] SPEC1: Memory allocated but not freed
+[47306.748786] SPEC1: VIOLATION: 
+[47306.748786] SPEC1: Memory allocated but not freed
+[47306.748786] SPEC1: VIOLATION: 
+[47306.748787] SPEC1: Memory allocated but not freed
+[47306.748787] SPEC1: VIOLATION: 
+[47306.748787] SPEC1: Memory allocated but not freed
+[47306.748787] SPEC1: VIOLATION: 
+[47306.748788] SPEC1: Memory allocated but not freed
+[47306.748788] SPEC1: VIOLATION: 
+[47306.748788] SPEC1: Memory allocated but not freed
+[47306.748789] SPEC1: VIOLATION: 
+[47306.748789] SPEC1: Memory allocated but not freed
+[47306.748789] SPEC1: Memory allocated but not freed: 
+[47306.748790] SPEC1: Freeing memory without allocation: 22
+[47306.748790] SPEC1: Memory allocated multiple times without being freed: 0
+[47306.748791] SPEC1: Memory freed multiple times without being reallocated: 337
+[47645.715019] SPEC1: VIOLATION: 
+[47645.715021] SPEC1: Freeing memory without allocation
+[47645.715029] SPEC1: VIOLATION: 
+[47645.715030] SPEC1: Freeing memory without allocation
+[47645.715034] SPEC1: VIOLATION: 
+[47645.715035] SPEC1: Freeing memory without allocation
+[47645.715058] SPEC1: VIOLATION: 
+[47645.715060] SPEC1: Freeing memory without allocation
+[47645.715075] SPEC1: VIOLATION: 
+[47645.715076] SPEC1: Freeing memory without allocation
+[47645.715080] SPEC1: VIOLATION: 
+[47645.715081] SPEC1: Freeing memory without allocation
+[47645.715214] SPEC1: VIOLATION: 
+[47645.715215] SPEC1: Freeing memory without allocation
+[47645.717091] SPEC1: VIOLATION: 
+[47645.717093] SPEC1: Memory freed multiple times without being reallocated
+[47645.721231] SPEC1: VIOLATION: 
+[47645.721233] SPEC1: Freeing memory without allocation
+[47645.721243] SPEC1: VIOLATION: 
+[47645.721244] SPEC1: Memory freed multiple times without being reallocated
+[47645.727839] SPEC1: VIOLATION: 
+[47645.727841] SPEC1: Memory freed multiple times without being reallocated
+[47645.727946] SPEC1: VIOLATION: 
+[47645.727947] SPEC1: Memory freed multiple times without being reallocated
+[47645.727993] SPEC1: VIOLATION: 
+[47645.727994] SPEC1: Memory freed multiple times without being reallocated
+[47645.728003] SPEC1: VIOLATION: 
+[47645.728004] SPEC1: Memory freed multiple times without being reallocated
+[47645.728012] SPEC1: VIOLATION: 
+[47645.728013] SPEC1: Memory freed multiple times without being reallocated
+[47645.728022] SPEC1: VIOLATION: 
+[47645.728023] SPEC1: Memory freed multiple times without being reallocated
+[47645.728032] SPEC1: VIOLATION: 
+[47645.728033] SPEC1: Memory freed multiple times without being reallocated
+[47645.728041] SPEC1: VIOLATION: 
+[47645.728042] SPEC1: Memory freed multiple times without being reallocated
+[47645.728050] SPEC1: VIOLATION: 
+[47645.728051] SPEC1: Memory freed multiple times without being reallocated
+[47645.728059] SPEC1: VIOLATION: 
+[47645.728060] SPEC1: Memory freed multiple times without being reallocated
+[47645.728068] SPEC1: VIOLATION: 
+[47645.728069] SPEC1: Memory freed multiple times without being reallocated
+[47645.728117] SPEC1: VIOLATION: 
+[47645.728118] SPEC1: Memory freed multiple times without being reallocated
+[47645.728126] SPEC1: VIOLATION: 
+[47645.728127] SPEC1: Memory freed multiple times without being reallocated
+[47645.728219] SPEC1: VIOLATION: 
+[47645.728220] SPEC1: Memory freed multiple times without being reallocated
+[47645.728223] SPEC1: VIOLATION: 
+[47645.728224] SPEC1: Memory freed multiple times without being reallocated
+[47645.728240] SPEC1: VIOLATION: 
+[47645.728241] SPEC1: Memory freed multiple times without being reallocated
+[47645.728283] SPEC1: VIOLATION: 
+[47645.728284] SPEC1: Memory freed multiple times without being reallocated
+[47645.728305] SPEC1: VIOLATION: 
+[47645.728306] SPEC1: Memory freed multiple times without being reallocated
+[47645.728309] SPEC1: VIOLATION: 
+[47645.728310] SPEC1: Memory freed multiple times without being reallocated
+[47645.728313] SPEC1: VIOLATION: 
+[47645.728314] SPEC1: Memory freed multiple times without being reallocated
+[47645.728347] SPEC1: VIOLATION: 
+[47645.728348] SPEC1: Memory freed multiple times without being reallocated
+[47645.728372] SPEC1: VIOLATION: 
+[47645.728373] SPEC1: Memory freed multiple times without being reallocated
+[47645.728377] SPEC1: VIOLATION: 
+[47645.728378] SPEC1: Memory freed multiple times without being reallocated
+[47645.728380] SPEC1: VIOLATION: 
+[47645.728381] SPEC1: Memory freed multiple times without being reallocated
+[47645.728384] SPEC1: VIOLATION: 
+[47645.728385] SPEC1: Memory freed multiple times without being reallocated
+[47645.728388] SPEC1: VIOLATION: 
+[47645.728389] SPEC1: Freeing memory without allocation
+[47645.728439] SPEC1: VIOLATION: 
+[47645.728441] SPEC1: Freeing memory without allocation
+[47645.728459] SPEC1: VIOLATION: 
+[47645.728460] SPEC1: Memory freed multiple times without being reallocated
+[47645.728478] SPEC1: VIOLATION: 
+[47645.728479] SPEC1: Memory freed multiple times without being reallocated
+[47645.728481] SPEC1: VIOLATION: 
+[47645.728482] SPEC1: Memory freed multiple times without being reallocated
+[47645.728485] SPEC1: VIOLATION: 
+[47645.728486] SPEC1: Memory freed multiple times without being reallocated
+[47645.728488] SPEC1: VIOLATION: 
+[47645.728490] SPEC1: Memory freed multiple times without being reallocated
+[47645.728492] SPEC1: VIOLATION: 
+[47645.728493] SPEC1: Memory freed multiple times without being reallocated
+[47645.728508] SPEC1: VIOLATION: 
+[47645.728509] SPEC1: Memory freed multiple times without being reallocated
+[47645.728523] SPEC1: VIOLATION: 
+[47645.728525] SPEC1: Memory freed multiple times without being reallocated
+[47645.728527] SPEC1: VIOLATION: 
+[47645.728528] SPEC1: Memory freed multiple times without being reallocated
+[47645.728531] SPEC1: VIOLATION: 
+[47645.728532] SPEC1: Memory freed multiple times without being reallocated
+[47645.728534] SPEC1: VIOLATION: 
+[47645.728535] SPEC1: Memory freed multiple times without being reallocated
+[47645.728538] SPEC1: VIOLATION: 
+[47645.728539] SPEC1: Memory freed multiple times without being reallocated
+[47645.728552] SPEC1: VIOLATION: 
+[47645.728553] SPEC1: Memory freed multiple times without being reallocated
+[47645.728567] SPEC1: VIOLATION: 
+[47645.728569] SPEC1: Memory freed multiple times without being reallocated
+[47645.728571] SPEC1: VIOLATION: 
+[47645.728572] SPEC1: Memory freed multiple times without being reallocated
+[47645.728575] SPEC1: VIOLATION: 
+[47645.728576] SPEC1: Memory freed multiple times without being reallocated
+[47645.728578] SPEC1: VIOLATION: 
+[47645.728579] SPEC1: Memory freed multiple times without being reallocated
+[47645.728582] SPEC1: VIOLATION: 
+[47645.728583] SPEC1: Memory freed multiple times without being reallocated
+[47645.728590] SPEC1: VIOLATION: 
+[47645.728592] SPEC1: Memory freed multiple times without being reallocated
+[47645.728604] SPEC1: VIOLATION: 
+[47645.728605] SPEC1: Memory freed multiple times without being reallocated
+[47645.728619] SPEC1: VIOLATION: 
+[47645.728620] SPEC1: Memory freed multiple times without being reallocated
+[47645.728623] SPEC1: VIOLATION: 
+[47645.728624] SPEC1: Memory freed multiple times without being reallocated
+[47645.728627] SPEC1: VIOLATION: 
+[47645.728629] SPEC1: Memory freed multiple times without being reallocated
+[47645.728632] SPEC1: VIOLATION: 
+[47645.728633] SPEC1: Memory freed multiple times without being reallocated
+[47645.728637] SPEC1: VIOLATION: 
+[47645.728638] SPEC1: Memory freed multiple times without being reallocated
+[47645.728656] SPEC1: VIOLATION: 
+[47645.728657] SPEC1: Memory freed multiple times without being reallocated
+[47645.728679] SPEC1: VIOLATION: 
+[47645.728681] SPEC1: Memory freed multiple times without being reallocated
+[47645.728684] SPEC1: VIOLATION: 
+[47645.728685] SPEC1: Memory freed multiple times without being reallocated
+[47645.728688] SPEC1: VIOLATION: 
+[47645.728689] SPEC1: Memory freed multiple times without being reallocated
+[47645.728692] SPEC1: VIOLATION: 
+[47645.728693] SPEC1: Memory freed multiple times without being reallocated
+[47645.728695] SPEC1: VIOLATION: 
+[47645.728696] SPEC1: Memory freed multiple times without being reallocated
+[47645.728710] SPEC1: VIOLATION: 
+[47645.728711] SPEC1: Memory freed multiple times without being reallocated
+[47645.728726] SPEC1: VIOLATION: 
+[47645.728727] SPEC1: Memory freed multiple times without being reallocated
+[47645.728729] SPEC1: VIOLATION: 
+[47645.728730] SPEC1: Memory freed multiple times without being reallocated
+[47645.728733] SPEC1: VIOLATION: 
+[47645.728734] SPEC1: Memory freed multiple times without being reallocated
+[47645.728736] SPEC1: VIOLATION: 
+[47645.728737] SPEC1: Memory freed multiple times without being reallocated
+[47645.728740] SPEC1: VIOLATION: 
+[47645.728741] SPEC1: Memory freed multiple times without being reallocated
+[47645.728773] SPEC1: VIOLATION: 
+[47645.728774] SPEC1: Memory freed multiple times without being reallocated
+[47645.728790] SPEC1: VIOLATION: 
+[47645.728791] SPEC1: Memory freed multiple times without being reallocated
+[47645.728794] SPEC1: VIOLATION: 
+[47645.728795] SPEC1: Memory freed multiple times without being reallocated
+[47645.728797] SPEC1: VIOLATION: 
+[47645.728798] SPEC1: Memory freed multiple times without being reallocated
+[47645.728801] SPEC1: VIOLATION: 
+[47645.728802] SPEC1: Memory freed multiple times without being reallocated
+[47645.728804] SPEC1: VIOLATION: 
+[47645.728805] SPEC1: Memory freed multiple times without being reallocated
+[47645.728914] SPEC1: VIOLATION: 
+[47645.728915] SPEC1: Memory freed multiple times without being reallocated
+[47645.729564] SPEC1: VIOLATION: 
+[47645.729565] SPEC1: Memory freed multiple times without being reallocated
+[47645.729570] SPEC1: VIOLATION: 
+[47645.729571] SPEC1: Memory freed multiple times without being reallocated
+[47645.729574] SPEC1: VIOLATION: 
+[47645.729575] SPEC1: Memory freed multiple times without being reallocated
+[47645.729696] SPEC1: VIOLATION: 
+[47645.729697] SPEC1: Memory freed multiple times without being reallocated
+[47645.729743] SPEC1: VIOLATION: 
+[47645.729744] SPEC1: Memory freed multiple times without being reallocated
+[47645.730802] SPEC1: VIOLATION: 
+[47645.730804] SPEC1: Memory freed multiple times without being reallocated
+[47645.730843] SPEC1: VIOLATION: 
+[47645.730844] SPEC1: Freeing memory without allocation
+[47645.730898] SPEC1: VIOLATION: 
+[47645.730899] SPEC1: Memory freed multiple times without being reallocated
+[47645.730925] SPEC1: VIOLATION: 
+[47645.730926] SPEC1: Memory freed multiple times without being reallocated
+[47645.731193] SPEC1: VIOLATION: 
+[47645.731194] SPEC1: Memory freed multiple times without being reallocated
+[47645.731204] SPEC1: VIOLATION: 
+[47645.731205] SPEC1: Memory freed multiple times without being reallocated
+[47645.732051] SPEC1: VIOLATION: 
+[47645.732053] SPEC1: Freeing memory without allocation
+[47645.732061] SPEC1: VIOLATION: 
+[47645.732062] SPEC1: Memory freed multiple times without being reallocated
+[47645.765636] SPEC1: VIOLATION: 
+[47645.765637] SPEC1: Memory freed multiple times without being reallocated
+[47645.765658] SPEC1: VIOLATION: 
+[47645.765659] SPEC1: Memory freed multiple times without being reallocated
+[47645.765678] SPEC1: VIOLATION: 
+[47645.765679] SPEC1: Freeing memory without allocation
+[47645.765680] SPEC1: VIOLATION: 
+[47645.765681] SPEC1: Memory freed multiple times without being reallocated
+[47645.765681] SPEC1: VIOLATION: 
+[47645.765682] SPEC1: Memory freed multiple times without being reallocated
+[47645.765683] SPEC1: VIOLATION: 
+[47645.765683] SPEC1: Memory freed multiple times without being reallocated
+[47645.765684] SPEC1: VIOLATION: 
+[47645.765684] SPEC1: Memory freed multiple times without being reallocated
+[47645.765692] SPEC1: VIOLATION: 
+[47645.765692] SPEC1: Memory freed multiple times without being reallocated
+[47645.765698] SPEC1: VIOLATION: 
+[47645.765699] SPEC1: Memory freed multiple times without being reallocated
+[47645.765699] SPEC1: VIOLATION: 
+[47645.765700] SPEC1: Memory freed multiple times without being reallocated
+[47645.765701] SPEC1: VIOLATION: 
+[47645.765701] SPEC1: Memory freed multiple times without being reallocated
+[47645.765702] SPEC1: VIOLATION: 
+[47645.765702] SPEC1: Memory freed multiple times without being reallocated
+[47645.765703] SPEC1: VIOLATION: 
+[47645.765704] SPEC1: Memory freed multiple times without being reallocated
+[47645.765709] SPEC1: VIOLATION: 
+[47645.765709] SPEC1: Memory freed multiple times without being reallocated
+[47645.765714] SPEC1: VIOLATION: 
+[47645.765714] SPEC1: Memory freed multiple times without being reallocated
+[47645.765715] SPEC1: VIOLATION: 
+[47645.765715] SPEC1: Memory freed multiple times without being reallocated
+[47645.765716] SPEC1: VIOLATION: 
+[47645.765716] SPEC1: Memory freed multiple times without being reallocated
+[47645.765717] SPEC1: VIOLATION: 
+[47645.765717] SPEC1: Memory freed multiple times without being reallocated
+[47645.765718] SPEC1: VIOLATION: 
+[47645.765718] SPEC1: Memory freed multiple times without being reallocated
+[47645.782221] SPEC1: VIOLATION: 
+[47645.782222] SPEC1: Memory freed multiple times without being reallocated
+[47645.782226] SPEC1: VIOLATION: 
+[47645.782226] SPEC1: Memory freed multiple times without being reallocated
+[47645.792183] SPEC1: VIOLATION: 
+[47645.792184] SPEC1: Memory freed multiple times without being reallocated
+[47645.792190] SPEC1: VIOLATION: 
+[47645.792190] SPEC1: Memory freed multiple times without being reallocated
+[47645.794343] SPEC1: VIOLATION: 
+[47645.794344] SPEC1: Memory freed multiple times without being reallocated
+[47645.794398] SPEC1: VIOLATION: 
+[47645.794399] SPEC1: Freeing memory without allocation
+[47645.796297] SPEC1: VIOLATION: 
+[47645.796297] SPEC1: Memory freed multiple times without being reallocated
+[47645.796322] SPEC1: VIOLATION: 
+[47645.796322] SPEC1: Memory freed multiple times without being reallocated
+[47645.796338] SPEC1: VIOLATION: 
+[47645.796339] SPEC1: Memory freed multiple times without being reallocated
+[47645.796340] SPEC1: VIOLATION: 
+[47645.796340] SPEC1: Memory freed multiple times without being reallocated
+[47645.796341] SPEC1: VIOLATION: 
+[47645.796342] SPEC1: Freeing memory without allocation
+[47645.796343] SPEC1: VIOLATION: 
+[47645.796343] SPEC1: Memory freed multiple times without being reallocated
+[47645.796344] SPEC1: VIOLATION: 
+[47645.796344] SPEC1: Memory freed multiple times without being reallocated
+[47645.796352] SPEC1: VIOLATION: 
+[47645.796352] SPEC1: Memory freed multiple times without being reallocated
+[47645.796358] SPEC1: VIOLATION: 
+[47645.796358] SPEC1: Memory freed multiple times without being reallocated
+[47645.796359] SPEC1: VIOLATION: 
+[47645.796359] SPEC1: Memory freed multiple times without being reallocated
+[47645.796360] SPEC1: VIOLATION: 
+[47645.796360] SPEC1: Memory freed multiple times without being reallocated
+[47645.796361] SPEC1: VIOLATION: 
+[47645.796361] SPEC1: Memory freed multiple times without being reallocated
+[47645.796362] SPEC1: VIOLATION: 
+[47645.796362] SPEC1: Memory freed multiple times without being reallocated
+[47645.796367] SPEC1: VIOLATION: 
+[47645.796367] SPEC1: Memory freed multiple times without being reallocated
+[47645.796372] SPEC1: VIOLATION: 
+[47645.796372] SPEC1: Memory freed multiple times without being reallocated
+[47645.796373] SPEC1: VIOLATION: 
+[47645.796373] SPEC1: Memory freed multiple times without being reallocated
+[47645.796374] SPEC1: VIOLATION: 
+[47645.796374] SPEC1: Memory freed multiple times without being reallocated
+[47645.796375] SPEC1: VIOLATION: 
+[47645.796375] SPEC1: Memory freed multiple times without being reallocated
+[47645.796376] SPEC1: VIOLATION: 
+[47645.796376] SPEC1: Memory freed multiple times without being reallocated
+[47645.800238] SPEC1: VIOLATION: 
+[47645.800238] SPEC1: Memory freed multiple times without being reallocated
+[47645.800474] SPEC1: VIOLATION: 
+[47645.800475] SPEC1: Memory freed multiple times without being reallocated
+[47645.800477] SPEC1: VIOLATION: 
+[47645.800477] SPEC1: Memory freed multiple times without being reallocated
+[47645.800575] SPEC1: VIOLATION: 
+[47645.800575] SPEC1: Memory freed multiple times without being reallocated
+[47645.800577] SPEC1: VIOLATION: 
+[47645.800577] SPEC1: Memory freed multiple times without being reallocated
+[47645.805559] SPEC1: VIOLATION: 
+[47645.805560] SPEC1: Memory freed multiple times without being reallocated
+[47645.805562] SPEC1: VIOLATION: 
+[47645.805563] SPEC1: Memory freed multiple times without being reallocated
+[47645.806485] SPEC1: VIOLATION: 
+[47645.806486] SPEC1: Memory freed multiple times without being reallocated
+[47645.806488] SPEC1: VIOLATION: 
+[47645.806489] SPEC1: Memory freed multiple times without being reallocated
+[47645.812795] SPEC1: VIOLATION: 
+[47645.812796] SPEC1: Memory freed multiple times without being reallocated
+[47645.812809] SPEC1: VIOLATION: 
+[47645.812810] SPEC1: Memory freed multiple times without being reallocated
+[47645.812811] SPEC1: VIOLATION: 
+[47645.812811] SPEC1: Memory freed multiple times without being reallocated
+[47645.812812] SPEC1: VIOLATION: 
+[47645.812813] SPEC1: Freeing memory without allocation
+[47645.812814] SPEC1: VIOLATION: 
+[47645.812814] SPEC1: Memory freed multiple times without being reallocated
+[47645.812815] SPEC1: VIOLATION: 
+[47645.812815] SPEC1: Memory freed multiple times without being reallocated
+[47645.812820] SPEC1: VIOLATION: 
+[47645.812821] SPEC1: Memory freed multiple times without being reallocated
+[47645.812823] SPEC1: VIOLATION: 
+[47645.812823] SPEC1: Memory freed multiple times without being reallocated
+[47645.849558] SPEC1: VIOLATION: 
+[47645.849558] SPEC1: Memory freed multiple times without being reallocated
+[47645.849562] SPEC1: VIOLATION: 
+[47645.849562] SPEC1: Memory freed multiple times without being reallocated
+[47645.849564] SPEC1: VIOLATION: 
+[47645.849564] SPEC1: Memory freed multiple times without being reallocated
+[47645.849565] SPEC1: VIOLATION: 
+[47645.849566] SPEC1: Memory freed multiple times without being reallocated
+[47645.849567] SPEC1: VIOLATION: 
+[47645.849567] SPEC1: Memory freed multiple times without being reallocated
+[47645.849568] SPEC1: VIOLATION: 
+[47645.849568] SPEC1: Memory freed multiple times without being reallocated
+[47645.849571] SPEC1: VIOLATION: 
+[47645.849571] SPEC1: Memory freed multiple times without being reallocated
+[47645.849573] SPEC1: VIOLATION: 
+[47645.849574] SPEC1: Memory freed multiple times without being reallocated
+[47645.849575] SPEC1: VIOLATION: 
+[47645.849575] SPEC1: Memory freed multiple times without being reallocated
+[47645.849576] SPEC1: VIOLATION: 
+[47645.849576] SPEC1: Memory freed multiple times without being reallocated
+[47645.849577] SPEC1: VIOLATION: 
+[47645.849577] SPEC1: Memory freed multiple times without being reallocated
+[47645.849578] SPEC1: VIOLATION: 
+[47645.849579] SPEC1: Memory freed multiple times without being reallocated
+[47645.849580] SPEC1: VIOLATION: 
+[47645.849580] SPEC1: Memory freed multiple times without being reallocated
+[47645.849581] SPEC1: VIOLATION: 
+[47645.849581] SPEC1: Memory freed multiple times without being reallocated
+[47645.849582] SPEC1: VIOLATION: 
+[47645.849582] SPEC1: Memory freed multiple times without being reallocated
+[47645.849583] SPEC1: VIOLATION: 
+[47645.849584] SPEC1: Memory freed multiple times without being reallocated
+[47645.849585] SPEC1: VIOLATION: 
+[47645.849585] SPEC1: Memory freed multiple times without being reallocated
+[47645.849586] SPEC1: VIOLATION: 
+[47645.849586] SPEC1: Memory freed multiple times without being reallocated
+[47645.849587] SPEC1: VIOLATION: 
+[47645.849588] SPEC1: Memory freed multiple times without being reallocated
+[47645.849589] SPEC1: VIOLATION: 
+[47645.849589] SPEC1: Memory freed multiple times without being reallocated
+[47645.849590] SPEC1: VIOLATION: 
+[47645.849590] SPEC1: Memory freed multiple times without being reallocated
+[47645.849591] SPEC1: VIOLATION: 
+[47645.849591] SPEC1: Memory freed multiple times without being reallocated
+[47645.849610] SPEC1: VIOLATION: 
+[47645.849611] SPEC1: Memory freed multiple times without being reallocated
+[47645.849645] SPEC1: VIOLATION: 
+[47645.849645] SPEC1: Memory freed multiple times without being reallocated
+[47645.849656] SPEC1: VIOLATION: 
+[47645.849656] SPEC1: Memory freed multiple times without being reallocated
+[47645.849702] SPEC1: VIOLATION: 
+[47645.849702] SPEC1: Memory freed multiple times without being reallocated
+[47645.849745] SPEC1: VIOLATION: 
+[47645.849745] SPEC1: Memory freed multiple times without being reallocated
+[47645.874864] SPEC1: VIOLATION: 
+[47645.874865] SPEC1: Memory freed multiple times without being reallocated
+[47645.874888] SPEC1: VIOLATION: 
+[47645.874888] SPEC1: Memory freed multiple times without being reallocated
+[47645.874909] SPEC1: VIOLATION: 
+[47645.874909] SPEC1: Memory freed multiple times without being reallocated
+[47645.874911] SPEC1: VIOLATION: 
+[47645.874911] SPEC1: Memory freed multiple times without being reallocated
+[47645.874912] SPEC1: VIOLATION: 
+[47645.874912] SPEC1: Memory freed multiple times without being reallocated
+[47645.874913] SPEC1: VIOLATION: 
+[47645.874913] SPEC1: Memory freed multiple times without being reallocated
+[47645.874914] SPEC1: VIOLATION: 
+[47645.874914] SPEC1: Memory freed multiple times without being reallocated
+[47645.874921] SPEC1: VIOLATION: 
+[47645.874921] SPEC1: Memory freed multiple times without being reallocated
+[47645.874927] SPEC1: VIOLATION: 
+[47645.874927] SPEC1: Memory freed multiple times without being reallocated
+[47645.874928] SPEC1: VIOLATION: 
+[47645.874928] SPEC1: Memory freed multiple times without being reallocated
+[47645.874929] SPEC1: VIOLATION: 
+[47645.874929] SPEC1: Memory freed multiple times without being reallocated
+[47645.874930] SPEC1: VIOLATION: 
+[47645.874930] SPEC1: Memory freed multiple times without being reallocated
+[47645.874930] SPEC1: VIOLATION: 
+[47645.874931] SPEC1: Memory freed multiple times without being reallocated
+[47645.874935] SPEC1: VIOLATION: 
+[47645.874936] SPEC1: Memory freed multiple times without being reallocated
+[47645.874940] SPEC1: VIOLATION: 
+[47645.874940] SPEC1: Memory freed multiple times without being reallocated
+[47645.874941] SPEC1: VIOLATION: 
+[47645.874941] SPEC1: Memory freed multiple times without being reallocated
+[47645.874942] SPEC1: VIOLATION: 
+[47645.874942] SPEC1: Memory freed multiple times without being reallocated
+[47645.874943] SPEC1: VIOLATION: 
+[47645.874943] SPEC1: Memory freed multiple times without being reallocated
+[47645.874944] SPEC1: VIOLATION: 
+[47645.874944] SPEC1: Memory freed multiple times without being reallocated
+[47645.874968] SPEC1: VIOLATION: 
+[47645.874968] SPEC1: Memory freed multiple times without being reallocated
+[47645.874973] SPEC1: VIOLATION: 
+[47645.874973] SPEC1: Memory freed multiple times without being reallocated
+[47645.874978] SPEC1: VIOLATION: 
+[47645.874978] SPEC1: Memory freed multiple times without being reallocated
+[47645.874979] SPEC1: VIOLATION: 
+[47645.874979] SPEC1: Memory freed multiple times without being reallocated
+[47645.874980] SPEC1: VIOLATION: 
+[47645.874980] SPEC1: Memory freed multiple times without being reallocated
+[47645.874981] SPEC1: VIOLATION: 
+[47645.874981] SPEC1: Memory freed multiple times without being reallocated
+[47645.874982] SPEC1: VIOLATION: 
+[47645.874982] SPEC1: Memory freed multiple times without being reallocated
+[47645.874986] SPEC1: VIOLATION: 
+[47645.874986] SPEC1: Memory freed multiple times without being reallocated
+[47645.874990] SPEC1: VIOLATION: 
+[47645.874990] SPEC1: Memory freed multiple times without being reallocated
+[47645.874991] SPEC1: VIOLATION: 
+[47645.874991] SPEC1: Memory freed multiple times without being reallocated
+[47645.874992] SPEC1: VIOLATION: 
+[47645.874992] SPEC1: Memory freed multiple times without being reallocated
+[47645.874993] SPEC1: VIOLATION: 
+[47645.874993] SPEC1: Memory freed multiple times without being reallocated
+[47645.874994] SPEC1: VIOLATION: 
+[47645.874994] SPEC1: Memory freed multiple times without being reallocated
+[47645.874997] SPEC1: VIOLATION: 
+[47645.874997] SPEC1: Memory freed multiple times without being reallocated
+[47645.875001] SPEC1: VIOLATION: 
+[47645.875001] SPEC1: Memory freed multiple times without being reallocated
+[47645.875002] SPEC1: VIOLATION: 
+[47645.875002] SPEC1: Memory freed multiple times without being reallocated
+[47645.875003] SPEC1: VIOLATION: 
+[47645.875003] SPEC1: Memory freed multiple times without being reallocated
+[47645.875004] SPEC1: VIOLATION: 
+[47645.875004] SPEC1: Memory freed multiple times without being reallocated
+[47645.875005] SPEC1: VIOLATION: 
+[47645.875005] SPEC1: Memory freed multiple times without being reallocated
+[47645.875047] SPEC1: VIOLATION: 
+[47645.875047] SPEC1: Memory freed multiple times without being reallocated
+[47645.875052] SPEC1: VIOLATION: 
+[47645.875052] SPEC1: Memory freed multiple times without being reallocated
+[47645.875057] SPEC1: VIOLATION: 
+[47645.875057] SPEC1: Memory freed multiple times without being reallocated
+[47645.875058] SPEC1: VIOLATION: 
+[47645.875058] SPEC1: Memory freed multiple times without being reallocated
+[47645.875059] SPEC1: VIOLATION: 
+[47645.875059] SPEC1: Memory freed multiple times without being reallocated
+[47645.875060] SPEC1: VIOLATION: 
+[47645.875060] SPEC1: Memory freed multiple times without being reallocated
+[47645.875061] SPEC1: VIOLATION: 
+[47645.875061] SPEC1: Memory freed multiple times without being reallocated
+[47645.875065] SPEC1: VIOLATION: 
+[47645.875065] SPEC1: Memory freed multiple times without being reallocated
+[47645.875069] SPEC1: VIOLATION: 
+[47645.875069] SPEC1: Memory freed multiple times without being reallocated
+[47645.875070] SPEC1: VIOLATION: 
+[47645.875070] SPEC1: Memory freed multiple times without being reallocated
+[47645.875071] SPEC1: VIOLATION: 
+[47645.875071] SPEC1: Memory freed multiple times without being reallocated
+[47645.875071] SPEC1: VIOLATION: 
+[47645.875072] SPEC1: Memory freed multiple times without being reallocated
+[47645.875072] SPEC1: VIOLATION: 
+[47645.875073] SPEC1: Memory freed multiple times without being reallocated
+[47645.875076] SPEC1: VIOLATION: 
+[47645.875076] SPEC1: Memory freed multiple times without being reallocated
+[47645.875080] SPEC1: VIOLATION: 
+[47645.875080] SPEC1: Memory freed multiple times without being reallocated
+[47645.875081] SPEC1: VIOLATION: 
+[47645.875081] SPEC1: Memory freed multiple times without being reallocated
+[47645.875082] SPEC1: VIOLATION: 
+[47645.875082] SPEC1: Memory freed multiple times without being reallocated
+[47645.875083] SPEC1: VIOLATION: 
+[47645.875083] SPEC1: Memory freed multiple times without being reallocated
+[47645.875084] SPEC1: VIOLATION: 
+[47645.875084] SPEC1: Memory freed multiple times without being reallocated
+[47645.875102] SPEC1: VIOLATION: 
+[47645.875103] SPEC1: Memory freed multiple times without being reallocated
+[47645.875107] SPEC1: VIOLATION: 
+[47645.875107] SPEC1: Memory freed multiple times without being reallocated
+[47645.875112] SPEC1: VIOLATION: 
+[47645.875112] SPEC1: Memory freed multiple times without being reallocated
+[47645.875113] SPEC1: VIOLATION: 
+[47645.875114] SPEC1: Memory freed multiple times without being reallocated
+[47645.875114] SPEC1: VIOLATION: 
+[47645.875114] SPEC1: Memory freed multiple times without being reallocated
+[47645.875115] SPEC1: VIOLATION: 
+[47645.875115] SPEC1: Memory freed multiple times without being reallocated
+[47645.875116] SPEC1: VIOLATION: 
+[47645.875116] SPEC1: Memory freed multiple times without being reallocated
+[47645.875120] SPEC1: VIOLATION: 
+[47645.875120] SPEC1: Memory freed multiple times without being reallocated
+[47645.875124] SPEC1: VIOLATION: 
+[47645.875124] SPEC1: Memory freed multiple times without being reallocated
+[47645.875124] SPEC1: VIOLATION: 
+[47645.875125] SPEC1: Memory freed multiple times without being reallocated
+[47645.875125] SPEC1: VIOLATION: 
+[47645.875126] SPEC1: Memory freed multiple times without being reallocated
+[47645.875126] SPEC1: VIOLATION: 
+[47645.875127] SPEC1: Memory freed multiple times without being reallocated
+[47645.875127] SPEC1: VIOLATION: 
+[47645.875128] SPEC1: Memory freed multiple times without being reallocated
+[47645.875131] SPEC1: VIOLATION: 
+[47645.875131] SPEC1: Memory freed multiple times without being reallocated
+[47645.875134] SPEC1: VIOLATION: 
+[47645.875135] SPEC1: Memory freed multiple times without being reallocated
+[47645.875135] SPEC1: VIOLATION: 
+[47645.875136] SPEC1: Memory freed multiple times without being reallocated
+[47645.875136] SPEC1: VIOLATION: 
+[47645.875137] SPEC1: Memory freed multiple times without being reallocated
+[47645.875137] SPEC1: VIOLATION: 
+[47645.875138] SPEC1: Memory freed multiple times without being reallocated
+[47645.875138] SPEC1: VIOLATION: 
+[47645.875138] SPEC1: Memory freed multiple times without being reallocated
+[47645.876486] SPEC1: VIOLATION: 
+[47645.876486] SPEC1: Memory freed multiple times without being reallocated
+[47645.876551] SPEC1: VIOLATION: 
+[47645.876552] SPEC1: Memory freed multiple times without being reallocated
+[47645.876622] SPEC1: VIOLATION: 
+[47645.876623] SPEC1: Memory freed multiple times without being reallocated
+[47645.876628] SPEC1: VIOLATION: 
+[47645.876628] SPEC1: Memory freed multiple times without being reallocated
+[47645.876920] SPEC1: VIOLATION: 
+[47645.876920] SPEC1: Memory freed multiple times without being reallocated
+[47645.876923] SPEC1: VIOLATION: 
+[47645.876923] SPEC1: Memory freed multiple times without being reallocated
+[47645.876928] SPEC1: VIOLATION: 
+[47645.876928] SPEC1: Memory freed multiple times without being reallocated
+[47645.877656] SPEC1: VIOLATION: 
+[47645.877657] SPEC1: Memory freed multiple times without being reallocated
+[47645.877663] SPEC1: VIOLATION: 
+[47645.877664] SPEC1: Memory freed multiple times without being reallocated
+[47645.904741] SPEC1: VIOLATION: 
+[47645.904742] SPEC1: Memory freed multiple times without being reallocated
+[47645.904756] SPEC1: VIOLATION: 
+[47645.904756] SPEC1: Memory freed multiple times without being reallocated
+[47645.912775] SPEC1: VIOLATION: 
+[47645.912776] SPEC1: Memory freed multiple times without being reallocated
+[47645.912787] SPEC1: VIOLATION: 
+[47645.912787] SPEC1: Memory freed multiple times without being reallocated
+[47645.914053] SPEC1: VIOLATION: 
+[47645.914053] SPEC1: Memory freed multiple times without being reallocated
+[47645.914059] SPEC1: VIOLATION: 
+[47645.914060] SPEC1: Memory freed multiple times without being reallocated
+[47645.916973] SPEC1: VIOLATION: 
+[47645.916973] SPEC1: Memory freed multiple times without being reallocated
+[47645.916981] SPEC1: VIOLATION: 
+[47645.916981] SPEC1: Memory freed multiple times without being reallocated
+[47645.917025] SPEC1: VIOLATION: 
+[47645.917025] SPEC1: Memory freed multiple times without being reallocated
+[47645.917027] SPEC1: VIOLATION: 
+[47645.917027] SPEC1: Memory freed multiple times without being reallocated
+[47645.917032] SPEC1: VIOLATION: 
+[47645.917032] SPEC1: Memory freed multiple times without being reallocated
+[47645.917191] SPEC1: VIOLATION: 
+[47645.917192] SPEC1: Memory freed multiple times without being reallocated
+[47645.917197] SPEC1: VIOLATION: 
+[47645.917197] SPEC1: Memory freed multiple times without being reallocated
+[47645.917531] SPEC1: VIOLATION: 
+[47645.917532] SPEC1: Memory freed multiple times without being reallocated
+[47645.917540] SPEC1: VIOLATION: 
+[47645.917540] SPEC1: Memory freed multiple times without being reallocated
+[47645.917752] SPEC1: VIOLATION: 
+[47645.917752] SPEC1: Memory freed multiple times without being reallocated
+[47645.917757] SPEC1: VIOLATION: 
+[47645.917757] SPEC1: Memory freed multiple times without being reallocated
+[47645.918088] SPEC1: VIOLATION: 
+[47645.918088] SPEC1: Memory freed multiple times without being reallocated
+[47645.918094] SPEC1: VIOLATION: 
+[47645.918094] SPEC1: Memory freed multiple times without being reallocated
+[47645.918513] SPEC1: VIOLATION: 
+[47645.918513] SPEC1: Memory freed multiple times without being reallocated
+[47645.918520] SPEC1: VIOLATION: 
+[47645.918520] SPEC1: Memory freed multiple times without being reallocated
+[47645.919017] SPEC1: VIOLATION: 
+[47645.919017] SPEC1: Memory freed multiple times without being reallocated
+[47645.919026] SPEC1: VIOLATION: 
+[47645.919027] SPEC1: Memory freed multiple times without being reallocated
+[47645.919309] SPEC1: VIOLATION: 
+[47645.919309] SPEC1: Memory freed multiple times without being reallocated
+[47645.919316] SPEC1: VIOLATION: 
+[47645.919316] SPEC1: Memory freed multiple times without being reallocated
+[47645.919494] SPEC1: VIOLATION: 
+[47645.919494] SPEC1: Memory freed multiple times without being reallocated
+[47645.919499] SPEC1: VIOLATION: 
+[47645.919499] SPEC1: Memory freed multiple times without being reallocated
+[47645.919600] SPEC1: VIOLATION: 
+[47645.919600] SPEC1: Memory freed multiple times without being reallocated
+[47645.919605] SPEC1: VIOLATION: 
+[47645.919605] SPEC1: Memory freed multiple times without being reallocated
+[47645.919757] SPEC1: VIOLATION: 
+[47645.919757] SPEC1: Memory freed multiple times without being reallocated
+[47645.919762] SPEC1: VIOLATION: 
+[47645.919762] SPEC1: Memory freed multiple times without being reallocated
+[47645.919813] SPEC1: VIOLATION: 
+[47645.919813] SPEC1: Memory freed multiple times without being reallocated
+[47645.919817] SPEC1: VIOLATION: 
+[47645.919818] SPEC1: Memory freed multiple times without being reallocated
+[47645.919942] SPEC1: VIOLATION: 
+[47645.919943] SPEC1: Memory freed multiple times without being reallocated
+[47645.919947] SPEC1: VIOLATION: 
+[47645.919947] SPEC1: Memory freed multiple times without being reallocated
+[47645.920245] SPEC1: VIOLATION: 
+[47645.920245] SPEC1: Memory freed multiple times without being reallocated
+[47645.920250] SPEC1: VIOLATION: 
+[47645.920250] SPEC1: Memory freed multiple times without being reallocated
+[47645.920342] SPEC1: VIOLATION: 
+[47645.920343] SPEC1: Memory freed multiple times without being reallocated
+[47645.920347] SPEC1: VIOLATION: 
+[47645.920348] SPEC1: Memory freed multiple times without being reallocated
+[47645.920624] SPEC1: VIOLATION: 
+[47645.920624] SPEC1: Memory freed multiple times without being reallocated
+[47645.920630] SPEC1: VIOLATION: 
+[47645.920631] SPEC1: Memory freed multiple times without being reallocated
+[47645.920682] SPEC1: VIOLATION: 
+[47645.920682] SPEC1: Memory freed multiple times without being reallocated
+[47645.920687] SPEC1: VIOLATION: 
+[47645.920687] SPEC1: Memory freed multiple times without being reallocated
+[47645.920804] SPEC1: VIOLATION: 
+[47645.920805] SPEC1: Memory freed multiple times without being reallocated
+[47645.920809] SPEC1: VIOLATION: 
+[47645.920809] SPEC1: Memory freed multiple times without being reallocated
+[47645.921148] SPEC1: VIOLATION: 
+[47645.921148] SPEC1: Memory freed multiple times without being reallocated
+[47645.921155] SPEC1: VIOLATION: 
+[47645.921155] SPEC1: Memory freed multiple times without being reallocated
+[47646.299517] SPEC1: VIOLATION: 
+[47646.299518] SPEC1: Memory freed multiple times without being reallocated
+[47646.299541] SPEC1: VIOLATION: 
+[47646.299541] SPEC1: Memory freed multiple times without being reallocated
+[47646.299561] SPEC1: VIOLATION: 
+[47646.299561] SPEC1: Freeing memory without allocation
+[47646.299562] SPEC1: VIOLATION: 
+[47646.299563] SPEC1: Memory freed multiple times without being reallocated
+[47646.299563] SPEC1: VIOLATION: 
+[47646.299564] SPEC1: Memory freed multiple times without being reallocated
+[47646.299564] SPEC1: VIOLATION: 
+[47646.299565] SPEC1: Memory freed multiple times without being reallocated
+[47646.299565] SPEC1: VIOLATION: 
+[47646.299566] SPEC1: Memory freed multiple times without being reallocated
+[47646.299572] SPEC1: VIOLATION: 
+[47646.299572] SPEC1: Memory freed multiple times without being reallocated
+[47646.299577] SPEC1: VIOLATION: 
+[47646.299578] SPEC1: Memory freed multiple times without being reallocated
+[47646.299578] SPEC1: VIOLATION: 
+[47646.299579] SPEC1: Memory freed multiple times without being reallocated
+[47646.299579] SPEC1: VIOLATION: 
+[47646.299580] SPEC1: Memory freed multiple times without being reallocated
+[47646.299580] SPEC1: VIOLATION: 
+[47646.299581] SPEC1: Memory freed multiple times without being reallocated
+[47646.299581] SPEC1: VIOLATION: 
+[47646.299582] SPEC1: Memory freed multiple times without being reallocated
+[47646.299586] SPEC1: VIOLATION: 
+[47646.299586] SPEC1: Memory freed multiple times without being reallocated
+[47646.299590] SPEC1: VIOLATION: 
+[47646.299590] SPEC1: Memory freed multiple times without being reallocated
+[47646.299591] SPEC1: VIOLATION: 
+[47646.299591] SPEC1: Memory freed multiple times without being reallocated
+[47646.299592] SPEC1: VIOLATION: 
+[47646.299592] SPEC1: Memory freed multiple times without being reallocated
+[47646.299593] SPEC1: VIOLATION: 
+[47646.299593] SPEC1: Memory freed multiple times without being reallocated
+[47646.299594] SPEC1: VIOLATION: 
+[47646.299594] SPEC1: Memory freed multiple times without being reallocated
+[47646.307443] SPEC1: VIOLATION: 
+[47646.307443] SPEC1: Memory freed multiple times without being reallocated
+[47646.307446] SPEC1: VIOLATION: 
+[47646.307446] SPEC1: Memory freed multiple times without being reallocated
+[47652.513215] SPEC1: VIOLATION: 
+[47652.513216] SPEC1: Memory freed multiple times without being reallocated
+[47652.513688] SPEC1: VIOLATION: 
+[47652.513689] SPEC1: Freeing memory without allocation
+[47652.526656] SPEC1: VIOLATION: 
+[47652.526657] SPEC1: Memory freed multiple times without being reallocated
+[47652.526679] SPEC1: VIOLATION: 
+[47652.526679] SPEC1: Memory freed multiple times without being reallocated
+[47652.526755] SPEC1: VIOLATION: 
+[47652.526755] SPEC1: Memory freed multiple times without being reallocated
+[47652.533451] SPEC1: VIOLATION: 
+[47652.533452] SPEC1: Memory freed multiple times without being reallocated
+[47652.533505] SPEC1: VIOLATION: 
+[47652.533505] SPEC1: Memory freed multiple times without being reallocated
+[47652.533542] SPEC1: VIOLATION: 
+[47652.533542] SPEC1: Memory freed multiple times without being reallocated
+[47652.533559] SPEC1: VIOLATION: 
+[47652.533559] SPEC1: Memory freed multiple times without being reallocated
+[47652.533580] SPEC1: VIOLATION: 
+[47652.533581] SPEC1: Memory freed multiple times without being reallocated
+[47652.533598] SPEC1: VIOLATION: 
+[47652.533598] SPEC1: Memory freed multiple times without being reallocated
+[47652.533613] SPEC1: VIOLATION: 
+[47652.533614] SPEC1: Memory freed multiple times without being reallocated
+[47652.533626] SPEC1: VIOLATION: 
+[47652.533626] SPEC1: Memory freed multiple times without being reallocated
+[47652.533639] SPEC1: VIOLATION: 
+[47652.533639] SPEC1: Memory freed multiple times without being reallocated
+[47652.533652] SPEC1: VIOLATION: 
+[47652.533652] SPEC1: Memory freed multiple times without being reallocated
+[47652.533667] SPEC1: VIOLATION: 
+[47652.533667] SPEC1: Memory freed multiple times without being reallocated
+[47652.533679] SPEC1: VIOLATION: 
+[47652.533680] SPEC1: Memory freed multiple times without being reallocated
+[47652.533692] SPEC1: VIOLATION: 
+[47652.533693] SPEC1: Memory freed multiple times without being reallocated
+[47652.533704] SPEC1: VIOLATION: 
+[47652.533704] SPEC1: Memory freed multiple times without being reallocated
+[47652.533717] SPEC1: VIOLATION: 
+[47652.533717] SPEC1: Memory freed multiple times without being reallocated
+[47652.533729] SPEC1: VIOLATION: 
+[47652.533729] SPEC1: Memory freed multiple times without being reallocated
+[47652.533741] SPEC1: VIOLATION: 
+[47652.533741] SPEC1: Memory freed multiple times without being reallocated
+[47652.533753] SPEC1: VIOLATION: 
+[47652.533753] SPEC1: Memory freed multiple times without being reallocated
+[47652.533764] SPEC1: VIOLATION: 
+[47652.533764] SPEC1: Memory freed multiple times without being reallocated
+[47652.533793] SPEC1: VIOLATION: 
+[47652.533793] SPEC1: Memory freed multiple times without being reallocated
+[47652.533813] SPEC1: VIOLATION: 
+[47652.533813] SPEC1: Memory freed multiple times without being reallocated
+[47652.548806] SPEC1: Trace finished. Resetting variables, finding more violations
+[47652.548807] SPEC1: VIOLATION: 
+[47652.548809] SPEC1: Memory allocated but not freed
+[47652.548809] SPEC1: VIOLATION: 
+[47652.548809] SPEC1: Memory allocated but not freed
+[47652.548810] SPEC1: VIOLATION: 
+[47652.548810] SPEC1: Memory allocated but not freed
+[47652.548810] SPEC1: VIOLATION: 
+[47652.548811] SPEC1: Memory allocated but not freed
+[47652.548811] SPEC1: VIOLATION: 
+[47652.548811] SPEC1: Memory allocated but not freed
+[47652.548811] SPEC1: VIOLATION: 
+[47652.548812] SPEC1: Memory allocated but not freed
+[47652.548812] SPEC1: VIOLATION: 
+[47652.548812] SPEC1: Memory allocated but not freed
+[47652.548812] SPEC1: VIOLATION: 
+[47652.548813] SPEC1: Memory allocated but not freed
+[47652.548813] SPEC1: VIOLATION: 
+[47652.548813] SPEC1: Memory allocated but not freed
+[47652.548814] SPEC1: VIOLATION: 
+[47652.548814] SPEC1: Memory allocated but not freed
+[47652.548814] SPEC1: Memory allocated but not freed: 
+[47652.548815] SPEC1: Freeing memory without allocation: 18
+[47652.548815] SPEC1: Memory allocated multiple times without being freed: 0
+[47652.548816] SPEC1: Memory freed multiple times without being reallocated: 343
+[47994.809757] SPEC1: VIOLATION: 
+[47994.809759] SPEC1: Freeing memory without allocation
+[47994.809767] SPEC1: VIOLATION: 
+[47994.809768] SPEC1: Freeing memory without allocation
+[47994.809771] SPEC1: VIOLATION: 
+[47994.809773] SPEC1: Freeing memory without allocation
+[47994.809809] SPEC1: VIOLATION: 
+[47994.809810] SPEC1: Freeing memory without allocation
+[47994.809827] SPEC1: VIOLATION: 
+[47994.809828] SPEC1: Freeing memory without allocation
+[47994.809832] SPEC1: VIOLATION: 
+[47994.809833] SPEC1: Freeing memory without allocation
+[47994.809978] SPEC1: VIOLATION: 
+[47994.809979] SPEC1: Freeing memory without allocation
+[47994.811650] SPEC1: VIOLATION: 
+[47994.811651] SPEC1: Memory freed multiple times without being reallocated
+[47994.822675] SPEC1: VIOLATION: 
+[47994.822677] SPEC1: Freeing memory without allocation
+[47994.822788] SPEC1: VIOLATION: 
+[47994.822789] SPEC1: Memory freed multiple times without being reallocated
+[47994.822836] SPEC1: VIOLATION: 
+[47994.822837] SPEC1: Memory freed multiple times without being reallocated
+[47994.822847] SPEC1: VIOLATION: 
+[47994.822848] SPEC1: Memory freed multiple times without being reallocated
+[47994.822856] SPEC1: VIOLATION: 
+[47994.822858] SPEC1: Memory freed multiple times without being reallocated
+[47994.822867] SPEC1: VIOLATION: 
+[47994.822868] SPEC1: Memory freed multiple times without being reallocated
+[47994.822877] SPEC1: VIOLATION: 
+[47994.822879] SPEC1: Memory freed multiple times without being reallocated
+[47994.822887] SPEC1: VIOLATION: 
+[47994.822888] SPEC1: Memory freed multiple times without being reallocated
+[47994.823060] SPEC1: VIOLATION: 
+[47994.823061] SPEC1: Freeing memory without allocation
+[47994.823131] SPEC1: VIOLATION: 
+[47994.823133] SPEC1: Memory freed multiple times without being reallocated
+[47994.823143] SPEC1: VIOLATION: 
+[47994.823145] SPEC1: Memory freed multiple times without being reallocated
+[47994.823153] SPEC1: VIOLATION: 
+[47994.823155] SPEC1: Memory freed multiple times without being reallocated
+[47994.823213] SPEC1: VIOLATION: 
+[47994.823214] SPEC1: Memory freed multiple times without being reallocated
+[47994.823223] SPEC1: VIOLATION: 
+[47994.823224] SPEC1: Memory freed multiple times without being reallocated
+[47994.823323] SPEC1: VIOLATION: 
+[47994.823324] SPEC1: Memory freed multiple times without being reallocated
+[47994.823327] SPEC1: VIOLATION: 
+[47994.823328] SPEC1: Freeing memory without allocation
+[47994.823349] SPEC1: VIOLATION: 
+[47994.823350] SPEC1: Memory freed multiple times without being reallocated
+[47994.823399] SPEC1: VIOLATION: 
+[47994.823401] SPEC1: Memory freed multiple times without being reallocated
+[47994.823424] SPEC1: VIOLATION: 
+[47994.823425] SPEC1: Memory freed multiple times without being reallocated
+[47994.823428] SPEC1: VIOLATION: 
+[47994.823429] SPEC1: Memory freed multiple times without being reallocated
+[47994.823432] SPEC1: VIOLATION: 
+[47994.823433] SPEC1: Memory freed multiple times without being reallocated
+[47994.823469] SPEC1: VIOLATION: 
+[47994.823470] SPEC1: Memory freed multiple times without being reallocated
+[47994.823493] SPEC1: VIOLATION: 
+[47994.823494] SPEC1: Memory freed multiple times without being reallocated
+[47994.823497] SPEC1: VIOLATION: 
+[47994.823498] SPEC1: Memory freed multiple times without being reallocated
+[47994.823501] SPEC1: VIOLATION: 
+[47994.823502] SPEC1: Memory freed multiple times without being reallocated
+[47994.823504] SPEC1: VIOLATION: 
+[47994.823506] SPEC1: Memory freed multiple times without being reallocated
+[47994.823509] SPEC1: VIOLATION: 
+[47994.823510] SPEC1: Freeing memory without allocation
+[47994.823562] SPEC1: VIOLATION: 
+[47994.823563] SPEC1: Freeing memory without allocation
+[47994.823582] SPEC1: VIOLATION: 
+[47994.823583] SPEC1: Memory freed multiple times without being reallocated
+[47994.823602] SPEC1: VIOLATION: 
+[47994.823603] SPEC1: Memory freed multiple times without being reallocated
+[47994.823606] SPEC1: VIOLATION: 
+[47994.823607] SPEC1: Memory freed multiple times without being reallocated
+[47994.823610] SPEC1: VIOLATION: 
+[47994.823611] SPEC1: Memory freed multiple times without being reallocated
+[47994.823614] SPEC1: VIOLATION: 
+[47994.823615] SPEC1: Memory freed multiple times without being reallocated
+[47994.823617] SPEC1: VIOLATION: 
+[47994.823618] SPEC1: Memory freed multiple times without being reallocated
+[47994.823633] SPEC1: VIOLATION: 
+[47994.823634] SPEC1: Memory freed multiple times without being reallocated
+[47994.823648] SPEC1: VIOLATION: 
+[47994.823650] SPEC1: Memory freed multiple times without being reallocated
+[47994.823652] SPEC1: VIOLATION: 
+[47994.823653] SPEC1: Memory freed multiple times without being reallocated
+[47994.823656] SPEC1: VIOLATION: 
+[47994.823657] SPEC1: Memory freed multiple times without being reallocated
+[47994.823659] SPEC1: VIOLATION: 
+[47994.823661] SPEC1: Memory freed multiple times without being reallocated
+[47994.823663] SPEC1: VIOLATION: 
+[47994.823664] SPEC1: Memory freed multiple times without being reallocated
+[47994.823677] SPEC1: VIOLATION: 
+[47994.823678] SPEC1: Memory freed multiple times without being reallocated
+[47994.823693] SPEC1: VIOLATION: 
+[47994.823694] SPEC1: Memory freed multiple times without being reallocated
+[47994.823697] SPEC1: VIOLATION: 
+[47994.823698] SPEC1: Memory freed multiple times without being reallocated
+[47994.823700] SPEC1: VIOLATION: 
+[47994.823701] SPEC1: Memory freed multiple times without being reallocated
+[47994.823704] SPEC1: VIOLATION: 
+[47994.823705] SPEC1: Memory freed multiple times without being reallocated
+[47994.823707] SPEC1: VIOLATION: 
+[47994.823708] SPEC1: Memory freed multiple times without being reallocated
+[47994.823717] SPEC1: VIOLATION: 
+[47994.823718] SPEC1: Memory freed multiple times without being reallocated
+[47994.823730] SPEC1: VIOLATION: 
+[47994.823731] SPEC1: Memory freed multiple times without being reallocated
+[47994.823746] SPEC1: VIOLATION: 
+[47994.823747] SPEC1: Memory freed multiple times without being reallocated
+[47994.823749] SPEC1: VIOLATION: 
+[47994.823751] SPEC1: Memory freed multiple times without being reallocated
+[47994.823753] SPEC1: VIOLATION: 
+[47994.823754] SPEC1: Memory freed multiple times without being reallocated
+[47994.823757] SPEC1: VIOLATION: 
+[47994.823758] SPEC1: Memory freed multiple times without being reallocated
+[47994.823760] SPEC1: VIOLATION: 
+[47994.823761] SPEC1: Memory freed multiple times without being reallocated
+[47994.823773] SPEC1: VIOLATION: 
+[47994.823774] SPEC1: Memory freed multiple times without being reallocated
+[47994.823788] SPEC1: VIOLATION: 
+[47994.823789] SPEC1: Memory freed multiple times without being reallocated
+[47994.823792] SPEC1: VIOLATION: 
+[47994.823793] SPEC1: Memory freed multiple times without being reallocated
+[47994.823796] SPEC1: VIOLATION: 
+[47994.823797] SPEC1: Memory freed multiple times without being reallocated
+[47994.823799] SPEC1: VIOLATION: 
+[47994.823800] SPEC1: Memory freed multiple times without being reallocated
+[47994.823803] SPEC1: VIOLATION: 
+[47994.823804] SPEC1: Memory freed multiple times without being reallocated
+[47994.823816] SPEC1: VIOLATION: 
+[47994.823817] SPEC1: Memory freed multiple times without being reallocated
+[47994.823831] SPEC1: VIOLATION: 
+[47994.823832] SPEC1: Memory freed multiple times without being reallocated
+[47994.823834] SPEC1: VIOLATION: 
+[47994.823836] SPEC1: Memory freed multiple times without being reallocated
+[47994.823838] SPEC1: VIOLATION: 
+[47994.823839] SPEC1: Memory freed multiple times without being reallocated
+[47994.823842] SPEC1: VIOLATION: 
+[47994.823843] SPEC1: Memory freed multiple times without being reallocated
+[47994.823845] SPEC1: VIOLATION: 
+[47994.823846] SPEC1: Memory freed multiple times without being reallocated
+[47994.823889] SPEC1: VIOLATION: 
+[47994.823891] SPEC1: Memory freed multiple times without being reallocated
+[47994.823907] SPEC1: VIOLATION: 
+[47994.823909] SPEC1: Memory freed multiple times without being reallocated
+[47994.823911] SPEC1: VIOLATION: 
+[47994.823912] SPEC1: Memory freed multiple times without being reallocated
+[47994.823915] SPEC1: VIOLATION: 
+[47994.823916] SPEC1: Memory freed multiple times without being reallocated
+[47994.823919] SPEC1: VIOLATION: 
+[47994.823920] SPEC1: Memory freed multiple times without being reallocated
+[47994.823922] SPEC1: VIOLATION: 
+[47994.823923] SPEC1: Memory freed multiple times without being reallocated
+[47994.824049] SPEC1: VIOLATION: 
+[47994.824050] SPEC1: Memory freed multiple times without being reallocated
+[47994.824728] SPEC1: VIOLATION: 
+[47994.824729] SPEC1: Memory freed multiple times without being reallocated
+[47994.824734] SPEC1: VIOLATION: 
+[47994.824735] SPEC1: Memory freed multiple times without being reallocated
+[47994.824738] SPEC1: VIOLATION: 
+[47994.824739] SPEC1: Memory freed multiple times without being reallocated
+[47994.824871] SPEC1: VIOLATION: 
+[47994.824873] SPEC1: Memory freed multiple times without being reallocated
+[47994.824924] SPEC1: VIOLATION: 
+[47994.824925] SPEC1: Memory freed multiple times without being reallocated
+[47994.825166] SPEC1: VIOLATION: 
+[47994.825167] SPEC1: Freeing memory without allocation
+[47994.825175] SPEC1: VIOLATION: 
+[47994.825176] SPEC1: Memory freed multiple times without being reallocated
+[47994.832441] SPEC1: VIOLATION: 
+[47994.832442] SPEC1: Memory freed multiple times without being reallocated
+[47994.832481] SPEC1: VIOLATION: 
+[47994.832483] SPEC1: Freeing memory without allocation
+[47994.832538] SPEC1: VIOLATION: 
+[47994.832539] SPEC1: Memory freed multiple times without being reallocated
+[47994.832568] SPEC1: VIOLATION: 
+[47994.832569] SPEC1: Memory freed multiple times without being reallocated
+[47994.832882] SPEC1: VIOLATION: 
+[47994.832883] SPEC1: Memory freed multiple times without being reallocated
+[47994.832895] SPEC1: VIOLATION: 
+[47994.832896] SPEC1: Memory freed multiple times without being reallocated
+[47994.850758] SPEC1: VIOLATION: 
+[47994.850759] SPEC1: Memory freed multiple times without being reallocated
+[47994.850784] SPEC1: VIOLATION: 
+[47994.850784] SPEC1: Memory freed multiple times without being reallocated
+[47994.850810] SPEC1: VIOLATION: 
+[47994.850811] SPEC1: Freeing memory without allocation
+[47994.850813] SPEC1: VIOLATION: 
+[47994.850813] SPEC1: Memory freed multiple times without being reallocated
+[47994.850815] SPEC1: VIOLATION: 
+[47994.850815] SPEC1: Memory freed multiple times without being reallocated
+[47994.850816] SPEC1: VIOLATION: 
+[47994.850817] SPEC1: Memory freed multiple times without being reallocated
+[47994.850818] SPEC1: VIOLATION: 
+[47994.850819] SPEC1: Memory freed multiple times without being reallocated
+[47994.850828] SPEC1: VIOLATION: 
+[47994.850829] SPEC1: Memory freed multiple times without being reallocated
+[47994.850836] SPEC1: VIOLATION: 
+[47994.850836] SPEC1: Memory freed multiple times without being reallocated
+[47994.850838] SPEC1: VIOLATION: 
+[47994.850838] SPEC1: Memory freed multiple times without being reallocated
+[47994.850839] SPEC1: VIOLATION: 
+[47994.850840] SPEC1: Memory freed multiple times without being reallocated
+[47994.850841] SPEC1: VIOLATION: 
+[47994.850841] SPEC1: Memory freed multiple times without being reallocated
+[47994.850842] SPEC1: VIOLATION: 
+[47994.850843] SPEC1: Memory freed multiple times without being reallocated
+[47994.850849] SPEC1: VIOLATION: 
+[47994.850849] SPEC1: Memory freed multiple times without being reallocated
+[47994.850856] SPEC1: VIOLATION: 
+[47994.850856] SPEC1: Memory freed multiple times without being reallocated
+[47994.850857] SPEC1: VIOLATION: 
+[47994.850858] SPEC1: Memory freed multiple times without being reallocated
+[47994.850859] SPEC1: VIOLATION: 
+[47994.850859] SPEC1: Memory freed multiple times without being reallocated
+[47994.850860] SPEC1: VIOLATION: 
+[47994.850861] SPEC1: Memory freed multiple times without being reallocated
+[47994.850862] SPEC1: VIOLATION: 
+[47994.850862] SPEC1: Memory freed multiple times without being reallocated
+[47994.858665] SPEC1: VIOLATION: 
+[47994.858666] SPEC1: Memory freed multiple times without being reallocated
+[47994.858669] SPEC1: VIOLATION: 
+[47994.858669] SPEC1: Memory freed multiple times without being reallocated
+[47994.862075] SPEC1: VIOLATION: 
+[47994.862075] SPEC1: Memory freed multiple times without being reallocated
+[47994.862080] SPEC1: VIOLATION: 
+[47994.862080] SPEC1: Memory freed multiple times without being reallocated
+[47994.870230] SPEC1: VIOLATION: 
+[47994.870232] SPEC1: Memory freed multiple times without being reallocated
+[47994.870282] SPEC1: VIOLATION: 
+[47994.870283] SPEC1: Freeing memory without allocation
+[47994.880896] SPEC1: VIOLATION: 
+[47994.880897] SPEC1: Memory freed multiple times without being reallocated
+[47994.880920] SPEC1: VIOLATION: 
+[47994.880920] SPEC1: Memory freed multiple times without being reallocated
+[47994.880935] SPEC1: VIOLATION: 
+[47994.880936] SPEC1: Memory freed multiple times without being reallocated
+[47994.880937] SPEC1: VIOLATION: 
+[47994.880937] SPEC1: Freeing memory without allocation
+[47994.880938] SPEC1: VIOLATION: 
+[47994.880939] SPEC1: Freeing memory without allocation
+[47994.880940] SPEC1: VIOLATION: 
+[47994.880940] SPEC1: Memory freed multiple times without being reallocated
+[47994.880941] SPEC1: VIOLATION: 
+[47994.880941] SPEC1: Memory freed multiple times without being reallocated
+[47994.880948] SPEC1: VIOLATION: 
+[47994.880948] SPEC1: Memory freed multiple times without being reallocated
+[47994.880953] SPEC1: VIOLATION: 
+[47994.880954] SPEC1: Memory freed multiple times without being reallocated
+[47994.880955] SPEC1: VIOLATION: 
+[47994.880955] SPEC1: Memory freed multiple times without being reallocated
+[47994.880956] SPEC1: VIOLATION: 
+[47994.880956] SPEC1: Memory freed multiple times without being reallocated
+[47994.880957] SPEC1: VIOLATION: 
+[47994.880957] SPEC1: Memory freed multiple times without being reallocated
+[47994.880958] SPEC1: VIOLATION: 
+[47994.880958] SPEC1: Memory freed multiple times without being reallocated
+[47994.880963] SPEC1: VIOLATION: 
+[47994.880963] SPEC1: Memory freed multiple times without being reallocated
+[47994.880967] SPEC1: VIOLATION: 
+[47994.880968] SPEC1: Memory freed multiple times without being reallocated
+[47994.880968] SPEC1: VIOLATION: 
+[47994.880969] SPEC1: Memory freed multiple times without being reallocated
+[47994.880970] SPEC1: VIOLATION: 
+[47994.880970] SPEC1: Memory freed multiple times without being reallocated
+[47994.880971] SPEC1: VIOLATION: 
+[47994.880971] SPEC1: Memory freed multiple times without being reallocated
+[47994.880972] SPEC1: VIOLATION: 
+[47994.880972] SPEC1: Memory freed multiple times without being reallocated
+[47994.890606] SPEC1: VIOLATION: 
+[47994.890606] SPEC1: Memory freed multiple times without being reallocated
+[47994.890935] SPEC1: VIOLATION: 
+[47994.890935] SPEC1: Memory freed multiple times without being reallocated
+[47994.890937] SPEC1: VIOLATION: 
+[47994.890938] SPEC1: Memory freed multiple times without being reallocated
+[47994.891041] SPEC1: VIOLATION: 
+[47994.891042] SPEC1: Memory freed multiple times without being reallocated
+[47994.891044] SPEC1: VIOLATION: 
+[47994.891044] SPEC1: Memory freed multiple times without being reallocated
+[47994.897491] SPEC1: VIOLATION: 
+[47994.897491] SPEC1: Memory freed multiple times without being reallocated
+[47994.897494] SPEC1: VIOLATION: 
+[47994.897494] SPEC1: Memory freed multiple times without being reallocated
+[47994.898229] SPEC1: VIOLATION: 
+[47994.898229] SPEC1: Memory freed multiple times without being reallocated
+[47994.898232] SPEC1: VIOLATION: 
+[47994.898232] SPEC1: Memory freed multiple times without being reallocated
+[47994.904511] SPEC1: VIOLATION: 
+[47994.904512] SPEC1: Memory freed multiple times without being reallocated
+[47994.904528] SPEC1: VIOLATION: 
+[47994.904529] SPEC1: Freeing memory without allocation
+[47994.904530] SPEC1: VIOLATION: 
+[47994.904531] SPEC1: Memory freed multiple times without being reallocated
+[47994.904532] SPEC1: VIOLATION: 
+[47994.904532] SPEC1: Freeing memory without allocation
+[47994.904533] SPEC1: VIOLATION: 
+[47994.904533] SPEC1: Memory freed multiple times without being reallocated
+[47994.904534] SPEC1: VIOLATION: 
+[47994.904534] SPEC1: Memory freed multiple times without being reallocated
+[47994.904540] SPEC1: VIOLATION: 
+[47994.904540] SPEC1: Memory freed multiple times without being reallocated
+[47994.904543] SPEC1: VIOLATION: 
+[47994.904543] SPEC1: Memory freed multiple times without being reallocated
+[47994.948000] SPEC1: VIOLATION: 
+[47994.948000] SPEC1: Memory freed multiple times without being reallocated
+[47994.948004] SPEC1: VIOLATION: 
+[47994.948005] SPEC1: Memory freed multiple times without being reallocated
+[47994.948006] SPEC1: VIOLATION: 
+[47994.948007] SPEC1: Memory freed multiple times without being reallocated
+[47994.948008] SPEC1: VIOLATION: 
+[47994.948008] SPEC1: Memory freed multiple times without being reallocated
+[47994.948009] SPEC1: VIOLATION: 
+[47994.948009] SPEC1: Memory freed multiple times without being reallocated
+[47994.948011] SPEC1: VIOLATION: 
+[47994.948011] SPEC1: Memory freed multiple times without being reallocated
+[47994.948013] SPEC1: VIOLATION: 
+[47994.948014] SPEC1: Memory freed multiple times without being reallocated
+[47994.948016] SPEC1: VIOLATION: 
+[47994.948017] SPEC1: Memory freed multiple times without being reallocated
+[47994.948017] SPEC1: VIOLATION: 
+[47994.948018] SPEC1: Memory freed multiple times without being reallocated
+[47994.948019] SPEC1: VIOLATION: 
+[47994.948019] SPEC1: Memory freed multiple times without being reallocated
+[47994.948020] SPEC1: VIOLATION: 
+[47994.948021] SPEC1: Memory freed multiple times without being reallocated
+[47994.948022] SPEC1: VIOLATION: 
+[47994.948022] SPEC1: Memory freed multiple times without being reallocated
+[47994.948023] SPEC1: VIOLATION: 
+[47994.948023] SPEC1: Memory freed multiple times without being reallocated
+[47994.948024] SPEC1: VIOLATION: 
+[47994.948025] SPEC1: Memory freed multiple times without being reallocated
+[47994.948026] SPEC1: VIOLATION: 
+[47994.948026] SPEC1: Memory freed multiple times without being reallocated
+[47994.948027] SPEC1: VIOLATION: 
+[47994.948027] SPEC1: Memory freed multiple times without being reallocated
+[47994.948028] SPEC1: VIOLATION: 
+[47994.948028] SPEC1: Memory freed multiple times without being reallocated
+[47994.948030] SPEC1: VIOLATION: 
+[47994.948030] SPEC1: Memory freed multiple times without being reallocated
+[47994.948031] SPEC1: VIOLATION: 
+[47994.948031] SPEC1: Memory freed multiple times without being reallocated
+[47994.948033] SPEC1: VIOLATION: 
+[47994.948033] SPEC1: Memory freed multiple times without being reallocated
+[47994.948034] SPEC1: VIOLATION: 
+[47994.948034] SPEC1: Memory freed multiple times without being reallocated
+[47994.948035] SPEC1: VIOLATION: 
+[47994.948036] SPEC1: Memory freed multiple times without being reallocated
+[47994.948056] SPEC1: VIOLATION: 
+[47994.948057] SPEC1: Freeing memory without allocation
+[47994.948093] SPEC1: VIOLATION: 
+[47994.948094] SPEC1: Memory freed multiple times without being reallocated
+[47994.948106] SPEC1: VIOLATION: 
+[47994.948106] SPEC1: Memory freed multiple times without being reallocated
+[47994.948151] SPEC1: VIOLATION: 
+[47994.948151] SPEC1: Memory freed multiple times without being reallocated
+[47994.948197] SPEC1: VIOLATION: 
+[47994.948197] SPEC1: Memory freed multiple times without being reallocated
+[47994.974832] SPEC1: VIOLATION: 
+[47994.974834] SPEC1: Memory freed multiple times without being reallocated
+[47994.974859] SPEC1: VIOLATION: 
+[47994.974859] SPEC1: Memory freed multiple times without being reallocated
+[47994.974896] SPEC1: VIOLATION: 
+[47994.974896] SPEC1: Memory freed multiple times without being reallocated
+[47994.974898] SPEC1: VIOLATION: 
+[47994.974898] SPEC1: Memory freed multiple times without being reallocated
+[47994.974899] SPEC1: VIOLATION: 
+[47994.974899] SPEC1: Memory freed multiple times without being reallocated
+[47994.974900] SPEC1: VIOLATION: 
+[47994.974901] SPEC1: Memory freed multiple times without being reallocated
+[47994.974901] SPEC1: VIOLATION: 
+[47994.974902] SPEC1: Memory freed multiple times without being reallocated
+[47994.974909] SPEC1: VIOLATION: 
+[47994.974909] SPEC1: Memory freed multiple times without being reallocated
+[47994.974915] SPEC1: VIOLATION: 
+[47994.974915] SPEC1: Memory freed multiple times without being reallocated
+[47994.974916] SPEC1: VIOLATION: 
+[47994.974916] SPEC1: Memory freed multiple times without being reallocated
+[47994.974917] SPEC1: VIOLATION: 
+[47994.974917] SPEC1: Memory freed multiple times without being reallocated
+[47994.974918] SPEC1: VIOLATION: 
+[47994.974918] SPEC1: Memory freed multiple times without being reallocated
+[47994.974919] SPEC1: VIOLATION: 
+[47994.974919] SPEC1: Memory freed multiple times without being reallocated
+[47994.974924] SPEC1: VIOLATION: 
+[47994.974924] SPEC1: Memory freed multiple times without being reallocated
+[47994.974928] SPEC1: VIOLATION: 
+[47994.974928] SPEC1: Memory freed multiple times without being reallocated
+[47994.974929] SPEC1: VIOLATION: 
+[47994.974929] SPEC1: Memory freed multiple times without being reallocated
+[47994.974930] SPEC1: VIOLATION: 
+[47994.974930] SPEC1: Memory freed multiple times without being reallocated
+[47994.974931] SPEC1: VIOLATION: 
+[47994.974931] SPEC1: Memory freed multiple times without being reallocated
+[47994.974932] SPEC1: VIOLATION: 
+[47994.974932] SPEC1: Memory freed multiple times without being reallocated
+[47994.974960] SPEC1: VIOLATION: 
+[47994.974960] SPEC1: Memory freed multiple times without being reallocated
+[47994.974965] SPEC1: VIOLATION: 
+[47994.974965] SPEC1: Memory freed multiple times without being reallocated
+[47994.974970] SPEC1: VIOLATION: 
+[47994.974971] SPEC1: Memory freed multiple times without being reallocated
+[47994.974972] SPEC1: VIOLATION: 
+[47994.974972] SPEC1: Memory freed multiple times without being reallocated
+[47994.974973] SPEC1: VIOLATION: 
+[47994.974973] SPEC1: Memory freed multiple times without being reallocated
+[47994.974974] SPEC1: VIOLATION: 
+[47994.974974] SPEC1: Memory freed multiple times without being reallocated
+[47994.974975] SPEC1: VIOLATION: 
+[47994.974975] SPEC1: Memory freed multiple times without being reallocated
+[47994.974978] SPEC1: VIOLATION: 
+[47994.974979] SPEC1: Memory freed multiple times without being reallocated
+[47994.974983] SPEC1: VIOLATION: 
+[47994.974983] SPEC1: Memory freed multiple times without being reallocated
+[47994.974984] SPEC1: VIOLATION: 
+[47994.974984] SPEC1: Memory freed multiple times without being reallocated
+[47994.974985] SPEC1: VIOLATION: 
+[47994.974985] SPEC1: Memory freed multiple times without being reallocated
+[47994.974986] SPEC1: VIOLATION: 
+[47994.974986] SPEC1: Memory freed multiple times without being reallocated
+[47994.974987] SPEC1: VIOLATION: 
+[47994.974987] SPEC1: Memory freed multiple times without being reallocated
+[47994.974990] SPEC1: VIOLATION: 
+[47994.974990] SPEC1: Memory freed multiple times without being reallocated
+[47994.974994] SPEC1: VIOLATION: 
+[47994.974994] SPEC1: Memory freed multiple times without being reallocated
+[47994.974995] SPEC1: VIOLATION: 
+[47994.974996] SPEC1: Memory freed multiple times without being reallocated
+[47994.974996] SPEC1: VIOLATION: 
+[47994.974996] SPEC1: Memory freed multiple times without being reallocated
+[47994.974997] SPEC1: VIOLATION: 
+[47994.974997] SPEC1: Memory freed multiple times without being reallocated
+[47994.974998] SPEC1: VIOLATION: 
+[47994.974998] SPEC1: Memory freed multiple times without being reallocated
+[47994.975030] SPEC1: VIOLATION: 
+[47994.975031] SPEC1: Memory freed multiple times without being reallocated
+[47994.975035] SPEC1: VIOLATION: 
+[47994.975036] SPEC1: Memory freed multiple times without being reallocated
+[47994.975041] SPEC1: VIOLATION: 
+[47994.975041] SPEC1: Memory freed multiple times without being reallocated
+[47994.975042] SPEC1: VIOLATION: 
+[47994.975042] SPEC1: Memory freed multiple times without being reallocated
+[47994.975043] SPEC1: VIOLATION: 
+[47994.975044] SPEC1: Memory freed multiple times without being reallocated
+[47994.975044] SPEC1: VIOLATION: 
+[47994.975045] SPEC1: Memory freed multiple times without being reallocated
+[47994.975045] SPEC1: VIOLATION: 
+[47994.975045] SPEC1: Memory freed multiple times without being reallocated
+[47994.975049] SPEC1: VIOLATION: 
+[47994.975049] SPEC1: Memory freed multiple times without being reallocated
+[47994.975053] SPEC1: VIOLATION: 
+[47994.975054] SPEC1: Memory freed multiple times without being reallocated
+[47994.975054] SPEC1: VIOLATION: 
+[47994.975055] SPEC1: Memory freed multiple times without being reallocated
+[47994.975055] SPEC1: VIOLATION: 
+[47994.975056] SPEC1: Memory freed multiple times without being reallocated
+[47994.975056] SPEC1: VIOLATION: 
+[47994.975057] SPEC1: Memory freed multiple times without being reallocated
+[47994.975057] SPEC1: VIOLATION: 
+[47994.975058] SPEC1: Memory freed multiple times without being reallocated
+[47994.975061] SPEC1: VIOLATION: 
+[47994.975061] SPEC1: Memory freed multiple times without being reallocated
+[47994.975065] SPEC1: VIOLATION: 
+[47994.975065] SPEC1: Memory freed multiple times without being reallocated
+[47994.975066] SPEC1: VIOLATION: 
+[47994.975066] SPEC1: Memory freed multiple times without being reallocated
+[47994.975067] SPEC1: VIOLATION: 
+[47994.975067] SPEC1: Memory freed multiple times without being reallocated
+[47994.975068] SPEC1: VIOLATION: 
+[47994.975068] SPEC1: Memory freed multiple times without being reallocated
+[47994.975069] SPEC1: VIOLATION: 
+[47994.975069] SPEC1: Memory freed multiple times without being reallocated
+[47994.975089] SPEC1: VIOLATION: 
+[47994.975090] SPEC1: Memory freed multiple times without being reallocated
+[47994.975095] SPEC1: VIOLATION: 
+[47994.975095] SPEC1: Memory freed multiple times without being reallocated
+[47994.975100] SPEC1: VIOLATION: 
+[47994.975100] SPEC1: Memory freed multiple times without being reallocated
+[47994.975101] SPEC1: VIOLATION: 
+[47994.975101] SPEC1: Memory freed multiple times without being reallocated
+[47994.975102] SPEC1: VIOLATION: 
+[47994.975102] SPEC1: Memory freed multiple times without being reallocated
+[47994.975103] SPEC1: VIOLATION: 
+[47994.975103] SPEC1: Memory freed multiple times without being reallocated
+[47994.975104] SPEC1: VIOLATION: 
+[47994.975104] SPEC1: Memory freed multiple times without being reallocated
+[47994.975108] SPEC1: VIOLATION: 
+[47994.975108] SPEC1: Memory freed multiple times without being reallocated
+[47994.975112] SPEC1: VIOLATION: 
+[47994.975112] SPEC1: Memory freed multiple times without being reallocated
+[47994.975113] SPEC1: VIOLATION: 
+[47994.975114] SPEC1: Memory freed multiple times without being reallocated
+[47994.975114] SPEC1: VIOLATION: 
+[47994.975115] SPEC1: Memory freed multiple times without being reallocated
+[47994.975115] SPEC1: VIOLATION: 
+[47994.975116] SPEC1: Memory freed multiple times without being reallocated
+[47994.975116] SPEC1: VIOLATION: 
+[47994.975117] SPEC1: Memory freed multiple times without being reallocated
+[47994.975120] SPEC1: VIOLATION: 
+[47994.975120] SPEC1: Memory freed multiple times without being reallocated
+[47994.975124] SPEC1: VIOLATION: 
+[47994.975124] SPEC1: Memory freed multiple times without being reallocated
+[47994.975125] SPEC1: VIOLATION: 
+[47994.975125] SPEC1: Memory freed multiple times without being reallocated
+[47994.975126] SPEC1: VIOLATION: 
+[47994.975126] SPEC1: Memory freed multiple times without being reallocated
+[47994.975127] SPEC1: VIOLATION: 
+[47994.975127] SPEC1: Memory freed multiple times without being reallocated
+[47994.975128] SPEC1: VIOLATION: 
+[47994.975128] SPEC1: Memory freed multiple times without being reallocated
+[47994.976615] SPEC1: VIOLATION: 
+[47994.976615] SPEC1: Memory freed multiple times without being reallocated
+[47994.976687] SPEC1: VIOLATION: 
+[47994.976687] SPEC1: Memory freed multiple times without being reallocated
+[47994.976759] SPEC1: VIOLATION: 
+[47994.976759] SPEC1: Memory freed multiple times without being reallocated
+[47994.976765] SPEC1: VIOLATION: 
+[47994.976765] SPEC1: Memory freed multiple times without being reallocated
+[47994.977071] SPEC1: VIOLATION: 
+[47994.977072] SPEC1: Memory freed multiple times without being reallocated
+[47994.977075] SPEC1: VIOLATION: 
+[47994.977075] SPEC1: Memory freed multiple times without being reallocated
+[47994.977080] SPEC1: VIOLATION: 
+[47994.977081] SPEC1: Memory freed multiple times without being reallocated
+[47994.977870] SPEC1: VIOLATION: 
+[47994.977871] SPEC1: Memory freed multiple times without being reallocated
+[47994.977878] SPEC1: VIOLATION: 
+[47994.977879] SPEC1: Memory freed multiple times without being reallocated
+[47995.005480] SPEC1: VIOLATION: 
+[47995.005481] SPEC1: Memory freed multiple times without being reallocated
+[47995.005496] SPEC1: VIOLATION: 
+[47995.005496] SPEC1: Memory freed multiple times without being reallocated
+[47995.015414] SPEC1: VIOLATION: 
+[47995.015415] SPEC1: Memory freed multiple times without being reallocated
+[47995.015429] SPEC1: VIOLATION: 
+[47995.015430] SPEC1: Memory freed multiple times without being reallocated
+[47995.016734] SPEC1: VIOLATION: 
+[47995.016734] SPEC1: Memory freed multiple times without being reallocated
+[47995.016741] SPEC1: VIOLATION: 
+[47995.016741] SPEC1: Memory freed multiple times without being reallocated
+[47995.019649] SPEC1: VIOLATION: 
+[47995.019649] SPEC1: Memory freed multiple times without being reallocated
+[47995.019657] SPEC1: VIOLATION: 
+[47995.019657] SPEC1: Memory freed multiple times without being reallocated
+[47995.019698] SPEC1: VIOLATION: 
+[47995.019699] SPEC1: Memory freed multiple times without being reallocated
+[47995.019700] SPEC1: VIOLATION: 
+[47995.019701] SPEC1: Memory freed multiple times without being reallocated
+[47995.019705] SPEC1: VIOLATION: 
+[47995.019705] SPEC1: Memory freed multiple times without being reallocated
+[47995.019864] SPEC1: VIOLATION: 
+[47995.019865] SPEC1: Memory freed multiple times without being reallocated
+[47995.019870] SPEC1: VIOLATION: 
+[47995.019871] SPEC1: Memory freed multiple times without being reallocated
+[47995.020069] SPEC1: VIOLATION: 
+[47995.020070] SPEC1: Memory freed multiple times without being reallocated
+[47995.020077] SPEC1: VIOLATION: 
+[47995.020077] SPEC1: Memory freed multiple times without being reallocated
+[47995.020264] SPEC1: VIOLATION: 
+[47995.020264] SPEC1: Memory freed multiple times without being reallocated
+[47995.020269] SPEC1: VIOLATION: 
+[47995.020269] SPEC1: Memory freed multiple times without being reallocated
+[47995.020563] SPEC1: VIOLATION: 
+[47995.020563] SPEC1: Memory freed multiple times without being reallocated
+[47995.020568] SPEC1: VIOLATION: 
+[47995.020569] SPEC1: Memory freed multiple times without being reallocated
+[47995.020939] SPEC1: VIOLATION: 
+[47995.020939] SPEC1: Memory freed multiple times without being reallocated
+[47995.020943] SPEC1: VIOLATION: 
+[47995.020944] SPEC1: Memory freed multiple times without being reallocated
+[47995.022148] SPEC1: VIOLATION: 
+[47995.022149] SPEC1: Memory freed multiple times without being reallocated
+[47995.022157] SPEC1: VIOLATION: 
+[47995.022157] SPEC1: Memory freed multiple times without being reallocated
+[47995.022406] SPEC1: VIOLATION: 
+[47995.022406] SPEC1: Memory freed multiple times without being reallocated
+[47995.022412] SPEC1: VIOLATION: 
+[47995.022412] SPEC1: Memory freed multiple times without being reallocated
+[47995.022587] SPEC1: VIOLATION: 
+[47995.022587] SPEC1: Memory freed multiple times without being reallocated
+[47995.022592] SPEC1: VIOLATION: 
+[47995.022592] SPEC1: Memory freed multiple times without being reallocated
+[47995.022691] SPEC1: VIOLATION: 
+[47995.022691] SPEC1: Memory freed multiple times without being reallocated
+[47995.022696] SPEC1: VIOLATION: 
+[47995.022696] SPEC1: Memory freed multiple times without being reallocated
+[47995.022849] SPEC1: VIOLATION: 
+[47995.022849] SPEC1: Memory freed multiple times without being reallocated
+[47995.022853] SPEC1: VIOLATION: 
+[47995.022854] SPEC1: Memory freed multiple times without being reallocated
+[47995.022904] SPEC1: VIOLATION: 
+[47995.022904] SPEC1: Memory freed multiple times without being reallocated
+[47995.022908] SPEC1: VIOLATION: 
+[47995.022909] SPEC1: Memory freed multiple times without being reallocated
+[47995.023033] SPEC1: VIOLATION: 
+[47995.023033] SPEC1: Memory freed multiple times without being reallocated
+[47995.023037] SPEC1: VIOLATION: 
+[47995.023038] SPEC1: Memory freed multiple times without being reallocated
+[47995.023336] SPEC1: VIOLATION: 
+[47995.023336] SPEC1: Memory freed multiple times without being reallocated
+[47995.023341] SPEC1: VIOLATION: 
+[47995.023341] SPEC1: Memory freed multiple times without being reallocated
+[47995.023436] SPEC1: VIOLATION: 
+[47995.023436] SPEC1: Memory freed multiple times without being reallocated
+[47995.023441] SPEC1: VIOLATION: 
+[47995.023441] SPEC1: Memory freed multiple times without being reallocated
+[47995.023735] SPEC1: VIOLATION: 
+[47995.023735] SPEC1: Memory freed multiple times without being reallocated
+[47995.023741] SPEC1: VIOLATION: 
+[47995.023742] SPEC1: Memory freed multiple times without being reallocated
+[47995.023795] SPEC1: VIOLATION: 
+[47995.023795] SPEC1: Memory freed multiple times without being reallocated
+[47995.023800] SPEC1: VIOLATION: 
+[47995.023800] SPEC1: Memory freed multiple times without being reallocated
+[47995.023919] SPEC1: VIOLATION: 
+[47995.023919] SPEC1: Memory freed multiple times without being reallocated
+[47995.023924] SPEC1: VIOLATION: 
+[47995.023924] SPEC1: Memory freed multiple times without being reallocated
+[47995.024272] SPEC1: VIOLATION: 
+[47995.024272] SPEC1: Memory freed multiple times without being reallocated
+[47995.024280] SPEC1: VIOLATION: 
+[47995.024280] SPEC1: Memory freed multiple times without being reallocated
+[47995.396429] SPEC1: VIOLATION: 
+[47995.396430] SPEC1: Memory freed multiple times without being reallocated
+[47995.396452] SPEC1: VIOLATION: 
+[47995.396453] SPEC1: Memory freed multiple times without being reallocated
+[47995.396471] SPEC1: VIOLATION: 
+[47995.396471] SPEC1: Freeing memory without allocation
+[47995.396472] SPEC1: VIOLATION: 
+[47995.396473] SPEC1: Memory freed multiple times without being reallocated
+[47995.396474] SPEC1: VIOLATION: 
+[47995.396474] SPEC1: Memory freed multiple times without being reallocated
+[47995.396475] SPEC1: VIOLATION: 
+[47995.396475] SPEC1: Memory freed multiple times without being reallocated
+[47995.396476] SPEC1: VIOLATION: 
+[47995.396476] SPEC1: Memory freed multiple times without being reallocated
+[47995.396483] SPEC1: VIOLATION: 
+[47995.396483] SPEC1: Memory freed multiple times without being reallocated
+[47995.396488] SPEC1: VIOLATION: 
+[47995.396488] SPEC1: Memory freed multiple times without being reallocated
+[47995.396489] SPEC1: VIOLATION: 
+[47995.396489] SPEC1: Memory freed multiple times without being reallocated
+[47995.396490] SPEC1: VIOLATION: 
+[47995.396490] SPEC1: Memory freed multiple times without being reallocated
+[47995.396491] SPEC1: VIOLATION: 
+[47995.396491] SPEC1: Memory freed multiple times without being reallocated
+[47995.396492] SPEC1: VIOLATION: 
+[47995.396492] SPEC1: Memory freed multiple times without being reallocated
+[47995.396496] SPEC1: VIOLATION: 
+[47995.396497] SPEC1: Memory freed multiple times without being reallocated
+[47995.396500] SPEC1: VIOLATION: 
+[47995.396501] SPEC1: Memory freed multiple times without being reallocated
+[47995.396501] SPEC1: VIOLATION: 
+[47995.396502] SPEC1: Memory freed multiple times without being reallocated
+[47995.396502] SPEC1: VIOLATION: 
+[47995.396503] SPEC1: Memory freed multiple times without being reallocated
+[47995.396503] SPEC1: VIOLATION: 
+[47995.396504] SPEC1: Memory freed multiple times without being reallocated
+[47995.396504] SPEC1: VIOLATION: 
+[47995.396505] SPEC1: Memory freed multiple times without being reallocated
+[47995.402934] SPEC1: VIOLATION: 
+[47995.402934] SPEC1: Memory freed multiple times without being reallocated
+[47995.402937] SPEC1: VIOLATION: 
+[47995.402937] SPEC1: Memory freed multiple times without being reallocated
+[48001.684430] SPEC1: VIOLATION: 
+[48001.684431] SPEC1: Memory freed multiple times without being reallocated
+[48001.684657] SPEC1: VIOLATION: 
+[48001.684658] SPEC1: Memory freed multiple times without being reallocated
+[48001.701576] SPEC1: VIOLATION: 
+[48001.701577] SPEC1: Memory freed multiple times without being reallocated
+[48001.701639] SPEC1: VIOLATION: 
+[48001.701639] SPEC1: Memory freed multiple times without being reallocated
+[48001.701732] SPEC1: VIOLATION: 
+[48001.701732] SPEC1: Memory freed multiple times without being reallocated
+[48001.702711] SPEC1: VIOLATION: 
+[48001.702711] SPEC1: Memory freed multiple times without being reallocated
+[48001.702748] SPEC1: VIOLATION: 
+[48001.702748] SPEC1: Memory freed multiple times without being reallocated
+[48001.702781] SPEC1: VIOLATION: 
+[48001.702782] SPEC1: Memory freed multiple times without being reallocated
+[48001.702796] SPEC1: VIOLATION: 
+[48001.702797] SPEC1: Memory freed multiple times without being reallocated
+[48001.702817] SPEC1: VIOLATION: 
+[48001.702817] SPEC1: Memory freed multiple times without being reallocated
+[48001.702834] SPEC1: VIOLATION: 
+[48001.702834] SPEC1: Memory freed multiple times without being reallocated
+[48001.702850] SPEC1: VIOLATION: 
+[48001.702850] SPEC1: Memory freed multiple times without being reallocated
+[48001.702862] SPEC1: VIOLATION: 
+[48001.702862] SPEC1: Memory freed multiple times without being reallocated
+[48001.702874] SPEC1: VIOLATION: 
+[48001.702874] SPEC1: Memory freed multiple times without being reallocated
+[48001.702886] SPEC1: VIOLATION: 
+[48001.702886] SPEC1: Memory freed multiple times without being reallocated
+[48001.702900] SPEC1: VIOLATION: 
+[48001.702900] SPEC1: Memory freed multiple times without being reallocated
+[48001.702912] SPEC1: VIOLATION: 
+[48001.702912] SPEC1: Memory freed multiple times without being reallocated
+[48001.702923] SPEC1: VIOLATION: 
+[48001.702923] SPEC1: Memory freed multiple times without being reallocated
+[48001.702935] SPEC1: VIOLATION: 
+[48001.702935] SPEC1: Memory freed multiple times without being reallocated
+[48001.702947] SPEC1: VIOLATION: 
+[48001.702947] SPEC1: Memory freed multiple times without being reallocated
+[48001.702958] SPEC1: VIOLATION: 
+[48001.702958] SPEC1: Memory freed multiple times without being reallocated
+[48001.702970] SPEC1: VIOLATION: 
+[48001.702970] SPEC1: Memory freed multiple times without being reallocated
+[48001.702981] SPEC1: VIOLATION: 
+[48001.702981] SPEC1: Memory freed multiple times without being reallocated
+[48001.702991] SPEC1: VIOLATION: 
+[48001.702992] SPEC1: Memory freed multiple times without being reallocated
+[48001.703003] SPEC1: VIOLATION: 
+[48001.703003] SPEC1: Memory freed multiple times without being reallocated
+[48001.703021] SPEC1: VIOLATION: 
+[48001.703021] SPEC1: Memory freed multiple times without being reallocated
+[48001.718038] SPEC1: Trace finished. Resetting variables, finding more violations
+[48001.718039] SPEC1: VIOLATION: 
+[48001.718041] SPEC1: Memory allocated but not freed
+[48001.718041] SPEC1: VIOLATION: 
+[48001.718042] SPEC1: Memory allocated but not freed
+[48001.718042] SPEC1: VIOLATION: 
+[48001.718042] SPEC1: Memory allocated but not freed
+[48001.718043] SPEC1: VIOLATION: 
+[48001.718043] SPEC1: Memory allocated but not freed
+[48001.718043] SPEC1: VIOLATION: 
+[48001.718043] SPEC1: Memory allocated but not freed
+[48001.718044] SPEC1: VIOLATION: 
+[48001.718044] SPEC1: Memory allocated but not freed
+[48001.718044] SPEC1: VIOLATION: 
+[48001.718045] SPEC1: Memory allocated but not freed
+[48001.718045] SPEC1: VIOLATION: 
+[48001.718045] SPEC1: Memory allocated but not freed
+[48001.718045] SPEC1: VIOLATION: 
+[48001.718046] SPEC1: Memory allocated but not freed
+[48001.718046] SPEC1: VIOLATION: 
+[48001.718046] SPEC1: Memory allocated but not freed
+[48001.718047] SPEC1: Memory allocated but not freed: 
+[48001.718047] SPEC1: Freeing memory without allocation: 22
+[48001.718048] SPEC1: Memory allocated multiple times without being freed: 0
+[48001.718048] SPEC1: Memory freed multiple times without being reallocated: 338

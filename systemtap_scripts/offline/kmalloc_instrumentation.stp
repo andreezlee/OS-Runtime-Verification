@@ -9,13 +9,12 @@
 	#include <asm/uaccess.h> 
 %}
 
-global trace[100]
+global trace
 global index = 0
-global test_process = "kmalloc_app"
 
 # Instrument kmalloc for only the test process
 probe kernel.function("__kmalloc").return { 
-	if (execname()==test_process){
+	if (execname()==@2){
 		trace [index] = "kmalloc ".bytes_to_string($return)."\n"
 		index ++
 	}
@@ -23,7 +22,7 @@ probe kernel.function("__kmalloc").return {
 
 # Instrument kfree for only the test process
 probe kernel.function("kfree") {
-	if (execname()==test_process){
+	if (execname()==@2){
 		trace[index] = "kfree ".bytes_to_string($x)."\n"
 		index ++
 	}
@@ -31,7 +30,7 @@ probe kernel.function("kfree") {
 
 # Instrument for the ending of the test process
 # Please replace the process parameter with the path for your system
-probe process("/home/andre/OS-Runtime-Verification/systemtap_scripts/kmalloc_app").end{
+probe process(@1).end{
 	trace[index] = "end"
 	exit()
 }

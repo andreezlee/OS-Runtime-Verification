@@ -5,7 +5,7 @@
 #define SPEC "Approximation of symbolic memory location representation: Memory location cannot be reallocated after being freed"
 
 // Maximum number of parameters this process is allowed to monitor
-#define MAX_PARAMS 50
+#define MAX_PARAMS 100000
 
 // Print out violations
 void print_violation(int i, int event) {

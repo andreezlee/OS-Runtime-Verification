@@ -13,7 +13,7 @@ then
 	sudo rmmod monitor_lib &> /dev/null
 	rm kmalloc.txt &> /dev/null
 	make clean &> /dev/null
-	sleep 2
+	sleep 10
 	echo "DEMO FILES CLEANED FROM PROJECT"
 else
 	# Compile and add module to system
@@ -24,7 +24,7 @@ else
 	then
 		# Set up instrumentation, give it some time
 		sudo ./dummy &
-		sudo stap -g offline/kmalloc_instrumentation.stp &
+		sudo stap -g offline/kmalloc_instrumentation.stp /home/andre/OS-Runtime-Verification/systemtap_scripts/kmalloc_app kmalloc_app &
 		sleep 6
 		echo "INSTRUMENTATION SETUP COMPLETED"
 		#Run test program

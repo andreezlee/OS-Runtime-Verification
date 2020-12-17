@@ -1,0 +1,36 @@
+[47097.972118] SPEC3: VIOLATION: 
+[47097.972119] SPEC3: Memory location reallocated immediately after free
+[47098.308157] SPEC3: VIOLATION: 
+[47098.308157] SPEC3: Memory location reallocated immediately after free
+[47098.308189] SPEC3: VIOLATION: 
+[47098.308190] SPEC3: Memory location reallocated immediately after free
+[47098.308209] SPEC3: VIOLATION: 
+[47098.308209] SPEC3: Memory location reallocated immediately after free
+[47099.777224] SPEC3: VIOLATION: 
+[47099.777225] SPEC3: Memory location reallocated immediately after free
+[47100.721501] SPEC3: Trace finished, reporting violations and resetting variables
+[47100.721501] SPEC3: Memory location reallocated immediately after free: 59
+[47446.043108] SPEC3: VIOLATION: 
+[47446.043108] SPEC3: Memory location reallocated immediately after free
+[47446.387775] SPEC3: VIOLATION: 
+[47446.387775] SPEC3: Memory location reallocated immediately after free
+[47446.387809] SPEC3: VIOLATION: 
+[47446.387809] SPEC3: Memory location reallocated immediately after free
+[47446.387829] SPEC3: VIOLATION: 
+[47446.387829] SPEC3: Memory location reallocated immediately after free
+[47447.861156] SPEC3: VIOLATION: 
+[47447.861157] SPEC3: Memory location reallocated immediately after free
+[47448.804391] SPEC3: Trace finished, reporting violations and resetting variables
+[47448.804392] SPEC3: Memory location reallocated immediately after free: 58
+[47793.031302] SPEC3: VIOLATION: 
+[47793.031302] SPEC3: Memory location reallocated immediately after free
+[47793.376597] SPEC3: VIOLATION: 
+[47793.376597] SPEC3: Memory location reallocated immediately after free
+[47793.376641] SPEC3: VIOLATION: 
+[47793.376641] SPEC3: Memory location reallocated immediately after free
+[47793.376661] SPEC3: VIOLATION: 
+[47793.376662] SPEC3: Memory location reallocated immediately after free
+[47794.807640] SPEC3: VIOLATION: 
+[47794.807640] SPEC3: Memory location reallocated immediately after free
+[47795.723309] SPEC3: Trace finished, reporting violations and resetting variables
+[47795.723310] SPEC3: Memory location reallocated immediately after free: 59

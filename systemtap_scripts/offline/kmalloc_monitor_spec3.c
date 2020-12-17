@@ -5,7 +5,7 @@
 #define SPEC "Relaxing symbolic memory location representation: Memory location cannot be reallocated immediately after being freed"
 
 // Maximum number of parameters this process is allowed to monitor
-#define MAX_PARAMS 50
+#define MAX_PARAMS 100000
 
 // Maximum stack size needed for the state machine
 #define MAX_STACK_SIZE 1

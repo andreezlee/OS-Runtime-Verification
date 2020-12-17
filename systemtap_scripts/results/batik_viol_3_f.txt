@@ -1,0 +1,175 @@
+
+STARTING MONITOR FOR SPECIFICATION:
+Relaxing symbolic memory location representation: Memory location cannot be reallocated immediately after being freed
+
+VIOLATION: Memory location reallocated immediately after free: event 14
+VIOLATION: Memory location reallocated immediately after free: event 16
+VIOLATION: Memory location reallocated immediately after free: event 18
+VIOLATION: Memory location reallocated immediately after free: event 20
+VIOLATION: Memory location reallocated immediately after free: event 25
+VIOLATION: Memory location reallocated immediately after free: event 27
+VIOLATION: Memory location reallocated immediately after free: event 29
+VIOLATION: Memory location reallocated immediately after free: event 121
+VIOLATION: Memory location reallocated immediately after free: event 126
+VIOLATION: Memory location reallocated immediately after free: event 128
+VIOLATION: Memory location reallocated immediately after free: event 130
+VIOLATION: Memory location reallocated immediately after free: event 132
+VIOLATION: Memory location reallocated immediately after free: event 327
+VIOLATION: Memory location reallocated immediately after free: event 2357
+VIOLATION: Memory location reallocated immediately after free: event 2386
+VIOLATION: Memory location reallocated immediately after free: event 2388
+VIOLATION: Memory location reallocated immediately after free: event 2396
+VIOLATION: Memory location reallocated immediately after free: event 2404
+VIOLATION: Memory location reallocated immediately after free: event 2412
+VIOLATION: Memory location reallocated immediately after free: event 2610
+VIOLATION: Memory location reallocated immediately after free: event 2628
+VIOLATION: Memory location reallocated immediately after free: event 2637
+VIOLATION: Memory location reallocated immediately after free: event 2639
+VIOLATION: Memory location reallocated immediately after free: event 2641
+VIOLATION: Memory location reallocated immediately after free: event 2643
+VIOLATION: Memory location reallocated immediately after free: event 2645
+VIOLATION: Memory location reallocated immediately after free: event 2647
+VIOLATION: Memory location reallocated immediately after free: event 2649
+VIOLATION: Memory location reallocated immediately after free: event 2651
+VIOLATION: Memory location reallocated immediately after free: event 2653
+VIOLATION: Memory location reallocated immediately after free: event 2655
+VIOLATION: Memory location reallocated immediately after free: event 2657
+VIOLATION: Memory location reallocated immediately after free: event 2659
+VIOLATION: Memory location reallocated immediately after free: event 2661
+VIOLATION: Memory location reallocated immediately after free: event 2663
+VIOLATION: Memory location reallocated immediately after free: event 2665
+VIOLATION: Memory location reallocated immediately after free: event 2667
+VIOLATION: Memory location reallocated immediately after free: event 2669
+VIOLATION: Memory location reallocated immediately after free: event 2671
+VIOLATION: Memory location reallocated immediately after free: event 2673
+VIOLATION: Memory location reallocated immediately after free: event 2675
+VIOLATION: Memory location reallocated immediately after free: event 2677
+VIOLATION: Memory location reallocated immediately after free: event 2679
+VIOLATION: Memory location reallocated immediately after free: event 2681
+VIOLATION: Memory location reallocated immediately after free: event 2683
+VIOLATION: Memory location reallocated immediately after free: event 2685
+VIOLATION: Memory location reallocated immediately after free: event 2687
+VIOLATION: Memory location reallocated immediately after free: event 2689
+VIOLATION: Memory location reallocated immediately after free: event 2695
+VIOLATION: Memory location reallocated immediately after free: event 2697
+VIOLATION: Memory location reallocated immediately after free: event 2699
+VIOLATION: Memory location reallocated immediately after free: event 2701
+VIOLATION: Memory location reallocated immediately after free: event 2716
+VIOLATION: Memory location reallocated immediately after free: event 2722
+VIOLATION: Memory location reallocated immediately after free: event 2732
+VIOLATION: Memory location reallocated immediately after free: event 2737
+VIOLATION: Memory location reallocated immediately after free: event 2739
+VIOLATION: Memory location reallocated immediately after free: event 2741
+VIOLATION: Memory location reallocated immediately after free: event 2746
+VIOLATION: Memory location reallocated immediately after free: event 2748
+VIOLATION: Memory location reallocated immediately after free: event 2750
+VIOLATION: Memory location reallocated immediately after free: event 2820
+VIOLATION: Memory location reallocated immediately after free: event 2822
+VIOLATION: Memory location reallocated immediately after free: event 2824
+VIOLATION: Memory location reallocated immediately after free: event 2826
+VIOLATION: Memory location reallocated immediately after free: event 2828
+VIOLATION: Memory location reallocated immediately after free: event 2830
+VIOLATION: Memory location reallocated immediately after free: event 2832
+VIOLATION: Memory location reallocated immediately after free: event 2834
+VIOLATION: Memory location reallocated immediately after free: event 2836
+VIOLATION: Memory location reallocated immediately after free: event 2838
+VIOLATION: Memory location reallocated immediately after free: event 2840
+VIOLATION: Memory location reallocated immediately after free: event 2842
+VIOLATION: Memory location reallocated immediately after free: event 2844
+VIOLATION: Memory location reallocated immediately after free: event 2846
+VIOLATION: Memory location reallocated immediately after free: event 2848
+VIOLATION: Memory location reallocated immediately after free: event 2850
+VIOLATION: Memory location reallocated immediately after free: event 2852
+VIOLATION: Memory location reallocated immediately after free: event 2854
+VIOLATION: Memory location reallocated immediately after free: event 2856
+VIOLATION: Memory location reallocated immediately after free: event 2858
+VIOLATION: Memory location reallocated immediately after free: event 2860
+VIOLATION: Memory location reallocated immediately after free: event 2862
+VIOLATION: Memory location reallocated immediately after free: event 2864
+VIOLATION: Memory location reallocated immediately after free: event 2866
+VIOLATION: Memory location reallocated immediately after free: event 2868
+VIOLATION: Memory location reallocated immediately after free: event 2870
+VIOLATION: Memory location reallocated immediately after free: event 2872
+VIOLATION: Memory location reallocated immediately after free: event 2874
+VIOLATION: Memory location reallocated immediately after free: event 2876
+VIOLATION: Memory location reallocated immediately after free: event 2878
+VIOLATION: Memory location reallocated immediately after free: event 2880
+VIOLATION: Memory location reallocated immediately after free: event 2882
+VIOLATION: Memory location reallocated immediately after free: event 2884
+VIOLATION: Memory location reallocated immediately after free: event 2886
+VIOLATION: Memory location reallocated immediately after free: event 2888
+VIOLATION: Memory location reallocated immediately after free: event 2890
+VIOLATION: Memory location reallocated immediately after free: event 2892
+VIOLATION: Memory location reallocated immediately after free: event 2894
+VIOLATION: Memory location reallocated immediately after free: event 2896
+VIOLATION: Memory location reallocated immediately after free: event 2898
+VIOLATION: Memory location reallocated immediately after free: event 2900
+VIOLATION: Memory location reallocated immediately after free: event 2902
+VIOLATION: Memory location reallocated immediately after free: event 2904
+VIOLATION: Memory location reallocated immediately after free: event 2906
+VIOLATION: Memory location reallocated immediately after free: event 2908
+VIOLATION: Memory location reallocated immediately after free: event 2910
+VIOLATION: Memory location reallocated immediately after free: event 2912
+VIOLATION: Memory location reallocated immediately after free: event 2914
+VIOLATION: Memory location reallocated immediately after free: event 2928
+VIOLATION: Memory location reallocated immediately after free: event 2930
+VIOLATION: Memory location reallocated immediately after free: event 2932
+VIOLATION: Memory location reallocated immediately after free: event 2934
+VIOLATION: Memory location reallocated immediately after free: event 2936
+VIOLATION: Memory location reallocated immediately after free: event 2938
+VIOLATION: Memory location reallocated immediately after free: event 2940
+VIOLATION: Memory location reallocated immediately after free: event 2942
+VIOLATION: Memory location reallocated immediately after free: event 2944
+VIOLATION: Memory location reallocated immediately after free: event 2946
+VIOLATION: Memory location reallocated immediately after free: event 2948
+VIOLATION: Memory location reallocated immediately after free: event 2950
+VIOLATION: Memory location reallocated immediately after free: event 2952
+VIOLATION: Memory location reallocated immediately after free: event 2954
+VIOLATION: Memory location reallocated immediately after free: event 2956
+VIOLATION: Memory location reallocated immediately after free: event 2958
+
+TOTAL VIOLATIONS:
+Memory location reallocated immediately after free: 125
+illegal event: Success
+
+STARTING MONITOR FOR SPECIFICATION:
+Relaxing symbolic memory location representation: Memory location cannot be reallocated immediately after being freed
+
+VIOLATION: Memory location reallocated immediately after free: event 1172
+VIOLATION: Memory location reallocated immediately after free: event 1176
+VIOLATION: Memory location reallocated immediately after free: event 1180
+VIOLATION: Memory location reallocated immediately after free: event 1186
+VIOLATION: Memory location reallocated immediately after free: event 1190
+VIOLATION: Memory location reallocated immediately after free: event 1193
+VIOLATION: Memory location reallocated immediately after free: event 1204
+VIOLATION: Memory location reallocated immediately after free: event 1208
+VIOLATION: Memory location reallocated immediately after free: event 1216
+VIOLATION: Memory location reallocated immediately after free: event 2361
+VIOLATION: Memory location reallocated immediately after free: event 2369
+VIOLATION: Memory location reallocated immediately after free: event 2392
+endkmalloc
+
+TOTAL VIOLATIONS:
+Memory location reallocated immediately after free: 12
+illegal event: Success
+
+STARTING MONITOR FOR SPECIFICATION:
+Relaxing symbolic memory location representation: Memory location cannot be reallocated immediately after being freed
+
+VIOLATION: Memory location reallocated immediately after free: event 51
+VIOLATION: Memory location reallocated immediately after free: event 67
+VIOLATION: Memory location reallocated immediately after free: event 90
+VIOLATION: Memory location reallocated immediately after free: event 106
+VIOLATION: Memory location reallocated immediately after free: event 114
+VIOLATION: Memory location reallocated immediately after free: event 122
+VIOLATION: Memory location reallocated immediately after free: event 130
+VIOLATION: Memory location reallocated immediately after free: event 323
+VIOLATION: Memory location reallocated immediately after free: event 1441
+VIOLATION: Memory location reallocated immediately after free: event 1449
+VIOLATION: Memory location reallocated immediately after free: event 1457
+VIOLATION: Memory location reallocated immediately after free: event 1465
+VIOLATION: Memory location reallocated immediately after free: event 1473
+endkfree
+
+TOTAL VIOLATIONS:
+Memory location reallocated immediately after free: 13

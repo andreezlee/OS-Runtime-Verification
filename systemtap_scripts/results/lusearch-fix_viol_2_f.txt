@@ -1,0 +1,81 @@
+illegal event: Success
+
+STARTING MONITOR FOR SPECIFICATION:
+Approximation of symbolic memory location representation: Memory location cannot be reallocated after being freed
+
+VIOLATION: Memory location reallocated after free: event 3
+VIOLATION: Memory location reallocated after free: event 7
+VIOLATION: Memory location reallocated after free: event 11
+VIOLATION: Memory location reallocated after free: event 47
+VIOLATION: Memory location reallocated after free: event 51
+VIOLATION: Memory location reallocated after free: event 55
+VIOLATION: Memory location reallocated after free: event 59
+VIOLATION: Memory location reallocated after free: event 63
+VIOLATION: Memory location reallocated after free: event 67
+VIOLATION: Memory location reallocated after free: event 71
+VIOLATION: Memory location reallocated after free: event 73
+VIOLATION: Memory location reallocated after free: event 74
+VIOLATION: Memory location reallocated after free: event 76
+VIOLATION: Memory location reallocated after free: event 78
+VIOLATION: Memory location reallocated after free: event 80
+VIOLATION: Memory location reallocated after free: event 82
+VIOLATION: Memory location reallocated after free: event 124
+endkfree
+
+TOTAL VIOLATIONS:
+Memory location reallocated after free: 17
+illegal event: Success
+
+STARTING MONITOR FOR SPECIFICATION:
+Approximation of symbolic memory location representation: Memory location cannot be reallocated after being freed
+
+VIOLATION: Memory location reallocated after free: event 56
+VIOLATION: Memory location reallocated after free: event 60
+VIOLATION: Memory location reallocated after free: event 64
+VIOLATION: Memory location reallocated after free: event 68
+VIOLATION: Memory location reallocated after free: event 72
+VIOLATION: Memory location reallocated after free: event 76
+VIOLATION: Memory location reallocated after free: event 81
+VIOLATION: Memory location reallocated after free: event 85
+VIOLATION: Memory location reallocated after free: event 89
+VIOLATION: Memory location reallocated after free: event 93
+VIOLATION: Memory location reallocated after free: event 97
+VIOLATION: Memory location reallocated after free: event 101
+VIOLATION: Memory location reallocated after free: event 104
+VIOLATION: Memory location reallocated after free: event 108
+VIOLATION: Memory location reallocated after free: event 112
+VIOLATION: Memory location reallocated after free: event 115
+VIOLATION: Memory location reallocated after free: event 117
+VIOLATION: Memory location reallocated after free: event 119
+VIOLATION: Memory location reallocated after free: event 121
+VIOLATION: Memory location reallocated after free: event 123
+VIOLATION: Memory location reallocated after free: event 125
+VIOLATION: Memory location reallocated after free: event 127
+VIOLATION: Memory location reallocated after free: event 129
+VIOLATION: Memory location reallocated after free: event 131
+VIOLATION: Memory location reallocated after free: event 133
+VIOLATION: Memory location reallocated after free: event 135
+endkmalloc
+
+TOTAL VIOLATIONS:
+Memory location reallocated after free: 26
+illegal event: Success
+
+STARTING MONITOR FOR SPECIFICATION:
+Approximation of symbolic memory location representation: Memory location cannot be reallocated after being freed
+
+VIOLATION: Memory location reallocated after free: event 41
+VIOLATION: Memory location reallocated after free: event 45
+VIOLATION: Memory location reallocated after free: event 49
+VIOLATION: Memory location reallocated after free: event 53
+VIOLATION: Memory location reallocated after free: event 57
+VIOLATION: Memory location reallocated after free: event 62
+VIOLATION: Memory location reallocated after free: event 65
+VIOLATION: Memory location reallocated after free: event 69
+VIOLATION: Memory location reallocated after free: event 72
+VIOLATION: Memory location reallocated after free: event 76
+VIOLATION: Memory location reallocated after free: event 80
+endkmalloc
+
+TOTAL VIOLATIONS:
+Memory location reallocated after free: 11

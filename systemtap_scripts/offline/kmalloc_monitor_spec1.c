@@ -5,7 +5,7 @@
 #define SPEC "Allocated memory must be freed before it can be reallocated, and memory cannot be freed without being allocated"
 
 // Maximum number of parameters this process is allowed to monitor
-#define MAX_PARAMS 50
+#define MAX_PARAMS 100000
 
 // Print out violations
 void print_violation(int i, int event) {

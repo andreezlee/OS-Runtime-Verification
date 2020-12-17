@@ -1,0 +1,670 @@
+[47186.406146] SPEC3: VIOLATION: 
+[47186.406146] SPEC3: Memory location reallocated immediately after free
+[47186.406172] SPEC3: VIOLATION: 
+[47186.406172] SPEC3: Memory location reallocated immediately after free
+[47186.657856] SPEC3: VIOLATION: 
+[47186.657857] SPEC3: Memory location reallocated immediately after free
+[47186.658260] SPEC3: VIOLATION: 
+[47186.658261] SPEC3: Memory location reallocated immediately after free
+[47186.658431] SPEC3: VIOLATION: 
+[47186.658431] SPEC3: Memory location reallocated immediately after free
+[47186.658494] SPEC3: VIOLATION: 
+[47186.658495] SPEC3: Memory location reallocated immediately after free
+[47186.658563] SPEC3: VIOLATION: 
+[47186.658564] SPEC3: Memory location reallocated immediately after free
+[47186.658625] SPEC3: VIOLATION: 
+[47186.658625] SPEC3: Memory location reallocated immediately after free
+[47186.658687] SPEC3: VIOLATION: 
+[47186.658687] SPEC3: Memory location reallocated immediately after free
+[47186.658752] SPEC3: VIOLATION: 
+[47186.658752] SPEC3: Memory location reallocated immediately after free
+[47186.658811] SPEC3: VIOLATION: 
+[47186.658811] SPEC3: Memory location reallocated immediately after free
+[47186.658872] SPEC3: VIOLATION: 
+[47186.658873] SPEC3: Memory location reallocated immediately after free
+[47186.658935] SPEC3: VIOLATION: 
+[47186.658935] SPEC3: Memory location reallocated immediately after free
+[47186.658998] SPEC3: VIOLATION: 
+[47186.658998] SPEC3: Memory location reallocated immediately after free
+[47186.659136] SPEC3: VIOLATION: 
+[47186.659136] SPEC3: Memory location reallocated immediately after free
+[47186.659200] SPEC3: VIOLATION: 
+[47186.659200] SPEC3: Memory location reallocated immediately after free
+[47186.659245] SPEC3: VIOLATION: 
+[47186.659246] SPEC3: Memory location reallocated immediately after free
+[47186.660420] SPEC3: VIOLATION: 
+[47186.660421] SPEC3: Memory location reallocated immediately after free
+[47186.660503] SPEC3: VIOLATION: 
+[47186.660504] SPEC3: Memory location reallocated immediately after free
+[47187.068326] SPEC3: VIOLATION: 
+[47187.068327] SPEC3: Memory location reallocated immediately after free
+[47187.068448] SPEC3: VIOLATION: 
+[47187.068448] SPEC3: Memory location reallocated immediately after free
+[47187.068466] SPEC3: VIOLATION: 
+[47187.068466] SPEC3: Memory location reallocated immediately after free
+[47187.261503] SPEC3: VIOLATION: 
+[47187.261503] SPEC3: Memory location reallocated immediately after free
+[47187.261536] SPEC3: VIOLATION: 
+[47187.261537] SPEC3: Memory location reallocated immediately after free
+[47187.261555] SPEC3: VIOLATION: 
+[47187.261556] SPEC3: Memory location reallocated immediately after free
+[47187.355633] SPEC3: VIOLATION: 
+[47187.355633] SPEC3: Memory location reallocated immediately after free
+[47187.369762] SPEC3: VIOLATION: 
+[47187.369762] SPEC3: Memory location reallocated immediately after free
+[47187.410364] SPEC3: VIOLATION: 
+[47187.410364] SPEC3: Memory location reallocated immediately after free
+[47187.410387] SPEC3: VIOLATION: 
+[47187.410388] SPEC3: Memory location reallocated immediately after free
+[47187.410393] SPEC3: VIOLATION: 
+[47187.410393] SPEC3: Memory location reallocated immediately after free
+[47187.410589] SPEC3: VIOLATION: 
+[47187.410589] SPEC3: Memory location reallocated immediately after free
+[47187.410596] SPEC3: VIOLATION: 
+[47187.410596] SPEC3: Memory location reallocated immediately after free
+[47187.410660] SPEC3: VIOLATION: 
+[47187.410660] SPEC3: Memory location reallocated immediately after free
+[47187.410666] SPEC3: VIOLATION: 
+[47187.410666] SPEC3: Memory location reallocated immediately after free
+[47187.433910] SPEC3: VIOLATION: 
+[47187.433911] SPEC3: Memory location reallocated immediately after free
+[47187.449189] SPEC3: VIOLATION: 
+[47187.449189] SPEC3: Memory location reallocated immediately after free
+[47187.449222] SPEC3: VIOLATION: 
+[47187.449223] SPEC3: Memory location reallocated immediately after free
+[47187.451497] SPEC3: VIOLATION: 
+[47187.451497] SPEC3: Memory location reallocated immediately after free
+[47187.476604] SPEC3: VIOLATION: 
+[47187.476604] SPEC3: Memory location reallocated immediately after free
+[47187.483456] SPEC3: VIOLATION: 
+[47187.483457] SPEC3: Memory location reallocated immediately after free
+[47187.498189] SPEC3: VIOLATION: 
+[47187.498190] SPEC3: Memory location reallocated immediately after free
+[47187.500828] SPEC3: VIOLATION: 
+[47187.500828] SPEC3: Memory location reallocated immediately after free
+[47187.514005] SPEC3: VIOLATION: 
+[47187.514005] SPEC3: Memory location reallocated immediately after free
+[47187.514626] SPEC3: VIOLATION: 
+[47187.514626] SPEC3: Memory location reallocated immediately after free
+[47187.528347] SPEC3: VIOLATION: 
+[47187.528348] SPEC3: Memory location reallocated immediately after free
+[47187.529800] SPEC3: VIOLATION: 
+[47187.529801] SPEC3: Memory location reallocated immediately after free
+[47187.531880] SPEC3: VIOLATION: 
+[47187.531880] SPEC3: Memory location reallocated immediately after free
+[47187.533849] SPEC3: VIOLATION: 
+[47187.533849] SPEC3: Memory location reallocated immediately after free
+[47187.533892] SPEC3: VIOLATION: 
+[47187.533893] SPEC3: Memory location reallocated immediately after free
+[47187.533935] SPEC3: VIOLATION: 
+[47187.533935] SPEC3: Memory location reallocated immediately after free
+[47187.533977] SPEC3: VIOLATION: 
+[47187.533977] SPEC3: Memory location reallocated immediately after free
+[47187.533993] SPEC3: VIOLATION: 
+[47187.533993] SPEC3: Memory location reallocated immediately after free
+[47187.534029] SPEC3: VIOLATION: 
+[47187.534029] SPEC3: Memory location reallocated immediately after free
+[47187.534054] SPEC3: VIOLATION: 
+[47187.534054] SPEC3: Memory location reallocated immediately after free
+[47187.534349] SPEC3: VIOLATION: 
+[47187.534350] SPEC3: Memory location reallocated immediately after free
+[47187.549189] SPEC3: VIOLATION: 
+[47187.549189] SPEC3: Memory location reallocated immediately after free
+[47187.549261] SPEC3: VIOLATION: 
+[47187.549262] SPEC3: Memory location reallocated immediately after free
+[47187.554784] SPEC3: VIOLATION: 
+[47187.554784] SPEC3: Memory location reallocated immediately after free
+[47187.555167] SPEC3: VIOLATION: 
+[47187.555167] SPEC3: Memory location reallocated immediately after free
+[47187.556061] SPEC3: VIOLATION: 
+[47187.556062] SPEC3: Memory location reallocated immediately after free
+[47187.566981] SPEC3: VIOLATION: 
+[47187.566981] SPEC3: Memory location reallocated immediately after free
+[47187.567491] SPEC3: VIOLATION: 
+[47187.567492] SPEC3: Memory location reallocated immediately after free
+[47187.568642] SPEC3: VIOLATION: 
+[47187.568643] SPEC3: Memory location reallocated immediately after free
+[47187.568898] SPEC3: VIOLATION: 
+[47187.568898] SPEC3: Memory location reallocated immediately after free
+[47187.569164] SPEC3: VIOLATION: 
+[47187.569164] SPEC3: Memory location reallocated immediately after free
+[47187.569626] SPEC3: VIOLATION: 
+[47187.569626] SPEC3: Memory location reallocated immediately after free
+[47187.569903] SPEC3: VIOLATION: 
+[47187.569904] SPEC3: Memory location reallocated immediately after free
+[47187.570034] SPEC3: VIOLATION: 
+[47187.570034] SPEC3: Memory location reallocated immediately after free
+[47187.571174] SPEC3: VIOLATION: 
+[47187.571174] SPEC3: Memory location reallocated immediately after free
+[47187.571284] SPEC3: VIOLATION: 
+[47187.571284] SPEC3: Memory location reallocated immediately after free
+[47187.571872] SPEC3: VIOLATION: 
+[47187.571872] SPEC3: Memory location reallocated immediately after free
+[47187.572081] SPEC3: VIOLATION: 
+[47187.572082] SPEC3: Memory location reallocated immediately after free
+[47187.572183] SPEC3: VIOLATION: 
+[47187.572183] SPEC3: Memory location reallocated immediately after free
+[47187.573757] SPEC3: VIOLATION: 
+[47187.573757] SPEC3: Memory location reallocated immediately after free
+[47187.573881] SPEC3: VIOLATION: 
+[47187.573881] SPEC3: Memory location reallocated immediately after free
+[47187.574442] SPEC3: VIOLATION: 
+[47187.574443] SPEC3: Memory location reallocated immediately after free
+[47187.574561] SPEC3: VIOLATION: 
+[47187.574561] SPEC3: Memory location reallocated immediately after free
+[47187.574750] SPEC3: VIOLATION: 
+[47187.574751] SPEC3: Memory location reallocated immediately after free
+[47187.574941] SPEC3: VIOLATION: 
+[47187.574942] SPEC3: Memory location reallocated immediately after free
+[47187.575141] SPEC3: VIOLATION: 
+[47187.575141] SPEC3: Memory location reallocated immediately after free
+[47187.575251] SPEC3: VIOLATION: 
+[47187.575251] SPEC3: Memory location reallocated immediately after free
+[47187.575553] SPEC3: VIOLATION: 
+[47187.575554] SPEC3: Memory location reallocated immediately after free
+[47187.575663] SPEC3: VIOLATION: 
+[47187.575663] SPEC3: Memory location reallocated immediately after free
+[47187.576163] SPEC3: VIOLATION: 
+[47187.576164] SPEC3: Memory location reallocated immediately after free
+[47187.577479] SPEC3: VIOLATION: 
+[47187.577479] SPEC3: Memory location reallocated immediately after free
+[47187.578733] SPEC3: VIOLATION: 
+[47187.578733] SPEC3: Memory location reallocated immediately after free
+[47187.579015] SPEC3: VIOLATION: 
+[47187.579015] SPEC3: Memory location reallocated immediately after free
+[47187.579030] SPEC3: VIOLATION: 
+[47187.579030] SPEC3: Memory location reallocated immediately after free
+[47187.579047] SPEC3: VIOLATION: 
+[47187.579047] SPEC3: Memory location reallocated immediately after free
+[47187.579063] SPEC3: VIOLATION: 
+[47187.579063] SPEC3: Memory location reallocated immediately after free
+[47187.579086] SPEC3: VIOLATION: 
+[47187.579087] SPEC3: Memory location reallocated immediately after free
+[47187.579197] SPEC3: VIOLATION: 
+[47187.579197] SPEC3: Memory location reallocated immediately after free
+[47187.579312] SPEC3: VIOLATION: 
+[47187.579312] SPEC3: Memory location reallocated immediately after free
+[47187.579499] SPEC3: VIOLATION: 
+[47187.579499] SPEC3: Memory location reallocated immediately after free
+[47187.579531] SPEC3: VIOLATION: 
+[47187.579532] SPEC3: Memory location reallocated immediately after free
+[47187.579565] SPEC3: VIOLATION: 
+[47187.579565] SPEC3: Memory location reallocated immediately after free
+[47187.579597] SPEC3: VIOLATION: 
+[47187.579597] SPEC3: Memory location reallocated immediately after free
+[47187.589010] SPEC3: VIOLATION: 
+[47187.589010] SPEC3: Memory location reallocated immediately after free
+[47187.589419] SPEC3: VIOLATION: 
+[47187.589419] SPEC3: Memory location reallocated immediately after free
+[47187.590570] SPEC3: VIOLATION: 
+[47187.590571] SPEC3: Memory location reallocated immediately after free
+[47187.590620] SPEC3: VIOLATION: 
+[47187.590620] SPEC3: Memory location reallocated immediately after free
+[47187.595348] SPEC3: VIOLATION: 
+[47187.595349] SPEC3: Memory location reallocated immediately after free
+[47187.595397] SPEC3: VIOLATION: 
+[47187.595398] SPEC3: Memory location reallocated immediately after free
+[47187.677595] SPEC3: VIOLATION: 
+[47187.677596] SPEC3: Memory location reallocated immediately after free
+[47187.680220] SPEC3: VIOLATION: 
+[47187.680221] SPEC3: Memory location reallocated immediately after free
+[47187.689718] SPEC3: VIOLATION: 
+[47187.689718] SPEC3: Memory location reallocated immediately after free
+[47187.699514] SPEC3: VIOLATION: 
+[47187.699514] SPEC3: Memory location reallocated immediately after free
+[47187.717179] SPEC3: VIOLATION: 
+[47187.717180] SPEC3: Memory location reallocated immediately after free
+[47187.849860] SPEC3: VIOLATION: 
+[47187.849861] SPEC3: Memory location reallocated immediately after free
+[47187.947974] SPEC3: VIOLATION: 
+[47187.947975] SPEC3: Memory location reallocated immediately after free
+[47187.948282] SPEC3: VIOLATION: 
+[47187.948282] SPEC3: Memory location reallocated immediately after free
+[47202.301584] SPEC3: Trace finished, reporting violations and resetting variables
+[47202.301585] SPEC3: Memory location reallocated immediately after free: 214
+[47534.325747] SPEC3: VIOLATION: 
+[47534.325747] SPEC3: Memory location reallocated immediately after free
+[47534.577087] SPEC3: VIOLATION: 
+[47534.577087] SPEC3: Memory location reallocated immediately after free
+[47534.577495] SPEC3: VIOLATION: 
+[47534.577495] SPEC3: Memory location reallocated immediately after free
+[47534.577667] SPEC3: VIOLATION: 
+[47534.577667] SPEC3: Memory location reallocated immediately after free
+[47534.577731] SPEC3: VIOLATION: 
+[47534.577731] SPEC3: Memory location reallocated immediately after free
+[47534.577802] SPEC3: VIOLATION: 
+[47534.577802] SPEC3: Memory location reallocated immediately after free
+[47534.577864] SPEC3: VIOLATION: 
+[47534.577865] SPEC3: Memory location reallocated immediately after free
+[47534.577926] SPEC3: VIOLATION: 
+[47534.577926] SPEC3: Memory location reallocated immediately after free
+[47534.577990] SPEC3: VIOLATION: 
+[47534.577990] SPEC3: Memory location reallocated immediately after free
+[47534.578050] SPEC3: VIOLATION: 
+[47534.578050] SPEC3: Memory location reallocated immediately after free
+[47534.578109] SPEC3: VIOLATION: 
+[47534.578109] SPEC3: Memory location reallocated immediately after free
+[47534.578171] SPEC3: VIOLATION: 
+[47534.578171] SPEC3: Memory location reallocated immediately after free
+[47534.578234] SPEC3: VIOLATION: 
+[47534.578234] SPEC3: Memory location reallocated immediately after free
+[47534.578376] SPEC3: VIOLATION: 
+[47534.578376] SPEC3: Memory location reallocated immediately after free
+[47534.578465] SPEC3: VIOLATION: 
+[47534.578465] SPEC3: Memory location reallocated immediately after free
+[47534.578512] SPEC3: VIOLATION: 
+[47534.578512] SPEC3: Memory location reallocated immediately after free
+[47534.579748] SPEC3: VIOLATION: 
+[47534.579748] SPEC3: Memory location reallocated immediately after free
+[47534.579830] SPEC3: VIOLATION: 
+[47534.579831] SPEC3: Memory location reallocated immediately after free
+[47534.993664] SPEC3: VIOLATION: 
+[47534.993664] SPEC3: Memory location reallocated immediately after free
+[47534.993752] SPEC3: VIOLATION: 
+[47534.993752] SPEC3: Memory location reallocated immediately after free
+[47534.993770] SPEC3: VIOLATION: 
+[47534.993770] SPEC3: Memory location reallocated immediately after free
+[47535.193421] SPEC3: VIOLATION: 
+[47535.193422] SPEC3: Memory location reallocated immediately after free
+[47535.193462] SPEC3: VIOLATION: 
+[47535.193462] SPEC3: Memory location reallocated immediately after free
+[47535.193483] SPEC3: VIOLATION: 
+[47535.193483] SPEC3: Memory location reallocated immediately after free
+[47535.303998] SPEC3: VIOLATION: 
+[47535.303999] SPEC3: Memory location reallocated immediately after free
+[47535.308293] SPEC3: VIOLATION: 
+[47535.308293] SPEC3: Memory location reallocated immediately after free
+[47535.346642] SPEC3: VIOLATION: 
+[47535.346642] SPEC3: Memory location reallocated immediately after free
+[47535.346666] SPEC3: VIOLATION: 
+[47535.346667] SPEC3: Memory location reallocated immediately after free
+[47535.346672] SPEC3: VIOLATION: 
+[47535.346673] SPEC3: Memory location reallocated immediately after free
+[47535.346884] SPEC3: VIOLATION: 
+[47535.346884] SPEC3: Memory location reallocated immediately after free
+[47535.346891] SPEC3: VIOLATION: 
+[47535.346891] SPEC3: Memory location reallocated immediately after free
+[47535.346965] SPEC3: VIOLATION: 
+[47535.346966] SPEC3: Memory location reallocated immediately after free
+[47535.346972] SPEC3: VIOLATION: 
+[47535.346972] SPEC3: Memory location reallocated immediately after free
+[47535.369260] SPEC3: VIOLATION: 
+[47535.369260] SPEC3: Memory location reallocated immediately after free
+[47535.386083] SPEC3: VIOLATION: 
+[47535.386083] SPEC3: Memory location reallocated immediately after free
+[47535.386122] SPEC3: VIOLATION: 
+[47535.386122] SPEC3: Memory location reallocated immediately after free
+[47535.388733] SPEC3: VIOLATION: 
+[47535.388733] SPEC3: Memory location reallocated immediately after free
+[47535.400666] SPEC3: VIOLATION: 
+[47535.400666] SPEC3: Memory location reallocated immediately after free
+[47535.426667] SPEC3: VIOLATION: 
+[47535.426667] SPEC3: Memory location reallocated immediately after free
+[47535.441485] SPEC3: VIOLATION: 
+[47535.441485] SPEC3: Memory location reallocated immediately after free
+[47535.443980] SPEC3: VIOLATION: 
+[47535.443981] SPEC3: Memory location reallocated immediately after free
+[47535.452808] SPEC3: VIOLATION: 
+[47535.452808] SPEC3: Memory location reallocated immediately after free
+[47535.453485] SPEC3: VIOLATION: 
+[47535.453486] SPEC3: Memory location reallocated immediately after free
+[47535.467253] SPEC3: VIOLATION: 
+[47535.467253] SPEC3: Memory location reallocated immediately after free
+[47535.476229] SPEC3: VIOLATION: 
+[47535.476229] SPEC3: Memory location reallocated immediately after free
+[47535.477782] SPEC3: VIOLATION: 
+[47535.477783] SPEC3: Memory location reallocated immediately after free
+[47535.479555] SPEC3: VIOLATION: 
+[47535.479556] SPEC3: Memory location reallocated immediately after free
+[47535.479598] SPEC3: VIOLATION: 
+[47535.479599] SPEC3: Memory location reallocated immediately after free
+[47535.479639] SPEC3: VIOLATION: 
+[47535.479639] SPEC3: Memory location reallocated immediately after free
+[47535.479681] SPEC3: VIOLATION: 
+[47535.479681] SPEC3: Memory location reallocated immediately after free
+[47535.479698] SPEC3: VIOLATION: 
+[47535.479699] SPEC3: Memory location reallocated immediately after free
+[47535.479720] SPEC3: VIOLATION: 
+[47535.479720] SPEC3: Memory location reallocated immediately after free
+[47535.479747] SPEC3: VIOLATION: 
+[47535.479747] SPEC3: Memory location reallocated immediately after free
+[47535.480049] SPEC3: VIOLATION: 
+[47535.480049] SPEC3: Memory location reallocated immediately after free
+[47535.484403] SPEC3: VIOLATION: 
+[47535.484403] SPEC3: Memory location reallocated immediately after free
+[47535.484448] SPEC3: VIOLATION: 
+[47535.484448] SPEC3: Memory location reallocated immediately after free
+[47535.499932] SPEC3: VIOLATION: 
+[47535.499932] SPEC3: Memory location reallocated immediately after free
+[47535.500316] SPEC3: VIOLATION: 
+[47535.500317] SPEC3: Memory location reallocated immediately after free
+[47535.501181] SPEC3: VIOLATION: 
+[47535.501181] SPEC3: Memory location reallocated immediately after free
+[47535.501786] SPEC3: VIOLATION: 
+[47535.501787] SPEC3: Memory location reallocated immediately after free
+[47535.502229] SPEC3: VIOLATION: 
+[47535.502229] SPEC3: Memory location reallocated immediately after free
+[47535.503289] SPEC3: VIOLATION: 
+[47535.503290] SPEC3: Memory location reallocated immediately after free
+[47535.503548] SPEC3: VIOLATION: 
+[47535.503548] SPEC3: Memory location reallocated immediately after free
+[47535.503810] SPEC3: VIOLATION: 
+[47535.503811] SPEC3: Memory location reallocated immediately after free
+[47535.503931] SPEC3: VIOLATION: 
+[47535.503931] SPEC3: Memory location reallocated immediately after free
+[47535.504177] SPEC3: VIOLATION: 
+[47535.504177] SPEC3: Memory location reallocated immediately after free
+[47535.504292] SPEC3: VIOLATION: 
+[47535.504293] SPEC3: Memory location reallocated immediately after free
+[47535.506325] SPEC3: VIOLATION: 
+[47535.506325] SPEC3: Memory location reallocated immediately after free
+[47535.516056] SPEC3: VIOLATION: 
+[47535.516056] SPEC3: Memory location reallocated immediately after free
+[47535.516797] SPEC3: VIOLATION: 
+[47535.516797] SPEC3: Memory location reallocated immediately after free
+[47535.517008] SPEC3: VIOLATION: 
+[47535.517008] SPEC3: Memory location reallocated immediately after free
+[47535.517128] SPEC3: VIOLATION: 
+[47535.517128] SPEC3: Memory location reallocated immediately after free
+[47535.518768] SPEC3: VIOLATION: 
+[47535.518768] SPEC3: Memory location reallocated immediately after free
+[47535.519016] SPEC3: VIOLATION: 
+[47535.519016] SPEC3: Memory location reallocated immediately after free
+[47535.520308] SPEC3: VIOLATION: 
+[47535.520308] SPEC3: Memory location reallocated immediately after free
+[47535.520614] SPEC3: VIOLATION: 
+[47535.520615] SPEC3: Memory location reallocated immediately after free
+[47535.521207] SPEC3: VIOLATION: 
+[47535.521208] SPEC3: Memory location reallocated immediately after free
+[47535.521757] SPEC3: VIOLATION: 
+[47535.521758] SPEC3: Memory location reallocated immediately after free
+[47535.522256] SPEC3: VIOLATION: 
+[47535.522256] SPEC3: Memory location reallocated immediately after free
+[47535.522434] SPEC3: VIOLATION: 
+[47535.522434] SPEC3: Memory location reallocated immediately after free
+[47535.523064] SPEC3: VIOLATION: 
+[47535.523065] SPEC3: Memory location reallocated immediately after free
+[47535.523232] SPEC3: VIOLATION: 
+[47535.523232] SPEC3: Memory location reallocated immediately after free
+[47535.524036] SPEC3: VIOLATION: 
+[47535.524037] SPEC3: Memory location reallocated immediately after free
+[47535.524197] SPEC3: VIOLATION: 
+[47535.524197] SPEC3: Memory location reallocated immediately after free
+[47535.526954] SPEC3: VIOLATION: 
+[47535.526954] SPEC3: Memory location reallocated immediately after free
+[47535.527340] SPEC3: VIOLATION: 
+[47535.527340] SPEC3: Memory location reallocated immediately after free
+[47535.527359] SPEC3: VIOLATION: 
+[47535.527360] SPEC3: Memory location reallocated immediately after free
+[47535.527376] SPEC3: VIOLATION: 
+[47535.527376] SPEC3: Memory location reallocated immediately after free
+[47535.527394] SPEC3: VIOLATION: 
+[47535.527394] SPEC3: Memory location reallocated immediately after free
+[47535.527421] SPEC3: VIOLATION: 
+[47535.527421] SPEC3: Memory location reallocated immediately after free
+[47535.527555] SPEC3: VIOLATION: 
+[47535.527555] SPEC3: Memory location reallocated immediately after free
+[47535.527697] SPEC3: VIOLATION: 
+[47535.527697] SPEC3: Memory location reallocated immediately after free
+[47535.527928] SPEC3: VIOLATION: 
+[47535.527928] SPEC3: Memory location reallocated immediately after free
+[47535.527970] SPEC3: VIOLATION: 
+[47535.527971] SPEC3: Memory location reallocated immediately after free
+[47535.528010] SPEC3: VIOLATION: 
+[47535.528010] SPEC3: Memory location reallocated immediately after free
+[47535.528047] SPEC3: VIOLATION: 
+[47535.528048] SPEC3: Memory location reallocated immediately after free
+[47535.538347] SPEC3: VIOLATION: 
+[47535.538347] SPEC3: Memory location reallocated immediately after free
+[47535.538807] SPEC3: VIOLATION: 
+[47535.538807] SPEC3: Memory location reallocated immediately after free
+[47535.540126] SPEC3: VIOLATION: 
+[47535.540126] SPEC3: Memory location reallocated immediately after free
+[47535.540176] SPEC3: VIOLATION: 
+[47535.540177] SPEC3: Memory location reallocated immediately after free
+[47535.545232] SPEC3: VIOLATION: 
+[47535.545232] SPEC3: Memory location reallocated immediately after free
+[47535.545287] SPEC3: VIOLATION: 
+[47535.545288] SPEC3: Memory location reallocated immediately after free
+[47535.631116] SPEC3: VIOLATION: 
+[47535.631116] SPEC3: Memory location reallocated immediately after free
+[47535.636155] SPEC3: VIOLATION: 
+[47535.636155] SPEC3: Memory location reallocated immediately after free
+[47535.648803] SPEC3: VIOLATION: 
+[47535.648803] SPEC3: Memory location reallocated immediately after free
+[47535.653986] SPEC3: VIOLATION: 
+[47535.653987] SPEC3: Memory location reallocated immediately after free
+[47535.660991] SPEC3: VIOLATION: 
+[47535.660991] SPEC3: Memory location reallocated immediately after free
+[47535.792716] SPEC3: VIOLATION: 
+[47535.792717] SPEC3: Memory location reallocated immediately after free
+[47535.901577] SPEC3: VIOLATION: 
+[47535.901577] SPEC3: Memory location reallocated immediately after free
+[47535.901830] SPEC3: VIOLATION: 
+[47535.901830] SPEC3: Memory location reallocated immediately after free
+[47550.544807] SPEC3: Trace finished, reporting violations and resetting variables
+[47550.544808] SPEC3: Memory location reallocated immediately after free: 214
+[47881.013746] SPEC3: VIOLATION: 
+[47881.013746] SPEC3: Memory location reallocated immediately after free
+[47881.013772] SPEC3: VIOLATION: 
+[47881.013773] SPEC3: Memory location reallocated immediately after free
+[47881.252685] SPEC3: VIOLATION: 
+[47881.252685] SPEC3: Memory location reallocated immediately after free
+[47881.252774] SPEC3: VIOLATION: 
+[47881.252774] SPEC3: Memory location reallocated immediately after free
+[47881.252870] SPEC3: VIOLATION: 
+[47881.252871] SPEC3: Memory location reallocated immediately after free
+[47881.252963] SPEC3: VIOLATION: 
+[47881.252963] SPEC3: Memory location reallocated immediately after free
+[47881.253055] SPEC3: VIOLATION: 
+[47881.253056] SPEC3: Memory location reallocated immediately after free
+[47881.253142] SPEC3: VIOLATION: 
+[47881.253142] SPEC3: Memory location reallocated immediately after free
+[47881.253226] SPEC3: VIOLATION: 
+[47881.253226] SPEC3: Memory location reallocated immediately after free
+[47881.253315] SPEC3: VIOLATION: 
+[47881.253316] SPEC3: Memory location reallocated immediately after free
+[47881.253416] SPEC3: VIOLATION: 
+[47881.253417] SPEC3: Memory location reallocated immediately after free
+[47881.253504] SPEC3: VIOLATION: 
+[47881.253505] SPEC3: Memory location reallocated immediately after free
+[47881.253597] SPEC3: VIOLATION: 
+[47881.253598] SPEC3: Memory location reallocated immediately after free
+[47881.253686] SPEC3: VIOLATION: 
+[47881.253687] SPEC3: Memory location reallocated immediately after free
+[47881.253777] SPEC3: VIOLATION: 
+[47881.253777] SPEC3: Memory location reallocated immediately after free
+[47881.253865] SPEC3: VIOLATION: 
+[47881.253865] SPEC3: Memory location reallocated immediately after free
+[47881.253934] SPEC3: VIOLATION: 
+[47881.253934] SPEC3: Memory location reallocated immediately after free
+[47881.254152] SPEC3: VIOLATION: 
+[47881.254152] SPEC3: Memory location reallocated immediately after free
+[47881.254239] SPEC3: VIOLATION: 
+[47881.254239] SPEC3: Memory location reallocated immediately after free
+[47881.647118] SPEC3: VIOLATION: 
+[47881.647118] SPEC3: Memory location reallocated immediately after free
+[47881.647204] SPEC3: VIOLATION: 
+[47881.647204] SPEC3: Memory location reallocated immediately after free
+[47881.647221] SPEC3: VIOLATION: 
+[47881.647222] SPEC3: Memory location reallocated immediately after free
+[47881.837597] SPEC3: VIOLATION: 
+[47881.837598] SPEC3: Memory location reallocated immediately after free
+[47881.837631] SPEC3: VIOLATION: 
+[47881.837631] SPEC3: Memory location reallocated immediately after free
+[47881.837651] SPEC3: VIOLATION: 
+[47881.837651] SPEC3: Memory location reallocated immediately after free
+[47881.920568] SPEC3: VIOLATION: 
+[47881.920568] SPEC3: Memory location reallocated immediately after free
+[47881.924395] SPEC3: VIOLATION: 
+[47881.924396] SPEC3: Memory location reallocated immediately after free
+[47881.981900] SPEC3: VIOLATION: 
+[47881.981900] SPEC3: Memory location reallocated immediately after free
+[47881.981925] SPEC3: VIOLATION: 
+[47881.981925] SPEC3: Memory location reallocated immediately after free
+[47881.981931] SPEC3: VIOLATION: 
+[47881.981931] SPEC3: Memory location reallocated immediately after free
+[47881.982129] SPEC3: VIOLATION: 
+[47881.982129] SPEC3: Memory location reallocated immediately after free
+[47881.982135] SPEC3: VIOLATION: 
+[47881.982135] SPEC3: Memory location reallocated immediately after free
+[47881.982200] SPEC3: VIOLATION: 
+[47881.982201] SPEC3: Memory location reallocated immediately after free
+[47881.982206] SPEC3: VIOLATION: 
+[47881.982207] SPEC3: Memory location reallocated immediately after free
+[47882.006446] SPEC3: VIOLATION: 
+[47882.006446] SPEC3: Memory location reallocated immediately after free
+[47882.030039] SPEC3: VIOLATION: 
+[47882.030040] SPEC3: Memory location reallocated immediately after free
+[47882.030078] SPEC3: VIOLATION: 
+[47882.030078] SPEC3: Memory location reallocated immediately after free
+[47882.032536] SPEC3: VIOLATION: 
+[47882.032536] SPEC3: Memory location reallocated immediately after free
+[47882.042726] SPEC3: VIOLATION: 
+[47882.042726] SPEC3: Memory location reallocated immediately after free
+[47882.068465] SPEC3: VIOLATION: 
+[47882.068465] SPEC3: Memory location reallocated immediately after free
+[47882.085759] SPEC3: VIOLATION: 
+[47882.085759] SPEC3: Memory location reallocated immediately after free
+[47882.088303] SPEC3: VIOLATION: 
+[47882.088303] SPEC3: Memory location reallocated immediately after free
+[47882.098005] SPEC3: VIOLATION: 
+[47882.098006] SPEC3: Memory location reallocated immediately after free
+[47882.098637] SPEC3: VIOLATION: 
+[47882.098637] SPEC3: Memory location reallocated immediately after free
+[47882.102273] SPEC3: VIOLATION: 
+[47882.102273] SPEC3: Memory location reallocated immediately after free
+[47882.103462] SPEC3: VIOLATION: 
+[47882.103462] SPEC3: Memory location reallocated immediately after free
+[47882.103972] SPEC3: VIOLATION: 
+[47882.103973] SPEC3: Memory location reallocated immediately after free
+[47882.104356] SPEC3: VIOLATION: 
+[47882.104356] SPEC3: Memory location reallocated immediately after free
+[47882.104395] SPEC3: VIOLATION: 
+[47882.104396] SPEC3: Memory location reallocated immediately after free
+[47882.104435] SPEC3: VIOLATION: 
+[47882.104436] SPEC3: Memory location reallocated immediately after free
+[47882.104478] SPEC3: VIOLATION: 
+[47882.104478] SPEC3: Memory location reallocated immediately after free
+[47882.104494] SPEC3: VIOLATION: 
+[47882.104494] SPEC3: Memory location reallocated immediately after free
+[47882.104513] SPEC3: VIOLATION: 
+[47882.104513] SPEC3: Memory location reallocated immediately after free
+[47882.104535] SPEC3: VIOLATION: 
+[47882.104536] SPEC3: Memory location reallocated immediately after free
+[47882.115023] SPEC3: VIOLATION: 
+[47882.115023] SPEC3: Memory location reallocated immediately after free
+[47882.129811] SPEC3: VIOLATION: 
+[47882.129811] SPEC3: Memory location reallocated immediately after free
+[47882.129862] SPEC3: VIOLATION: 
+[47882.129862] SPEC3: Memory location reallocated immediately after free
+[47882.134877] SPEC3: VIOLATION: 
+[47882.134878] SPEC3: Memory location reallocated immediately after free
+[47882.135601] SPEC3: VIOLATION: 
+[47882.135601] SPEC3: Memory location reallocated immediately after free
+[47882.136624] SPEC3: VIOLATION: 
+[47882.136624] SPEC3: Memory location reallocated immediately after free
+[47882.137242] SPEC3: VIOLATION: 
+[47882.137243] SPEC3: Memory location reallocated immediately after free
+[47882.145456] SPEC3: VIOLATION: 
+[47882.145456] SPEC3: Memory location reallocated immediately after free
+[47882.146351] SPEC3: VIOLATION: 
+[47882.146351] SPEC3: Memory location reallocated immediately after free
+[47882.146579] SPEC3: VIOLATION: 
+[47882.146580] SPEC3: Memory location reallocated immediately after free
+[47882.146814] SPEC3: VIOLATION: 
+[47882.146814] SPEC3: Memory location reallocated immediately after free
+[47882.146920] SPEC3: VIOLATION: 
+[47882.146921] SPEC3: Memory location reallocated immediately after free
+[47882.147149] SPEC3: VIOLATION: 
+[47882.147150] SPEC3: Memory location reallocated immediately after free
+[47882.147258] SPEC3: VIOLATION: 
+[47882.147258] SPEC3: Memory location reallocated immediately after free
+[47882.148276] SPEC3: VIOLATION: 
+[47882.148276] SPEC3: Memory location reallocated immediately after free
+[47882.148388] SPEC3: VIOLATION: 
+[47882.148388] SPEC3: Memory location reallocated immediately after free
+[47882.148943] SPEC3: VIOLATION: 
+[47882.148944] SPEC3: Memory location reallocated immediately after free
+[47882.149143] SPEC3: VIOLATION: 
+[47882.149143] SPEC3: Memory location reallocated immediately after free
+[47882.149241] SPEC3: VIOLATION: 
+[47882.149242] SPEC3: Memory location reallocated immediately after free
+[47882.150829] SPEC3: VIOLATION: 
+[47882.150829] SPEC3: Memory location reallocated immediately after free
+[47882.150965] SPEC3: VIOLATION: 
+[47882.150966] SPEC3: Memory location reallocated immediately after free
+[47882.151523] SPEC3: VIOLATION: 
+[47882.151524] SPEC3: Memory location reallocated immediately after free
+[47882.151643] SPEC3: VIOLATION: 
+[47882.151643] SPEC3: Memory location reallocated immediately after free
+[47882.151839] SPEC3: VIOLATION: 
+[47882.151839] SPEC3: Memory location reallocated immediately after free
+[47882.152054] SPEC3: VIOLATION: 
+[47882.152054] SPEC3: Memory location reallocated immediately after free
+[47882.152279] SPEC3: VIOLATION: 
+[47882.152280] SPEC3: Memory location reallocated immediately after free
+[47882.153195] SPEC3: VIOLATION: 
+[47882.153195] SPEC3: Memory location reallocated immediately after free
+[47882.153542] SPEC3: VIOLATION: 
+[47882.153542] SPEC3: Memory location reallocated immediately after free
+[47882.153665] SPEC3: VIOLATION: 
+[47882.153666] SPEC3: Memory location reallocated immediately after free
+[47882.154553] SPEC3: VIOLATION: 
+[47882.154553] SPEC3: Memory location reallocated immediately after free
+[47882.155875] SPEC3: VIOLATION: 
+[47882.155875] SPEC3: Memory location reallocated immediately after free
+[47882.165079] SPEC3: VIOLATION: 
+[47882.165080] SPEC3: Memory location reallocated immediately after free
+[47882.165359] SPEC3: VIOLATION: 
+[47882.165360] SPEC3: Memory location reallocated immediately after free
+[47882.165375] SPEC3: VIOLATION: 
+[47882.165375] SPEC3: Memory location reallocated immediately after free
+[47882.165389] SPEC3: VIOLATION: 
+[47882.165389] SPEC3: Memory location reallocated immediately after free
+[47882.165403] SPEC3: VIOLATION: 
+[47882.165404] SPEC3: Memory location reallocated immediately after free
+[47882.165426] SPEC3: VIOLATION: 
+[47882.165427] SPEC3: Memory location reallocated immediately after free
+[47882.165543] SPEC3: VIOLATION: 
+[47882.165543] SPEC3: Memory location reallocated immediately after free
+[47882.165660] SPEC3: VIOLATION: 
+[47882.165660] SPEC3: Memory location reallocated immediately after free
+[47882.165848] SPEC3: VIOLATION: 
+[47882.165848] SPEC3: Memory location reallocated immediately after free
+[47882.165880] SPEC3: VIOLATION: 
+[47882.165881] SPEC3: Memory location reallocated immediately after free
+[47882.165913] SPEC3: VIOLATION: 
+[47882.165914] SPEC3: Memory location reallocated immediately after free
+[47882.165945] SPEC3: VIOLATION: 
+[47882.165945] SPEC3: Memory location reallocated immediately after free
+[47882.167199] SPEC3: VIOLATION: 
+[47882.167199] SPEC3: Memory location reallocated immediately after free
+[47882.167590] SPEC3: VIOLATION: 
+[47882.167590] SPEC3: Memory location reallocated immediately after free
+[47882.168887] SPEC3: VIOLATION: 
+[47882.168887] SPEC3: Memory location reallocated immediately after free
+[47882.168941] SPEC3: VIOLATION: 
+[47882.168941] SPEC3: Memory location reallocated immediately after free
+[47882.173437] SPEC3: VIOLATION: 
+[47882.173437] SPEC3: Memory location reallocated immediately after free
+[47882.173487] SPEC3: VIOLATION: 
+[47882.173488] SPEC3: Memory location reallocated immediately after free
+[47882.258284] SPEC3: VIOLATION: 
+[47882.258284] SPEC3: Memory location reallocated immediately after free
+[47882.267800] SPEC3: VIOLATION: 
+[47882.267801] SPEC3: Memory location reallocated immediately after free
+[47882.271851] SPEC3: VIOLATION: 
+[47882.271851] SPEC3: Memory location reallocated immediately after free
+[47882.281240] SPEC3: VIOLATION: 
+[47882.281240] SPEC3: Memory location reallocated immediately after free
+[47882.296542] SPEC3: VIOLATION: 
+[47882.296542] SPEC3: Memory location reallocated immediately after free
+[47882.424946] SPEC3: VIOLATION: 
+[47882.424946] SPEC3: Memory location reallocated immediately after free
+[47882.535657] SPEC3: VIOLATION: 
+[47882.535657] SPEC3: Memory location reallocated immediately after free
+[47882.535938] SPEC3: VIOLATION: 
+[47882.535938] SPEC3: Memory location reallocated immediately after free
+[47896.923849] SPEC3: Trace finished, reporting violations and resetting variables
+[47896.923851] SPEC3: Memory location reallocated immediately after free: 214
