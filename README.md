@@ -40,7 +40,7 @@ Full tests (three trials) are run with ```sudo ./data_collection.sh```. All outp
 
 #### When installing kernel debug symbols:
 
-If issues appear along the lines of ```public key unavailable```, then run ```sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys [MISSING-KEY-HERE]```.
+If issues appear along the lines of ```public key unavailable```, then run ```sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys [MISSING-KEY-HERE]```. Newer kernels might also use the key ```C8CAB6595FDFF622``` instead, if it leads to semantics errors in SystemTap.
 
 
 #### When SystemTap has error with ```get_user_pages```:
@@ -54,11 +54,12 @@ In systemtap-4.0, re-run:
 
 Possible errors might also require:
 ```sudo apt-get install [elfutils-devel libebl-dev libdw-dev, and/or libebl-devel]``` This depends on the specific Linux version available on the system, may also need ```elfutils``` or ```linux-generic```.
+If the system has been recently updated, you would need ```sudo apt-get update``` and ```sudo apt-get upgrade```.
 
 
 #### If offline monitors are giving issues:
 
-This might be due to read-after-write issues. Feel free to increase the ```sleep``` time between running the SystemTap script and running the monitors.
+This might be due to read-after-write issues. Feel free to increase the ```sleep``` time between running the SystemTap script and running the monitors, or ```sudo ./demo.sh clean``` multiple times and waiting more before running offline or online.
 
 ## Previous Progress
 
