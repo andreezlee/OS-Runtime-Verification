@@ -31,7 +31,7 @@ probe kernel.function("kfree") {
 # Instrument for the ending of the test process
 # Please replace the process parameter with the path for your system
 probe process(@1).end{
-	trace[index] = "end"
+	trace[index] = "end \n"
 	exit()
 }
 

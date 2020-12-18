@@ -1,8 +1,9 @@
 #!/bin/bash
 
-alias stap=~/systemtap-4.0/stap
+alias stap=../systemtap-4.0/stap
 
 benchmarks=(avrora batik eclipse fop h2 jython luindex lusearch lusearch-fix pmd sunflow tomcat tradebeans tradesoap xalan)
+dacapo=dacapo-9.12-MR1-bach.jar
 
 function perform_online(){
     echo STARTING TESTS ON $1
@@ -12,7 +13,7 @@ function perform_online(){
     sleep 5
     cd ..
     touch results/$1_oh_n.txt
-    java -jar dacapo-9.12-MR1-bach.jar $1 &>> results/$1_oh_n.txt
+    java -jar $dacapo $1 &>> results/$1_oh_n.txt
     sleep 3
     touch results/$1_viol_1_n.txt
     dmesg | grep SPEC1 &>> results/$1_viol_1_n.txt
@@ -27,7 +28,7 @@ function perform_offline(){
     sudo stap -g -DMAXMAPENTRIES=1000000 -DMAXACTION=1000000 offline/kmalloc_instrumentation.stp java java &
     sleep 5
     touch results/$1_oh_f.txt
-    java -jar dacapo-9.12-MR1-bach.jar $1 &>> results/$1_oh_f.txt
+    java -jar $dacapo $1 &>> results/$1_oh_f.txt
     sleep 10
     touch results/$1_viol_1_f.txt
     sudo ./monitor1 &>> results/$1_viol_1_f.txt
@@ -59,7 +60,7 @@ do
     for b in ${benchmarks[@]}
     do
     	touch results/$b.txt
-        java -jar dacapo-9.12-MR1-bach.jar $b &>> results/$b.txt
+        java -jar $dacapo $b &>> results/$b.txt
     done
 done
 

@@ -1,6 +1,0 @@
-===== DaCapo 9.12-MR1 pmd starting =====
-===== DaCapo 9.12-MR1 pmd PASSED in 4341 msec =====
-===== DaCapo 9.12-MR1 pmd starting =====
-===== DaCapo 9.12-MR1 pmd PASSED in 4123 msec =====
-===== DaCapo 9.12-MR1 pmd starting =====
-===== DaCapo 9.12-MR1 pmd PASSED in 3985 msec =====

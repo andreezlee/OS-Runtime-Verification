@@ -59,7 +59,7 @@ void monitor_spec1(monitor_arg_t event){
             if (p_array[curr_state].state == 1)
                 print_violation(0);
         }
-        printk("SPEC1: Memory allocated but not freed: ", violation_counts[0]);
+        printk("SPEC1: Memory allocated but not freed: %d", violation_counts[0]);
         printk("SPEC1: Freeing memory without allocation: %d", violation_counts[1]);
         printk("SPEC1: Memory allocated multiple times without being freed: %d", violation_counts[2]);
         printk("SPEC1: Memory freed multiple times without being reallocated: %d", violation_counts[3]);

@@ -1,6 +1,0 @@
-===== DaCapo 9.12-MR1 avrora starting =====
-===== DaCapo 9.12-MR1 avrora PASSED in 4642 msec =====
-===== DaCapo 9.12-MR1 avrora starting =====
-===== DaCapo 9.12-MR1 avrora PASSED in 4557 msec =====
-===== DaCapo 9.12-MR1 avrora starting =====
-===== DaCapo 9.12-MR1 avrora PASSED in 4697 msec =====

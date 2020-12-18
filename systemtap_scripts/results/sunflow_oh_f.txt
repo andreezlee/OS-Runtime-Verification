@@ -1,9 +1,0 @@
-Using scaled threading model. 1 processors detected, 1 threads used to drive the workload, in a possible range of [1,256]
-===== DaCapo 9.12-MR1 sunflow starting =====
-===== DaCapo 9.12-MR1 sunflow PASSED in 8511 msec =====
-Using scaled threading model. 1 processors detected, 1 threads used to drive the workload, in a possible range of [1,256]
-===== DaCapo 9.12-MR1 sunflow starting =====
-===== DaCapo 9.12-MR1 sunflow PASSED in 8506 msec =====
-Using scaled threading model. 1 processors detected, 1 threads used to drive the workload, in a possible range of [1,256]
-===== DaCapo 9.12-MR1 sunflow starting =====
-===== DaCapo 9.12-MR1 sunflow PASSED in 8636 msec =====

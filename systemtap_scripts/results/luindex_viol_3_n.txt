@@ -1,6 +1,0 @@
-[47123.822168] SPEC3: Trace finished, reporting violations and resetting variables
-[47123.822169] SPEC3: Memory location reallocated immediately after free: 1341
-[47472.253603] SPEC3: Trace finished, reporting violations and resetting variables
-[47472.253604] SPEC3: Memory location reallocated immediately after free: 1340
-[47817.940032] SPEC3: Trace finished, reporting violations and resetting variables
-[47817.940032] SPEC3: Memory location reallocated immediately after free: 1340
