@@ -1,0 +1,12 @@
+This is the directory where results file from DaCapo benchmark testing are placed.
+
+Mapping filenames to results:
+
+NOTE: [test name] is a program from the benchmark,
+[o] is a monitoring mode (either offline or online)
+
+All files contain multiple trials.
+
+- [test name].txt -> test output without instrumentation or monitoring (includes runtime)
+- [test name]_oh_[o].txt -> test output for [o] monitoring (includes runtime)
+- [test name]_viol_[x]_[o].txt -> [o] monitoring output for specification [x]
