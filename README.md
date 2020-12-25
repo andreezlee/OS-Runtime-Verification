@@ -12,21 +12,21 @@ Install systemtap-4.0 using ```sudo ./systemtap_setup.sh```
 
 ## Running Demo
 
-Before running the demo, please change the ```file_path``` variable in the ```demo.sh``` file to the correct path for your system.
+After installation, demo can be run with three demo scripts: ```demo_online.sh```, ```demo_offline_log.sh```, and ```demo_offline_monitor.sh```.
 
-After installation, demo can be run with ```sudo ./demo.sh [option]```.
-
-After the demo, ```sudo ./demo.sh clean``` can be used to remove the kernel modules from the system and other artifacts of the computation.
+Before running the demo, please change the ```file_path``` variable in the ```demo_online.sh``` and ```demo_offline_log.sh``` files to the correct path for your system.
 
 ### Offline option
 
-With ```sudo ./demo.sh offline```, the script sets up the kernel module and the instrumentation, then produces a trace ```kmalloc.txt``` when the test program is run. The offline monitor for the demo specification is then run on the trace.
+With ```sudo ./demo_offline_log.sh```, the script sets up the kernel module and the instrumentation, then produces a trace ```kmalloc.txt``` when the test program is run.
+
+The script ```sudo ./demo_offline_monitor.sh``` generates the offline monitors and runs them on the trace file.
 
 ### Online option
 
-With ```sudo ./demo.sh online```, the script sets up the kernel modules for monitoring and the instrumentation, then performs online monitoring of the test program. Output from the monitors is put in kernel logs accessible with ```dmesg```.
+With ```sudo ./demo_online.sh```, the script sets up the kernel modules for monitoring and the instrumentation, then performs online monitoring of the test program. Output from the monitors is put in kernel logs accessible with ```dmesg```.
 
-Use ```dmesg | grep SPEC[n]```, where [n] denotes the specification (1, 2, or 3) that is checked.
+Use ```dmesg | grep SPEC[n]```, where ```[n]``` denotes the specification (1, 2, or 3) that is checked.
 
 ## Running Full Tests
 
